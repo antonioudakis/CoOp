@@ -1,0 +1,4 @@
+#Tue Apr 17 14:06:28 EEST 2012
+org.eclipse.jpt.core.discoverAnnotatedClasses=false
+eclipse.preferences.version=1
+org.eclipse.jpt.core.platform=webSpherePlatform_jpa2_0

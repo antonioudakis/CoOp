@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="jpa_enhance_builder">
+
+    <path id="EAR Libraries.libraryclasspath"/>
+    <path id="ivy.xml [*].libraryclasspath">
+        <pathelement location="../../../../.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.0.0.GA.jar"/>
+        <pathelement location="../../../../.ivy2/cache/org.apache.openjpa/openjpa-persistence/jars/openjpa-persistence-2.2.0.jar"/>
+        <pathelement location="../../../../.ivy2/cache/org.apache.openjpa/openjpa-kernel/jars/openjpa-kernel-2.2.0.jar"/>
+        <pathelement location="../../../../.ivy2/cache/org.apache.openjpa/openjpa-lib/jars/openjpa-lib-2.2.0.jar"/>
+        <pathelement location="../../../../.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.4.jar"/>
+        <pathelement location="../../../../.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar"/>
+        <pathelement location="../../../../.ivy2/cache/net.sourceforge.serp/serp/jars/serp-1.13.1.jar"/>
+        <pathelement location="../../../../.ivy2/cache/junit/junit/jars/junit-3.8.1.jar"/>
+        <pathelement location="../../../../.ivy2/cache/org.apache.geronimo.specs/geronimo-jms_1.1_spec/jars/geronimo-jms_1.1_spec-1.1.1.jar"/>
+        <pathelement location="../../../../.ivy2/cache/org.apache.geronimo.specs/geronimo-jta_1.1_spec/jars/geronimo-jta_1.1_spec-1.1.1.jar"/>
+        <pathelement location="../../../../.ivy2/cache/commons-pool/commons-pool/jars/commons-pool-1.5.4.jar"/>
+        <pathelement location="../../../../.ivy2/cache/asm/asm/jars/asm-3.2.jar"/>
+        <pathelement location="../../../../.ivy2/cache/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/bundles/geronimo-jpa_2.0_spec-1.1.jar"/>
+        <pathelement location="../../../../.ivy2/cache/org.apache.geronimo.specs/geronimo-validation_1.0_spec/bundles/geronimo-validation_1.0_spec-1.1.jar"/>
+        <pathelement location="../../../../.ivy2/cache/org.apache.geronimo.specs/geronimo-osgi-locator/bundles/geronimo-osgi-locator-1.0.jar"/>
+        <pathelement location="../../../../.ivy2/cache/org.apache.geronimo.specs/geronimo-osgi-registry/bundles/geronimo-osgi-registry-1.0.jar"/>
+        <pathelement location="../../../../.ivy2/cache/org.osgi/org.osgi.core/jars/org.osgi.core-4.2.0.jar"/>
+        <pathelement location="../../../../.ivy2/cache/org.osgi/org.osgi.compendium/jars/org.osgi.compendium-4.2.0.jar"/>
+        <pathelement location="../../../../.ivy2/cache/org.eclipse.persistence/eclipselink/jars/eclipselink-2.3.2.jar"/>
+    </path>
+    <path id="softeng.validation.classpath">
+        <pathelement location="${softeng.validation.location}/bin"/>
+        <path refid="EAR Libraries.libraryclasspath"/>
+        <path refid="ivy.xml [*].libraryclasspath"/>
+    </path>
+    <path id="CoopDataAccess.classpath">
+        <pathelement location="bin"/>
+        <path refid="softeng.validation.classpath"/>
+        <path refid="EAR Libraries.libraryclasspath"/>
+        <path refid="ivy.xml [*].libraryclasspath"/>
+    </path>
+
+	<property name="cp" refid="CoopDataAccess.classpath" />
+	
+	<target name="eclipselinkWeaving" description="Eclipselink weaving">
+		<taskdef name="weave" classname="org.eclipse.persistence.tools.weaving.jpa.StaticWeaveAntTask">
+			<classpath refid="CoopDataAccess.classpath" />
+		</taskdef>
+		<property name="entitiesLocation" value="${basedir}/bin" />
+		<echo message="Weaving contents of ${entitiesLocation}" />
+		<weave source= "${entitiesLocation}" target = "${entitiesLocation}">
+			<classpath>
+				<pathelement path="${cp}"/>
+			</classpath>
+		</weave>
+	</target> 
+</project>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.magnolia.clientmodel:ClientModelRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.magnolia.clientmodel="http:///com/ibm/magnolia/clientmodel.ecore">
+  <workItemEditorHistory>
+    <internalContents date="2015-05-09T22:10:45.281+0300" description="599: Change terminology in reports about institutional and scientific directors." repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_1NMJcPZ-EeSbEdszvoSP5A"/>
+    </internalContents>
+    <internalContents date="2015-05-09T21:52:28.394+0300" description="597: Change the OData server, when outputting XML, to always format dates including seconds" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_f4Y9sCh7EeSRe_hG-e0hkA"/>
+    </internalContents>
+    <internalContents date="2014-03-21T00:29:37.341+0200" description="596: Update institutional transfer document footer" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_32v5ELB-EeOi6P9GNEABHA"/>
+    </internalContents>
+    <internalContents date="2014-03-11T20:15:22.352+0200" description="590: When coop is group-based, payments in the reports are multiplied by the number of group participants." repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_AXm4wMhBEeKwjdR6jNbQHQ"/>
+    </internalContents>
+    <internalContents date="2013-03-29T19:13:05.666+0200" description="579: Add delay option to notification messages and set the student notifications for completing their mandatory fields to 12 seconds" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_O2U8sJiMEeKIp6azo1L56A"/>
+    </internalContents>
+    <internalContents date="2013-03-29T18:17:17.904+0200" description="578: Enhance check whether the student is fully provisioned (missed fields)" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_3gVtsJiLEeKIp6azo1L56A"/>
+    </internalContents>
+    <internalContents date="2013-03-08T21:14:35.063+0200" description="562: Set default sort order for companies lists" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_T7DnUIgkEeKaBsV6BgAP1Q"/>
+    </internalContents>
+    <internalContents date="2013-03-06T15:28:49.676+0200" description="548: Sometimes multiple job parts seem to be generated upon job assignment" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_b0xXgIZhEeK0xvB3oFb96Q"/>
+    </internalContents>
+    <internalContents date="2013-02-26T18:33:01.816+0200" description="546: Automatic student registration seems to require that the coop is also set up instead of anly active and in registration phase." repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_7VC7IIAxEeKyYYgKAnJSmQ"/>
+    </internalContents>
+    <internalContents date="2012-11-01T14:57:01.962+0200" description="478: Add report generation for IKA list template" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_UNMiYCQaEeKhFNVurK0ldQ"/>
+    </internalContents>
+    <internalContents date="2012-09-07T18:10:50.565+0300" description="393: Mention shortcuts in button tooltips and fix behavior of shortcut CTRL+S, which sometimes invokes the browser's &quot;Save As&quot;" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_s6gjoPcKEeGe0q7nn4KUaw"/>
+    </internalContents>
+    <internalContents date="2012-09-06T17:10:21.042+0300" description="401: Don't lose currently selected company when transaction fails in companies management" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_TbaxsPfcEeGe0q7nn4KUaw"/>
+    </internalContents>
+    <internalContents date="2012-08-21T03:08:19.084+0300" description="360: When coop is group based, hide students reports when the ccop is graded by group, or hide group reports when coop is graded by registration" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_-7b9YOsgEeG3rplPPPZoew"/>
+    </internalContents>
+    <internalContents date="2012-08-01T20:15:57.870+0300" description="318: UserManagementCard master person list filters become of sync when user type or current coop change" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_y5QXoNv7EeGySaI9WIgaSw"/>
+    </internalContents>
+    <internalContents date="2012-06-20T18:41:41.763+0300" description="204: Deselecting and reselecting a job posting does not make the job posting's properties reappear." repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_lIBRILrlEeGHPsVVmJbKRw"/>
+    </internalContents>
+    <internalContents date="2012-06-13T21:19:33.394+0300" description="181: Job posting part dialog: Reset company branch supervisor when branch is changed" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_OUg20LWEEeGHPsVVmJbKRw"/>
+    </internalContents>
+    <internalContents date="2012-06-12T22:08:41.644+0300" description="169: Spelling check of the whole application" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_9yKM8LTBEeGlhqZqsVVElQ"/>
+    </internalContents>
+    <internalContents date="2012-06-08T03:28:47.327+0300" description="163: Add showing/hiding tabs depending on current coop supporting groups or not." repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_tTh9ALEAEeGMvuFmw6rySg"/>
+    </internalContents>
+    <internalContents date="2012-05-19T00:59:01.526+0300" description="135: Add 'delete' overloads to business layer." repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_XC_b4KAlEeGFr-oWR3yekQ"/>
+    </internalContents>
+    <internalContents date="2012-05-10T11:03:06.613+0300" description="51: [Joining a Team] Create a Repository Workspace" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_lGFtonVjEeCvzZgKh31anQ"/>
+    </internalContents>
+    <internalContents date="2012-05-10T11:02:54.773+0300" description="91: Compile Architectural Document" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_V7NZQPABEeCdHOaRIUiaFQ"/>
+    </internalContents>
+    <internalContents date="2012-04-30T04:19:59.324+0300" description="128: Investigate crazy hibernate SQL generation when filtering registrations not assigned to jobs" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_KV92EJDDEeGOg5kuYedLzQ"/>
+    </internalContents>
+    <internalContents date="2012-04-28T21:53:28.432+0300" description="110: Develop Jobs Management" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_9f33wACTEeGqrbMbzChzTg"/>
+    </internalContents>
+    <internalContents date="2011-10-31T09:41:43.526+0200" description="108: Adapter for JPA that understands current authorization context." repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_LDDDoP75EeCSZ5we7gW5Zw"/>
+    </internalContents>
+    <internalContents date="2011-10-25T14:04:40.666+0300" description="107: CoOps manager development" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="__iSBIP4yEeCF18mGjDWPAQ"/>
+    </internalContents>
+    <internalContents date="2011-10-24T14:25:06.820+0300" description="104: Develop the Report Manager" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_prw1wPWrEeC136OePZy6rw"/>
+    </internalContents>
+    <internalContents date="2011-10-07T17:53:47.923+0300" description="75: Create the Component Diagram" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_nO4lAJHREeC49_V9I-T7Ow"/>
+    </internalContents>
+    <internalContents date="2011-06-09T12:38:48.584+0300" description="50: GWT assessment and code blueprints" repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <workItem itemId="_yrzCsHTREeCvzZgKh31anQ"/>
+    </internalContents>
+  </workItemEditorHistory>
+  <queries/>
+  <queryViews>
+    <internalContents name="Default" repository="https://vm00.softeng.ntua.gr:9443/ccm/" uuid="_4EWGYGcjEdq9dPcKjjePWA">
+      <columns attribute="workItemType" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="id" sorting="2" sortOrder="1" visible="true" width="-1"/>
+      <columns attribute="internalState" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="internalPriority" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="internalSeverity" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="summary" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="owner" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="creator" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <id xsi:nil="true"/>
+    </internalContents>
+    <internalContents name="All my work items" repository="https://vm00.softeng.ntua.gr:9443/ccm/" uuid="_PEsiwJCGEeGOg5kuYedLzQ" id="_QNoukHcEEeCvzZgKh31anQ">
+      <columns attribute="workItemType" sorting="0" sortOrder="-1" visible="true" width="-1"/>
+      <columns attribute="id" sorting="0" sortOrder="-1" visible="true" width="-1"/>
+      <columns attribute="summary" sorting="0" sortOrder="-1" visible="true" width="738"/>
+      <columns attribute="owner" sorting="0" sortOrder="-1" visible="true" width="-1"/>
+      <columns attribute="internalState" sorting="0" sortOrder="-1" visible="true" width="-1"/>
+      <columns attribute="internalPriority" sorting="0" sortOrder="-1" visible="true" width="-1"/>
+      <columns attribute="internalSeverity" sorting="0" sortOrder="-1" visible="true" width="-1"/>
+      <columns attribute="modified" sorting="2" sortOrder="0" visible="true" width="-1"/>
+    </internalContents>
+    <internalContents name="Default" repository="https://vm00.softeng.ntua.gr:9443/ccm/" uuid="_ClGuAJJ8EeCsCt-6DZzK_w" id="com.ibm.magnolia.workItemExplorer.">
+      <columns attribute="workItemType" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="id" sorting="2" sortOrder="1" visible="true" width="-1"/>
+      <columns attribute="internalState" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="internalPriority" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="internalSeverity" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="summary" sorting="0" sortOrder="0" visible="true" width="391"/>
+      <columns attribute="owner" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="creator" sorting="0" sortOrder="0" visible="true" width="-1"/>
+    </internalContents>
+  </queryViews>
+</com.ibm.magnolia.clientmodel:ClientModelRoot>

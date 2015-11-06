@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><server id="AJAX Test Server" port="8080">
+  <module context="proxy" name="proxy" path="C:/Users/Master/IBM/rationalsdp/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/proxy" type="j2ee"/>
+</server>

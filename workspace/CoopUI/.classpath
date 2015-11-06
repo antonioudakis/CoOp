@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/OIOSAML">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="VAADIN_DOWNLOAD/gwt-dependencies/2.3.0/validation-api-1.0.0.GA-sources.jar"/>
+	<classpathentry kind="var" path="VAADIN_DOWNLOAD/gwt-dependencies/2.3.0/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="var" path="VAADIN_DOWNLOAD/gwt-user/2.3.0/gwt-user.jar"/>
+	<classpathentry kind="var" path="VAADIN_DOWNLOAD/gwt-dev/2.3.0/gwt-dev.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="patchsource"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/CoopBusiness"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CoopBusinessExceptions"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CoopBusinessImpl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CoopDataAccess"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CoopFactory"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/softeng.caching"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/softeng.validation"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SsoAuthenticationRegistration"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Vaadin bean validation add-on">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.apache.ivyde.eclipse.cpcontainer.IVYDE_CONTAINER/?project=CoopUI&amp;ivyXmlPath=ivy.xml&amp;confs=*&amp;ivySettingsPath=%24%7Bworkspace_loc%3ACoopUI%2Fivy-settings.xml%7D&amp;loadSettingsOnDemand=false&amp;propertyFiles=">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/softeng.ui.vaadin"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CoopMailClient"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/EspaReportFactories"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ReportFactoryBase"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/BIRT runtime">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/CoopStudentsStrategies"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ExtraReportFactories"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

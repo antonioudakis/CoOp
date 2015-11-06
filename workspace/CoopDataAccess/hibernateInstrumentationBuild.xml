@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="jpa_enhance_builder">
+
+    <path id="EAR Libraries.libraryclasspath"/>
+    <path id="ivy.xml [*].libraryclasspath">
+        <pathelement location="../../../../.ivy2/cache/org.hibernate/hibernate-core/jars/hibernate-core-4.1.1.Final.jar"/>
+        <pathelement location="../../../../.ivy2/cache/antlr/antlr/jars/antlr-2.7.7.jar"/>
+        <pathelement location="../../../../.ivy2/cache/junit/junit/jars/junit-4.10.jar"/>
+    	<!-- FasterXML ? -->
+        <pathelement location="../../../../.ivy2/cache/commons.logging/commons.logging/jars/commons-logging-1.1.1.jar"/>
+        <pathelement location="../../../../.ivy2/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar"/>
+        <pathelement location="../../../../.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.0.0.GA.jar"/>
+    	<pathelement location="../../../../.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.1.0.GA.jar"/>
+    	<pathelement location="../../../../.ivy2/cache/org.jboss.spec.javax.transaction/jboss-transaction-api_1.1_spec/jars/jboss-transaction-api_1.1_spec-1.0.0.Final.jar"/>
+    	<pathelement location="../../../../.ivy2/cache/org.javassist/javassist/jars/javassist-3.15.0-GA.jar"/>
+    </path>
+    <path id="softeng.validation.classpath">
+        <pathelement location="${softeng.validation.location}/bin"/>
+        <path refid="EAR Libraries.libraryclasspath"/>
+        <path refid="ivy.xml [*].libraryclasspath"/>
+    </path>
+    <path id="CoopDataAccess.classpath">
+        <pathelement location="bin"/>
+        <path refid="softeng.validation.classpath"/>
+        <path refid="EAR Libraries.libraryclasspath"/>
+        <path refid="ivy.xml [*].libraryclasspath"/>
+    </path>
+
+	<property name="cp" refid="CoopDataAccess.classpath" />
+	
+	<target name="instrument">
+		<taskdef name="instrument" classname="org.hibernate.tool.instrument.javassist.InstrumentTask">
+			<classpath refid="CoopDataAccess.classpath" />
+		</taskdef>
+		<property name="entitiesLocation" value="${basedir}/bin" />
+		<echo message="Weaving contents of ${entitiesLocation} for hibernate" />
+	    <instrument verbose="true">
+	        <fileset dir="${entitiesLocation}">
+	        	<exclude name="**/*_.class"/>
+	            <include name="**/*.class"/>
+	        </fileset>
+	    </instrument>
+	</target>
+</project>

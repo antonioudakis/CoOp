@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.ibm.team.fulltext.rcp.ui.ArtifactSearchPage">
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;searchpage com.ibm.team.fulltext.ide.ui.internal.search.PrefSelectedRepository=&quot;_cHIAYWcyEeCwE9QWQu53Mg&quot;/&gt;" key="memento"/>
+	</section>
+</section>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+  <bean id="authenticationProvider" class="org.springframework.context.support.ClassPathXmlApplicationContext">
+    <constructor-arg>
+<!--       <list> -->
+      	<!-- Expected by the client -->
+        <value>authenticationProvider.xml</value>
+<!--       </list> -->
+    </constructor-arg>
+  </bean>
+  <bean id="registrationStrategy" class="org.springframework.context.support.ClassPathXmlApplicationContext">
+    <constructor-arg>
+      <list>
+      	<!-- Expected by the client -->
+        <value>registrationStrategy.xml</value>
+      </list>
+    </constructor-arg>
+  </bean>
+  <bean id="reportsFactory" class="org.springframework.context.support.ClassPathXmlApplicationContext">
+    <constructor-arg>
+<!--       <list> -->
+      	<!-- Expected by the client -->
+        <value>reportsFactory.xml</value>
+<!--       </list> -->
+    </constructor-arg>
+  </bean>
+  <bean id="invitationStrategy" class="org.springframework.context.support.ClassPathXmlApplicationContext">
+    <constructor-arg>
+      <list>
+      	<!-- Expected by the client -->
+        <value>invitationStrategy.xml</value>
+      </list>
+    </constructor-arg>
+  </bean>
+  <bean id="coopBusinessFactory" class="org.springframework.context.support.ClassPathXmlApplicationContext">
+    <constructor-arg>
+      <list>
+      	<!-- Expected by the client -->
+        <value>coopBusinessFactory.xml</value>
+      </list>
+    </constructor-arg>
+    <constructor-arg>
+		<ref bean="baseFactory" />
+    </constructor-arg>
+  </bean>
+  <bean id="baseFactory" class="org.springframework.context.support.ClassPathXmlApplicationContext">
+    <constructor-arg>
+      <list>
+      	<!-- Expected by the client -->
+        <value>baseFactory.xml</value>
+      </list>
+    </constructor-arg>
+  </bean>
+</beans>

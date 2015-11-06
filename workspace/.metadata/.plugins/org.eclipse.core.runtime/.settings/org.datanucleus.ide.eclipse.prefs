@@ -1,0 +1,11 @@
+#Fri May 11 00:39:38 EEST 2012
+schematoolInputFileExtensions=jdo;class;
+persistenceAPI=JPA
+driverName=org.postgresql.Driver
+fileName=c\:\\Temp\\CoopDataNucleus.sql
+user=postgres
+dumpToFile=true
+enhancerInputFileExtensions=jdo;class;
+schemaToolVerboseMode=true
+eclipse.preferences.version=1
+connectionURL=jdbc\:postgresql\://localhost/CoopDataNucleusPlayground

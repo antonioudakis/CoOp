@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkItem_IDE_UI.models:WorkItemIDEUIModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:WorkItem_IDE_UI.models="http:///WorkItem_IDE_UI/models.ecore" xmlns:process="com.ibm.team.process" xmlns:workitem="com.ibm.team.workitem">
+  <categoryHistory>
+    <internalContents repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <projectArea xsi:type="process:ProjectAreaHandle" itemId="_rUO-AHMKEeCvzZgKh31anQ">
+        <stateId xsi:nil="true"/>
+      </projectArea>
+      <category xsi:type="workitem:CategoryHandle" itemId="_sDhF4nMKEeCvzZgKh31anQ">
+        <stateId xsi:nil="true"/>
+      </category>
+    </internalContents>
+  </categoryHistory>
+  <intervalHistory>
+    <internalContents repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <projectArea xsi:type="process:ProjectAreaHandle" itemId="_rUO-AHMKEeCvzZgKh31anQ">
+        <stateId xsi:nil="true"/>
+      </projectArea>
+      <interval xsi:type="process:IterationHandle" itemId="_rfiPFHMKEeCvzZgKh31anQ">
+        <stateId xsi:nil="true"/>
+      </interval>
+    </internalContents>
+    <internalContents repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <projectArea xsi:type="process:ProjectAreaHandle" itemId="_rUO-AHMKEeCvzZgKh31anQ">
+        <stateId xsi:nil="true"/>
+      </projectArea>
+      <interval xsi:type="process:IterationHandle" itemId="_tr0FA3StEeCvzZgKh31anQ">
+        <stateId xsi:nil="true"/>
+      </interval>
+    </internalContents>
+    <internalContents repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <projectArea xsi:type="process:ProjectAreaHandle" itemId="_rUO-AHMKEeCvzZgKh31anQ">
+        <stateId xsi:nil="true"/>
+      </projectArea>
+      <interval xsi:type="process:IterationHandle" itemId="_tr0FBnStEeCvzZgKh31anQ">
+        <stateId xsi:nil="true"/>
+      </interval>
+    </internalContents>
+    <internalContents repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <projectArea xsi:type="process:ProjectAreaHandle" itemId="_rUO-AHMKEeCvzZgKh31anQ">
+        <stateId xsi:nil="true"/>
+      </projectArea>
+      <interval xsi:type="process:IterationHandle" itemId="_tr0FCHStEeCvzZgKh31anQ">
+        <stateId xsi:nil="true"/>
+      </interval>
+    </internalContents>
+    <internalContents repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <projectArea xsi:type="process:ProjectAreaHandle" itemId="_rUO-AHMKEeCvzZgKh31anQ">
+        <stateId xsi:nil="true"/>
+      </projectArea>
+      <interval xsi:type="process:IterationHandle" itemId="_tr0FCXStEeCvzZgKh31anQ">
+        <stateId xsi:nil="true"/>
+      </interval>
+    </internalContents>
+    <internalContents repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <projectArea xsi:type="process:ProjectAreaHandle" itemId="_rUO-AHMKEeCvzZgKh31anQ">
+        <stateId xsi:nil="true"/>
+      </projectArea>
+      <interval xsi:type="process:IterationHandle" itemId="_tr0FB3StEeCvzZgKh31anQ">
+        <stateId xsi:nil="true"/>
+      </interval>
+    </internalContents>
+    <internalContents repository="https://vm00.softeng.ntua.gr:9443/ccm/">
+      <projectArea xsi:type="process:ProjectAreaHandle" itemId="_rUO-AHMKEeCvzZgKh31anQ">
+        <stateId xsi:nil="true"/>
+      </projectArea>
+      <interval xsi:type="process:IterationHandle" itemId="_tr0FCnStEeCvzZgKh31anQ">
+        <stateId xsi:nil="true"/>
+      </interval>
+    </internalContents>
+  </intervalHistory>
+</WorkItem_IDE_UI.models:WorkItemIDEUIModel>

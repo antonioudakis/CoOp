@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="CoopOData">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/.apt_generated"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/patchsource"/>
+        <dependent-module archiveName="CoopDataAccess.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CoopDataAccess/CoopDataAccess">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CoopDataValidation.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CoopDataValidation/CoopDataValidation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="softeng.validation.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/softeng.validation/softeng.validation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/CoopOData/WebContent/WEB-INF/classes"/>
+        <property name="context-root" value="/"/>
+    </wb-module>
+</project-modules>

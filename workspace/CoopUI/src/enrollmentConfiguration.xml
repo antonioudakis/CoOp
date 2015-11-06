@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<departments>
+<!-- 		<department  -->
+<!-- 			name="School of Electrical &amp; Computer Engineering"  -->
+<!-- 			entityId="3" /> -->
+<!-- 		<department 
+			name="School of Electrical &amp; Computer Engineering" 
+			entityId="5" /> -->
+ 		<department 
+			name="School of Electrical &amp; Computer Engineering" 
+			entityId="7" />
+	</departments>
+	<languages>
+		<language code="en" entityId="2" />
+		<language code="el" entityId="1" />
+	</languages>
+	<roleAssignments>
+		<!-- Student role -->
+		<affiliation 
+			name="student" 
+			enrollmentClass="softeng.coop.business.authentication.sso.SsoStudentEnrollmentStrategy"
+			capitalize="true">
+			<role entityId="3" />
+		</affiliation>
+		 <!-- Operator role -->
+		<affiliation 
+			name="affiliate" 
+			enrollmentClass="softeng.coop.business.authentication.sso.SsoFacultyEnrollmentStrategy">
+			<role entityId="2" />
+		</affiliation>
+	</roleAssignments>
+</settings>

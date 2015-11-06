@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_nsnYwDU2EeG7Mv8T69F17w" name="My_Mapping_Model">
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_nuGmgDU2EeG7Mv8T69F17w" name="BusinessLayer" clientDependency="_nuGmgTU2EeG7Mv8T69F17w">
+    <manifestation xmi:id="_nuGmgTU2EeG7Mv8T69F17w" client="_nuGmgDU2EeG7Mv8T69F17w">
+      <supplier xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_Uk-KgpwMEeCgPPMtSFvhzA?BusinessLayer?"/>
+      <utilizedElement xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_Uk-KgpwMEeCgPPMtSFvhzA?BusinessLayer?"/>
+    </manifestation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_nwfMIDU2EeG7Mv8T69F17w" name="softeng.coop.business" clientDependency="_nwfMITU2EeG7Mv8T69F17w">
+    <manifestation xmi:id="_nwfMITU2EeG7Mv8T69F17w" client="_nwfMIDU2EeG7Mv8T69F17w">
+      <supplier xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_oNyGELwqEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business?"/>
+      <utilizedElement xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_oNyGELwqEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business?"/>
+    </manifestation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_nzA7sDU2EeG7Mv8T69F17w" name="softeng.coop.business">
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_nzA7sTU2EeG7Mv8T69F17w" name="authentication" clientDependency="_nzA7sjU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_nzA7sjU2EeG7Mv8T69F17w" client="_nzA7sTU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_tefVQLwrEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/authentication?"/>
+        <utilizedElement xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_tefVQLwrEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/authentication?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nzKFoDU2EeG7Mv8T69F17w" name="authentication">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_nzKFoTU2EeG7Mv8T69F17w" name="ssoexample" clientDependency="_nzKFojU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_nzKFojU2EeG7Mv8T69F17w" client="_nzKFoTU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_sQXHsLxLEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/authentication/ssoexample?"/>
+          <utilizedElement xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_sQXHsLxLEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/authentication/ssoexample?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n11mMjU2EeG7Mv8T69F17w" name="RegistrationResult" clientDependency="_n11mMzU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n11mMzU2EeG7Mv8T69F17w" client="_n11mMjU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_JrWAALxBEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/authentication/RegistrationResult?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_JrWAALxBEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/authentication/RegistrationResult?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n1_XMDU2EeG7Mv8T69F17w" name="FacultyRegistrationStrategy"/>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n1_XMjU2EeG7Mv8T69F17w" name="ProfessorRegistrationStrategy"/>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n2IhIDU2EeG7Mv8T69F17w" name="StudentRegistrationStrategy"/>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n2IhIjU2EeG7Mv8T69F17w" name="User" clientDependency="_n2IhIzU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n2IhIzU2EeG7Mv8T69F17w" client="_n2IhIjU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_OT3NgDVGEeG_Po5EURb8bg?BusinessLayer/softeng.coop.business/authentication/IUser?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_OT3NgDVGEeG_Po5EURb8bg?BusinessLayer/softeng.coop.business/authentication/IUser?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n2SSIDU2EeG7Mv8T69F17w" name="UserAttribute" clientDependency="_n2SSITU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n2SSITU2EeG7Mv8T69F17w" client="_n2SSIDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_YhZN8DVFEeG_Po5EURb8bg?BusinessLayer/softeng.coop.business/authentication/IUserAttribute?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_YhZN8DVFEeG_Po5EURb8bg?BusinessLayer/softeng.coop.business/authentication/IUserAttribute?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n2SSIjU2EeG7Mv8T69F17w" name="IEnrollmentByAffiliationStrategy" clientDependency="_n2SSIzU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n2SSIzU2EeG7Mv8T69F17w" client="_n2SSIjU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_jON2cNrDEeC8gpc0LxT-FQ?BusinessLayer/softeng.coop.business/authentication/IEnrollmentByAffiliationStrategy?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_jON2cNrDEeC8gpc0LxT-FQ?BusinessLayer/softeng.coop.business/authentication/IEnrollmentByAffiliationStrategy?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n2SSJDU2EeG7Mv8T69F17w" name="IAuthenticationProvider" clientDependency="_n2SSJTU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n2SSJTU2EeG7Mv8T69F17w" client="_n2SSJDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_PcwL0LhNEeCRl787-xuZIQ?BusinessLayer/softeng.coop.business/authentication/IAuthenticationProvider?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_PcwL0LhNEeCRl787-xuZIQ?BusinessLayer/softeng.coop.business/authentication/IAuthenticationProvider?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n2SSJjU2EeG7Mv8T69F17w" name="IRegistrationStrategy" clientDependency="_n2SSJzU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n2SSJzU2EeG7Mv8T69F17w" client="_n2SSJjU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_CYr-8LhVEeCRl787-xuZIQ?BusinessLayer/softeng.coop.business/authentication/IRegistrationStrategy?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_CYr-8LhVEeCRl787-xuZIQ?BusinessLayer/softeng.coop.business/authentication/IRegistrationStrategy?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n2cDIDU2EeG7Mv8T69F17w" name="RegistrationStatus" clientDependency="_n2cDITU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n2cDITU2EeG7Mv8T69F17w" client="_n2cDIDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Enumeration" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_WvS-gLxBEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/authentication/RegistrationStatus?"/>
+          <utilizedElement xmi:type="uml:Enumeration" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_WvS-gLxBEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/authentication/RegistrationStatus?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_n2cDIjU2EeG7Mv8T69F17w" name="companies" clientDependency="_n2cDIzU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_n2cDIzU2EeG7Mv8T69F17w" client="_n2cDIjU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_rmT2MLwsEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/companies?"/>
+        <utilizedElement xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_rmT2MLwsEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/companies?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n2cDJDU2EeG7Mv8T69F17w" name="companies">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n2cDJTU2EeG7Mv8T69F17w" name="CompanySearchCriteria" clientDependency="_n2cDJjU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n2cDJjU2EeG7Mv8T69F17w" client="_n2cDJTU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_gyWLEKPHEeCLMZuKQy02FA?BusinessLayer/softeng.coop.business/companies/CompanySearchCriteria?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_gyWLEKPHEeCLMZuKQy02FA?BusinessLayer/softeng.coop.business/companies/CompanySearchCriteria?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n2lNEDU2EeG7Mv8T69F17w" name="CompaniesManager" clientDependency="_n2lNETU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n2lNETU2EeG7Mv8T69F17w" client="_n2lNEDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_xxWyAO2WEeCpSutlR68eHg?BusinessLayer/softeng.coop.business/companies/CompaniesManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_xxWyAO2WEeCpSutlR68eHg?BusinessLayer/softeng.coop.business/companies/CompaniesManager?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n5G8oDU2EeG7Mv8T69F17w" name="CompaniesWriterManager" clientDependency="_n5G8oTU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n5G8oTU2EeG7Mv8T69F17w" client="_n5G8oDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_85F7cO2WEeCpSutlR68eHg?BusinessLayer/softeng.coop.business/companies/CompaniesWriterManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_85F7cO2WEeCpSutlR68eHg?BusinessLayer/softeng.coop.business/companies/CompaniesWriterManager?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_n5G8ojU2EeG7Mv8T69F17w" name="universities" clientDependency="_n5G8ozU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_n5G8ozU2EeG7Mv8T69F17w" client="_n5G8ojU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_9jcKILwsEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/universities?"/>
+        <utilizedElement xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_9jcKILwsEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/universities?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n5QtoDU2EeG7Mv8T69F17w" name="universities">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n5QtoTU2EeG7Mv8T69F17w" name="DepartmentsSearchCriteria" clientDependency="_n5QtojU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n5QtojU2EeG7Mv8T69F17w" client="_n5QtoTU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_o4GOgL0TEeC0eb6zb5fLPQ?BusinessLayer/softeng.coop.business/universities/DepartmentsSearchCriteria?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_o4GOgL0TEeC0eb6zb5fLPQ?BusinessLayer/softeng.coop.business/universities/DepartmentsSearchCriteria?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n5QtozU2EeG7Mv8T69F17w" name="UniversitiesSearchCriteria" clientDependency="_n5QtpDU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n5QtpDU2EeG7Mv8T69F17w" client="_n5QtozU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_DXwXgKZHEeCYPYV34vxkuw?BusinessLayer/softeng.coop.business/universities/UniversitiesSearchCriteria?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_DXwXgKZHEeCYPYV34vxkuw?BusinessLayer/softeng.coop.business/universities/UniversitiesSearchCriteria?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n78OMDU2EeG7Mv8T69F17w" name="UniversitiesManager" clientDependency="_n78OMTU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n78OMTU2EeG7Mv8T69F17w" client="_n78OMDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_Aou08O2iEeCddas7T0JCAQ?BusinessLayer/softeng.coop.business/universities/UniversitiesManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_Aou08O2iEeCddas7T0JCAQ?BusinessLayer/softeng.coop.business/universities/UniversitiesManager?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n78OMjU2EeG7Mv8T69F17w" name="UniversitiesWriterManager" clientDependency="_n78OMzU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n78OMzU2EeG7Mv8T69F17w" client="_n78OMjU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_YDXd8O2jEeCddas7T0JCAQ?BusinessLayer/softeng.coop.business/universities/UniversitiesWriterManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_YDXd8O2jEeCddas7T0JCAQ?BusinessLayer/softeng.coop.business/universities/UniversitiesWriterManager?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_n8FYIDU2EeG7Mv8T69F17w" name="locations" clientDependency="_n8FYITU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_n8FYITU2EeG7Mv8T69F17w" client="_n8FYIDU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_GXI0YLwtEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/locations?"/>
+        <utilizedElement xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_GXI0YLwtEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/locations?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n8FYIjU2EeG7Mv8T69F17w" name="locations">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n8FYIzU2EeG7Mv8T69F17w" name="LocationsSearchCriteria" clientDependency="_n8FYJDU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n8FYJDU2EeG7Mv8T69F17w" client="_n8FYIzU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_ICNPEKY0EeCYPYV34vxkuw?BusinessLayer/softeng.coop.business/locations/LocationsSearchCriteria?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_ICNPEKY0EeCYPYV34vxkuw?BusinessLayer/softeng.coop.business/locations/LocationsSearchCriteria?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n8PJIDU2EeG7Mv8T69F17w" name="LocationsManager" clientDependency="_n8PJITU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n8PJITU2EeG7Mv8T69F17w" client="_n8PJIDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_hCQ7UNoKEeCyUYuYDaVQyA?BusinessLayer/softeng.coop.business/locations/LocationsManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_hCQ7UNoKEeCyUYuYDaVQyA?BusinessLayer/softeng.coop.business/locations/LocationsManager?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n-w4sDU2EeG7Mv8T69F17w" name="LocationsWriterManager" clientDependency="_n-w4sTU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n-w4sTU2EeG7Mv8T69F17w" client="_n-w4sDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_lGnhkNoKEeCyUYuYDaVQyA?BusinessLayer/softeng.coop.business/locations/LocationsWriterManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_lGnhkNoKEeCyUYuYDaVQyA?BusinessLayer/softeng.coop.business/locations/LocationsWriterManager?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_n-w4sjU2EeG7Mv8T69F17w" name="payments" clientDependency="_n-w4szU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_n-w4szU2EeG7Mv8T69F17w" client="_n-w4sjU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_YRvYwLwtEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/payments?"/>
+        <utilizedElement xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_YRvYwLwtEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/payments?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n-6psDU2EeG7Mv8T69F17w" name="payments">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n-6psTU2EeG7Mv8T69F17w" name="SearchResult&lt;Payment>" clientDependency="_n-6psjU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n-6psjU2EeG7Mv8T69F17w" client="_n-6psTU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_FeGYUPwPEeC33IWWmKnf9w?BusinessLayer/softeng.coop.business/payments/SearchResult%3CPayment%3E?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_FeGYUPwPEeC33IWWmKnf9w?BusinessLayer/softeng.coop.business/payments/SearchResult%3CPayment%3E?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n-6pszU2EeG7Mv8T69F17w" name="SearchResult&lt;PaymentAggregate>" clientDependency="_n-6ptDU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n-6ptDU2EeG7Mv8T69F17w" client="_n-6pszU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_P2RwwP-3EeCD2eyZ2DJLig?BusinessLayer/softeng.coop.business/payments/SearchResult%3CPaymentAggregate%3E?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_P2RwwP-3EeCD2eyZ2DJLig?BusinessLayer/softeng.coop.business/payments/SearchResult%3CPaymentAggregate%3E?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n_DzoDU2EeG7Mv8T69F17w" name="PaymentAggregate" clientDependency="_n_DzoTU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n_DzoTU2EeG7Mv8T69F17w" client="_n_DzoDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_f7QFwKcOEeCna5GQpL2cxQ?BusinessLayer/softeng.coop.business/payments/PaymentAggregate?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_f7QFwKcOEeCna5GQpL2cxQ?BusinessLayer/softeng.coop.business/payments/PaymentAggregate?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n_DzojU2EeG7Mv8T69F17w" name="PaymentAggregateSearchCriteria" clientDependency="_n_DzozU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n_DzozU2EeG7Mv8T69F17w" client="_n_DzojU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_PnaD0KcOEeCna5GQpL2cxQ?BusinessLayer/softeng.coop.business/payments/PaymentAggregateSearchCriteria?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_PnaD0KcOEeCna5GQpL2cxQ?BusinessLayer/softeng.coop.business/payments/PaymentAggregateSearchCriteria?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n_DzpDU2EeG7Mv8T69F17w" name="PaymentsSearchCriteria" clientDependency="_n_DzpTU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n_DzpTU2EeG7Mv8T69F17w" client="_n_DzpDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_SV_b4KcMEeCna5GQpL2cxQ?BusinessLayer/softeng.coop.business/payments/PaymentsSearchCriteria?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_SV_b4KcMEeCna5GQpL2cxQ?BusinessLayer/softeng.coop.business/payments/PaymentsSearchCriteria?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n_DzpjU2EeG7Mv8T69F17w" name="PaymentsManager" clientDependency="_n_DzpzU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n_DzpzU2EeG7Mv8T69F17w" client="_n_DzpjU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_e_VTsPwLEeC33IWWmKnf9w?BusinessLayer/softeng.coop.business/payments/PaymentsManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_e_VTsPwLEeC33IWWmKnf9w?BusinessLayer/softeng.coop.business/payments/PaymentsManager?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n_NkoDU2EeG7Mv8T69F17w" name="PaymentsWriterManager" clientDependency="_n_NkoTU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n_NkoTU2EeG7Mv8T69F17w" client="_n_NkoDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_i4dhYPwLEeC33IWWmKnf9w?BusinessLayer/softeng.coop.business/payments/PaymentsWriterManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_i4dhYPwLEeC33IWWmKnf9w?BusinessLayer/softeng.coop.business/payments/PaymentsWriterManager?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_n_NkojU2EeG7Mv8T69F17w" name="coops" clientDependency="_n_NkozU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_n_NkozU2EeG7Mv8T69F17w" client="_n_NkojU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_0Db-ELwtEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/coops?"/>
+        <utilizedElement xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_0Db-ELwtEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/coops?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n_NkpDU2EeG7Mv8T69F17w" name="coops">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n_NkpTU2EeG7Mv8T69F17w" name="SearchResult&lt;CoOp>" clientDependency="_n_NkpjU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n_NkpjU2EeG7Mv8T69F17w" client="_n_NkpTU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_NBd3AP4bEeCF18mGjDWPAQ?BusinessLayer/softeng.coop.business/coops/SearchResult%3CCoOp%3E?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_NBd3AP4bEeCF18mGjDWPAQ?BusinessLayer/softeng.coop.business/coops/SearchResult%3CCoOp%3E?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n_XVoDU2EeG7Mv8T69F17w" name="CoOpSearchCriteria" clientDependency="_n_XVoTU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n_XVoTU2EeG7Mv8T69F17w" client="_n_XVoDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#__fFakKb7EeCna5GQpL2cxQ?BusinessLayer/softeng.coop.business/coops/CoOpSearchCriteria?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#__fFakKb7EeCna5GQpL2cxQ?BusinessLayer/softeng.coop.business/coops/CoOpSearchCriteria?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n_XVojU2EeG7Mv8T69F17w" name="CoOpsManager" clientDependency="_n_XVozU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n_XVozU2EeG7Mv8T69F17w" client="_n_XVojU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_eh2aAP4aEeCF18mGjDWPAQ?BusinessLayer/softeng.coop.business/coops/CoOpsManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_eh2aAP4aEeCF18mGjDWPAQ?BusinessLayer/softeng.coop.business/coops/CoOpsManager?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n_XVpDU2EeG7Mv8T69F17w" name="CoOpsWriterManager" clientDependency="_n_XVpTU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n_XVpTU2EeG7Mv8T69F17w" client="_n_XVpDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_iZjrYP4aEeCF18mGjDWPAQ?BusinessLayer/softeng.coop.business/coops/CoOpsWriterManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_iZjrYP4aEeCF18mGjDWPAQ?BusinessLayer/softeng.coop.business/coops/CoOpsWriterManager?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_n_XVpjU2EeG7Mv8T69F17w" name="faculties" clientDependency="_n_XVpzU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_n_XVpzU2EeG7Mv8T69F17w" client="_n_XVpjU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_8xViULwtEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/faculties?"/>
+        <utilizedElement xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_8xViULwtEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/faculties?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n_gfkDU2EeG7Mv8T69F17w" name="faculties">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n_gfkTU2EeG7Mv8T69F17w" name="SearchResult&lt;FacultyUser>" clientDependency="_n_gfkjU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n_gfkjU2EeG7Mv8T69F17w" client="_n_gfkTU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_bTiWgPM7EeCbZNkgKQ8Crg?BusinessLayer/softeng.coop.business/faculties/SearchResult%3CFacultyUser%3E?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_bTiWgPM7EeCbZNkgKQ8Crg?BusinessLayer/softeng.coop.business/faculties/SearchResult%3CFacultyUser%3E?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_n_gfkzU2EeG7Mv8T69F17w" name="ProfessorSearchCriteria" clientDependency="_n_gflDU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_n_gflDU2EeG7Mv8T69F17w" client="_n_gfkzU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_CBaA4KZNEeCYPYV34vxkuw?BusinessLayer/softeng.coop.business/faculties/ProfessorSearchCriteria?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_CBaA4KZNEeCYPYV34vxkuw?BusinessLayer/softeng.coop.business/faculties/ProfessorSearchCriteria?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oCCPIDU2EeG7Mv8T69F17w" name="FacultyUserSearchCriteria" clientDependency="_oCCPITU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oCCPITU2EeG7Mv8T69F17w" client="_oCCPIDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_pUCvQKZMEeCYPYV34vxkuw?BusinessLayer/softeng.coop.business/faculties/FacultyUserSearchCriteria?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_pUCvQKZMEeCYPYV34vxkuw?BusinessLayer/softeng.coop.business/faculties/FacultyUserSearchCriteria?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oCCPIjU2EeG7Mv8T69F17w" name="SearchResult&lt;Professor>" clientDependency="_oCCPIzU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oCCPIzU2EeG7Mv8T69F17w" client="_oCCPIjU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_FzkYgPM8EeCbZNkgKQ8Crg?BusinessLayer/softeng.coop.business/faculties/SearchResult%3CProfessor%3E?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_FzkYgPM8EeCbZNkgKQ8Crg?BusinessLayer/softeng.coop.business/faculties/SearchResult%3CProfessor%3E?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oCMAIDU2EeG7Mv8T69F17w" name="FacultyUsersManager" clientDependency="_oCMAITU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oCMAITU2EeG7Mv8T69F17w" client="_oCMAIDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_xDHSQPNEEeCbZNkgKQ8Crg?BusinessLayer/softeng.coop.business/faculties/FacultyUsersManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_xDHSQPNEEeCbZNkgKQ8Crg?BusinessLayer/softeng.coop.business/faculties/FacultyUsersManager?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oCMAIjU2EeG7Mv8T69F17w" name="FacultyUsersWriterManager" clientDependency="_oCMAIzU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oCMAIzU2EeG7Mv8T69F17w" client="_oCMAIjU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_2TfmwPNEEeCbZNkgKQ8Crg?BusinessLayer/softeng.coop.business/faculties/FacultyUsersWriterManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_2TfmwPNEEeCbZNkgKQ8Crg?BusinessLayer/softeng.coop.business/faculties/FacultyUsersWriterManager?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oCMAJDU2EeG7Mv8T69F17w" name="reporting" clientDependency="_oCMAJTU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oCMAJTU2EeG7Mv8T69F17w" client="_oCMAJDU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_G5YwYLwuEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/reporting?"/>
+        <utilizedElement xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_G5YwYLwuEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/reporting?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_oCVxIDU2EeG7Mv8T69F17w" name="reporting">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oCVxITU2EeG7Mv8T69F17w" name="java.util.Map&lt;String, Object>" clientDependency="_oCVxIjU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oCVxIjU2EeG7Mv8T69F17w" client="_oCVxITU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_dZ4p0PZuEeCeSYVo5WLQ4g?BusinessLayer/softeng.coop.business/reporting/java.util.Map%3CString,%20Object%3E?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_dZ4p0PZuEeCeSYVo5WLQ4g?BusinessLayer/softeng.coop.business/reporting/java.util.Map%3CString,%20Object%3E?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oCVxIzU2EeG7Mv8T69F17w" name="ReportsManager" clientDependency="_oCVxJDU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oCVxJDU2EeG7Mv8T69F17w" client="_oCVxIzU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_xHN90PZzEeCeSYVo5WLQ4g?BusinessLayer/softeng.coop.business/reporting/ReportsManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_xHN90PZzEeCeSYVo5WLQ4g?BusinessLayer/softeng.coop.business/reporting/ReportsManager?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oCe7EDU2EeG7Mv8T69F17w" name="ReportsWriterManager" clientDependency="_oCe7ETU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oCe7ETU2EeG7Mv8T69F17w" client="_oCe7EDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_0DuLMPZzEeCeSYVo5WLQ4g?BusinessLayer/softeng.coop.business/reporting/ReportsWriterManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_0DuLMPZzEeCeSYVo5WLQ4g?BusinessLayer/softeng.coop.business/reporting/ReportsWriterManager?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oCe7EjU2EeG7Mv8T69F17w" name="IReportFactory" clientDependency="_oCe7EzU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oCe7EzU2EeG7Mv8T69F17w" client="_oCe7EjU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_bYGvYPjLEeC5kZ68PfsVPg?BusinessLayer/softeng.coop.business/reporting/IReportFactory?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_bYGvYPjLEeC5kZ68PfsVPg?BusinessLayer/softeng.coop.business/reporting/IReportFactory?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oCe7FDU2EeG7Mv8T69F17w" name="IParameterType" clientDependency="_oCe7FTU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oCe7FTU2EeG7Mv8T69F17w" client="_oCe7FDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_v4wI8PjLEeC5kZ68PfsVPg?BusinessLayer/softeng.coop.business/reporting/IParameterType?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_v4wI8PjLEeC5kZ68PfsVPg?BusinessLayer/softeng.coop.business/reporting/IParameterType?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oCe7FjU2EeG7Mv8T69F17w" name="DataType" clientDependency="_oCe7FzU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oCe7FzU2EeG7Mv8T69F17w" client="_oCe7FjU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Enumeration" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_ncpAoPZMEeCeSYVo5WLQ4g?BusinessLayer/softeng.coop.business/reporting/DataType?"/>
+          <utilizedElement xmi:type="uml:Enumeration" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_ncpAoPZMEeCeSYVo5WLQ4g?BusinessLayer/softeng.coop.business/reporting/DataType?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oCosEDU2EeG7Mv8T69F17w" name="jobpostings" clientDependency="_oCosETU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oCosETU2EeG7Mv8T69F17w" client="_oCosEDU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_N_45ALwuEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/jobpostings?"/>
+        <utilizedElement xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_N_45ALwuEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/jobpostings?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_oCosEjU2EeG7Mv8T69F17w" name="jobpostings">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oCosEzU2EeG7Mv8T69F17w" name="JobPostingsSearchCriteria" clientDependency="_oCosFDU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oCosFDU2EeG7Mv8T69F17w" client="_oCosEzU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_rM5MYKb-EeCna5GQpL2cxQ?BusinessLayer/softeng.coop.business/jobpostings/JobPostingsSearchCriteria?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_rM5MYKb-EeCna5GQpL2cxQ?BusinessLayer/softeng.coop.business/jobpostings/JobPostingsSearchCriteria?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oCosFTU2EeG7Mv8T69F17w" name="JobPostingsManager" clientDependency="_oCosFjU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oCosFjU2EeG7Mv8T69F17w" client="_oCosFTU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_d1I2QACREeGqrbMbzChzTg?BusinessLayer/softeng.coop.business/jobpostings/JobPostingsManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_d1I2QACREeGqrbMbzChzTg?BusinessLayer/softeng.coop.business/jobpostings/JobPostingsManager?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oFKboDU2EeG7Mv8T69F17w" name="JobPostingsWriterManager" clientDependency="_oFKboTU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oFKboTU2EeG7Mv8T69F17w" client="_oFKboDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_irp5QACREeGqrbMbzChzTg?BusinessLayer/softeng.coop.business/jobpostings/JobPostingsWriterManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_irp5QACREeGqrbMbzChzTg?BusinessLayer/softeng.coop.business/jobpostings/JobPostingsWriterManager?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oFKbojU2EeG7Mv8T69F17w" name="jobs" clientDependency="_oFKbozU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oFKbozU2EeG7Mv8T69F17w" client="_oFKbojU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_aXERELwuEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/jobs?"/>
+        <utilizedElement xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_aXERELwuEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/jobs?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_oFUMoDU2EeG7Mv8T69F17w" name="jobs">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oFUMoTU2EeG7Mv8T69F17w" name="JobsManager" clientDependency="_oFUMojU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oFUMojU2EeG7Mv8T69F17w" client="_oFUMoTU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_-hFL8AOaEeG32Iemlhpnpg?BusinessLayer/softeng.coop.business/jobs/JobsManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_-hFL8AOaEeG32Iemlhpnpg?BusinessLayer/softeng.coop.business/jobs/JobsManager?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oFUMozU2EeG7Mv8T69F17w" name="JobsWriterManager" clientDependency="_oFUMpDU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oFUMpDU2EeG7Mv8T69F17w" client="_oFUMozU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_CZY6QAObEeG32Iemlhpnpg?BusinessLayer/softeng.coop.business/jobs/JobsWriterManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_CZY6QAObEeG32Iemlhpnpg?BusinessLayer/softeng.coop.business/jobs/JobsWriterManager?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oFUMpTU2EeG7Mv8T69F17w" name="students" clientDependency="_oFUMpjU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oFUMpjU2EeG7Mv8T69F17w" client="_oFUMpTU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_fWL2cLwuEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/students?"/>
+        <utilizedElement xmi:type="uml:Package" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_fWL2cLwuEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/students?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_oFdWkDU2EeG7Mv8T69F17w" name="students">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oFdWkTU2EeG7Mv8T69F17w" name="StudentsSearchCriteria" clientDependency="_oFdWkjU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oFdWkjU2EeG7Mv8T69F17w" client="_oFdWkTU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_Yqg-8KZREeCYPYV34vxkuw?BusinessLayer/softeng.coop.business/students/StudentsSearchCriteria?"/>
+          <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_Yqg-8KZREeCYPYV34vxkuw?BusinessLayer/softeng.coop.business/students/StudentsSearchCriteria?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oFdWkzU2EeG7Mv8T69F17w" name="IGroupStrategy" clientDependency="_oFdWlDU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oFdWlDU2EeG7Mv8T69F17w" client="_oFdWkzU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_oMJpcPimEeC5kZ68PfsVPg?BusinessLayer/softeng.coop.business/students/IGroupStrategy?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_oMJpcPimEeC5kZ68PfsVPg?BusinessLayer/softeng.coop.business/students/IGroupStrategy?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oFdWlTU2EeG7Mv8T69F17w" name="IInvitationStrategy" clientDependency="_oFdWljU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oFdWljU2EeG7Mv8T69F17w" client="_oFdWlTU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_iPI4cPimEeC5kZ68PfsVPg?BusinessLayer/softeng.coop.business/students/IInvitationStrategy?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_iPI4cPimEeC5kZ68PfsVPg?BusinessLayer/softeng.coop.business/students/IInvitationStrategy?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oFdWlzU2EeG7Mv8T69F17w" name="StudentsManager" clientDependency="_oFdWmDU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oFdWmDU2EeG7Mv8T69F17w" client="_oFdWlzU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_EHmIcPNIEeC8GOZoLvIzGQ?BusinessLayer/softeng.coop.business/students/StudentsManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_EHmIcPNIEeC8GOZoLvIzGQ?BusinessLayer/softeng.coop.business/students/StudentsManager?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oFnHkDU2EeG7Mv8T69F17w" name="StudentsWriterManager" clientDependency="_oFnHkTU2EeG7Mv8T69F17w">
+        <manifestation xmi:id="_oFnHkTU2EeG7Mv8T69F17w" client="_oFnHkDU2EeG7Mv8T69F17w">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_ODH9cPNIEeC8GOZoLvIzGQ?BusinessLayer/softeng.coop.business/students/StudentsWriterManager?"/>
+          <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_ODH9cPNIEeC8GOZoLvIzGQ?BusinessLayer/softeng.coop.business/students/StudentsWriterManager?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oFnHkjU2EeG7Mv8T69F17w" name="TransactionScope" clientDependency="_oFnHkzU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oFnHkzU2EeG7Mv8T69F17w" client="_oFnHkjU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_lMnCIORNEeC6qfM71RsjYw?BusinessLayer/softeng.coop.business/TransactionScope?"/>
+        <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_lMnCIORNEeC6qfM71RsjYw?BusinessLayer/softeng.coop.business/TransactionScope?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oFnHlDU2EeG7Mv8T69F17w" name="SearchCriteria" clientDependency="_oFnHlTU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oFnHlTU2EeG7Mv8T69F17w" client="_oFnHlDU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_Tpf8wNlBEeCWHpxspbUzNw?BusinessLayer/softeng.coop.business/SearchCriteria?"/>
+        <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_Tpf8wNlBEeCWHpxspbUzNw?BusinessLayer/softeng.coop.business/SearchCriteria?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oFnHljU2EeG7Mv8T69F17w" name="SearchResult" clientDependency="_oFnHlzU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oFnHlzU2EeG7Mv8T69F17w" client="_oFnHljU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#__3nRMNlBEeCWHpxspbUzNw?BusinessLayer/softeng.coop.business/SearchResult?"/>
+        <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#__3nRMNlBEeCWHpxspbUzNw?BusinessLayer/softeng.coop.business/SearchResult?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oFwRgDU2EeG7Mv8T69F17w" name="AuthorizationContext" clientDependency="_oFwRgTU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oFwRgTU2EeG7Mv8T69F17w" client="_oFwRgDU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_4o8ksNk5EeCWHpxspbUzNw?BusinessLayer/softeng.coop.business/AuthorizationContext?"/>
+        <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_4o8ksNk5EeCWHpxspbUzNw?BusinessLayer/softeng.coop.business/AuthorizationContext?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oFwRgjU2EeG7Mv8T69F17w" name="PermissionCheck" clientDependency="_oFwRgzU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oFwRgzU2EeG7Mv8T69F17w" client="_oFwRgjU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_GmYKYL0WEeC0eb6zb5fLPQ?BusinessLayer/softeng.coop.business/PermissionCheck?"/>
+        <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_GmYKYL0WEeC0eb6zb5fLPQ?BusinessLayer/softeng.coop.business/PermissionCheck?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oFwRhDU2EeG7Mv8T69F17w" name="InformationMessage" clientDependency="_oFwRhTU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oFwRhTU2EeG7Mv8T69F17w" client="_oFwRhDU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_EGbCELxFEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/InformationMessage?"/>
+        <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_EGbCELxFEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/InformationMessage?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oFwRhjU2EeG7Mv8T69F17w" name="PermissionSessionListener" clientDependency="_oFwRhzU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oFwRhzU2EeG7Mv8T69F17w" client="_oFwRhjU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_y2TBQLxIEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/PermissionSessionListener?"/>
+        <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_y2TBQLxIEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/PermissionSessionListener?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oF6CgDU2EeG7Mv8T69F17w" name="Session" clientDependency="_oF6CgTU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oF6CgTU2EeG7Mv8T69F17w" client="_oF6CgDU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_3K-4EJwTEeCgPPMtSFvhzA?BusinessLayer/softeng.coop.business/Session?"/>
+        <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_3K-4EJwTEeCgPPMtSFvhzA?BusinessLayer/softeng.coop.business/Session?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oF6CgjU2EeG7Mv8T69F17w" name="SessionFactory" clientDependency="_oF6CgzU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oF6CgzU2EeG7Mv8T69F17w" client="_oF6CgjU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_VMedIJwREeCgPPMtSFvhzA?BusinessLayer/softeng.coop.business/SessionFactory?"/>
+        <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_VMedIJwREeCgPPMtSFvhzA?BusinessLayer/softeng.coop.business/SessionFactory?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oF6ChDU2EeG7Mv8T69F17w" name="SessionListener" clientDependency="_oF6ChTU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oF6ChTU2EeG7Mv8T69F17w" client="_oF6ChDU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_iISDgKMoEeC4PabshmGsfw?BusinessLayer/softeng.coop.business/SessionListener?"/>
+        <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_iISDgKMoEeC4PabshmGsfw?BusinessLayer/softeng.coop.business/SessionListener?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oF6ChjU2EeG7Mv8T69F17w" name="ManagerCheck" clientDependency="_oF6ChzU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oF6ChzU2EeG7Mv8T69F17w" client="_oF6ChjU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_JMmokMQjEeC4x_GYMw0Zhw?BusinessLayer/softeng.coop.business/ManagerCheck?"/>
+        <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_JMmokMQjEeC4x_GYMw0Zhw?BusinessLayer/softeng.coop.business/ManagerCheck?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oGDzgDU2EeG7Mv8T69F17w" name="IDisposable" clientDependency="_oGDzgTU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oGDzgTU2EeG7Mv8T69F17w" client="_oGDzgDU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_B60vgORNEeC6qfM71RsjYw?BusinessLayer/softeng.coop.business/IDisposable?"/>
+        <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_B60vgORNEeC6qfM71RsjYw?BusinessLayer/softeng.coop.business/IDisposable?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oGDzgjU2EeG7Mv8T69F17w" name="WriterManagerBase" clientDependency="_oGDzgzU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oGDzgzU2EeG7Mv8T69F17w" client="_oGDzgjU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_6ZomsNofEeC8K5Uu-NKEhQ?BusinessLayer/softeng.coop.business/WriterManagerBase?"/>
+        <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_6ZomsNofEeC8K5Uu-NKEhQ?BusinessLayer/softeng.coop.business/WriterManagerBase?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oGDzhDU2EeG7Mv8T69F17w" name="ManagerBase" clientDependency="_oGDzhTU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oGDzhTU2EeG7Mv8T69F17w" client="_oGDzhDU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_VrNjgNoKEeCyUYuYDaVQyA?BusinessLayer/softeng.coop.business/ManagerBase?"/>
+        <utilizedElement xmi:type="uml:Interface" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_VrNjgNoKEeCyUYuYDaVQyA?BusinessLayer/softeng.coop.business/ManagerBase?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oGDzhjU2EeG7Mv8T69F17w" name="PropagationType" clientDependency="_oGDzhzU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oGDzhzU2EeG7Mv8T69F17w" client="_oGDzhjU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Enumeration" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_jtRg4OROEeC6qfM71RsjYw?BusinessLayer/softeng.coop.business/PropagationType?"/>
+        <utilizedElement xmi:type="uml:Enumeration" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_jtRg4OROEeC6qfM71RsjYw?BusinessLayer/softeng.coop.business/PropagationType?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_oGM9cDU2EeG7Mv8T69F17w" name="InformationMessageLevel" clientDependency="_oGM9cTU2EeG7Mv8T69F17w">
+      <manifestation xmi:id="_oGM9cTU2EeG7Mv8T69F17w" client="_oGM9cDU2EeG7Mv8T69F17w">
+        <supplier xmi:type="uml:Enumeration" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_-HLccLxEEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/InformationMessageLevel?"/>
+        <utilizedElement xmi:type="uml:Enumeration" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_-HLccLxEEeCX-aZ4hwFTnA?BusinessLayer/softeng.coop.business/InformationMessageLevel?"/>
+      </manifestation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_oGM9cjU2EeG7Mv8T69F17w" name="Iterable&lt;String>" clientDependency="_oGM9czU2EeG7Mv8T69F17w">
+    <manifestation xmi:id="_oGM9czU2EeG7Mv8T69F17w" client="_oGM9cjU2EeG7Mv8T69F17w">
+      <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_WmHGkNk7EeCWHpxspbUzNw?BusinessLayer/Iterable%3CString%3E?"/>
+      <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_WmHGkNk7EeCWHpxspbUzNw?BusinessLayer/Iterable%3CString%3E?"/>
+    </manifestation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_oGM9dDU2EeG7Mv8T69F17w" name="SearchResult&lt;Location>" clientDependency="_oGM9dTU2EeG7Mv8T69F17w">
+    <manifestation xmi:id="_oGM9dTU2EeG7Mv8T69F17w" client="_oGM9dDU2EeG7Mv8T69F17w">
+      <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_AXf60Nn1EeCKL5xcWEJQaQ?BusinessLayer/SearchResult%3CLocation%3E?"/>
+      <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_AXf60Nn1EeCKL5xcWEJQaQ?BusinessLayer/SearchResult%3CLocation%3E?"/>
+    </manifestation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_oGM9djU2EeG7Mv8T69F17w" name="SearchResult&lt;Company>" clientDependency="_oGM9dzU2EeG7Mv8T69F17w">
+    <manifestation xmi:id="_oGM9dzU2EeG7Mv8T69F17w" client="_oGM9djU2EeG7Mv8T69F17w">
+      <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_hUMX0O2dEeCO0ZrEJVvSrQ?BusinessLayer/SearchResult%3CCompany%3E?"/>
+      <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_hUMX0O2dEeCO0ZrEJVvSrQ?BusinessLayer/SearchResult%3CCompany%3E?"/>
+    </manifestation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_oGWucDU2EeG7Mv8T69F17w" name="SearchResult&lt;Branch>" clientDependency="_oGWucTU2EeG7Mv8T69F17w">
+    <manifestation xmi:id="_oGWucTU2EeG7Mv8T69F17w" client="_oGWucDU2EeG7Mv8T69F17w">
+      <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_l3PsQO2dEeCO0ZrEJVvSrQ?BusinessLayer/SearchResult%3CBranch%3E?"/>
+      <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_l3PsQO2dEeCO0ZrEJVvSrQ?BusinessLayer/SearchResult%3CBranch%3E?"/>
+    </manifestation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_oGWucjU2EeG7Mv8T69F17w" name="SearchResult&lt;Department>" clientDependency="_oGWuczU2EeG7Mv8T69F17w">
+    <manifestation xmi:id="_oGWuczU2EeG7Mv8T69F17w" client="_oGWucjU2EeG7Mv8T69F17w">
+      <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_Iwm-MO2mEeCddas7T0JCAQ?BusinessLayer/SearchResult%3CDepartment%3E?"/>
+      <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_Iwm-MO2mEeCddas7T0JCAQ?BusinessLayer/SearchResult%3CDepartment%3E?"/>
+    </manifestation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_oGWudDU2EeG7Mv8T69F17w" name="SearchResult&lt;University>" clientDependency="_oGWudTU2EeG7Mv8T69F17w">
+    <manifestation xmi:id="_oGWudTU2EeG7Mv8T69F17w" client="_oGWudDU2EeG7Mv8T69F17w">
+      <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_7MrNMO2nEeCddas7T0JCAQ?BusinessLayer/SearchResult%3CUniversity%3E?"/>
+      <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_7MrNMO2nEeCddas7T0JCAQ?BusinessLayer/SearchResult%3CUniversity%3E?"/>
+    </manifestation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_oGWudjU2EeG7Mv8T69F17w" name="SearchResult&lt;Student>" clientDependency="_oGWudzU2EeG7Mv8T69F17w">
+    <manifestation xmi:id="_oGWudzU2EeG7Mv8T69F17w" client="_oGWudjU2EeG7Mv8T69F17w">
+      <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_IIcb0PNVEeC8GOZoLvIzGQ?BusinessLayer/SearchResult%3CStudent%3E?"/>
+      <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_IIcb0PNVEeC8GOZoLvIzGQ?BusinessLayer/SearchResult%3CStudent%3E?"/>
+    </manifestation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_oGf4YDU2EeG7Mv8T69F17w" name="SearchResult&lt;JobPosting>" clientDependency="_oGf4YTU2EeG7Mv8T69F17w">
+    <manifestation xmi:id="_oGf4YTU2EeG7Mv8T69F17w" client="_oGf4YDU2EeG7Mv8T69F17w">
+      <supplier xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_RO7HMACSEeGqrbMbzChzTg?BusinessLayer/SearchResult%3CJobPosting%3E?"/>
+      <utilizedElement xmi:type="uml:Class" href="platform:/resource/ArchitecturePA/Business%20layer.emx#_RO7HMACSEeGqrbMbzChzTg?BusinessLayer/SearchResult%3CJobPosting%3E?"/>
+    </manifestation>
+  </packagedElement>
+  <profileApplication xmi:id="_nsnYwTU2EeG7Mv8T69F17w">
+    <eAnnotations xmi:id="_nsxJwDU2EeG7Mv8T69F17w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_nsxJwTU2EeG7Mv8T69F17w">
+    <eAnnotations xmi:id="_nsxJwjU2EeG7Mv8T69F17w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_nsxJwzU2EeG7Mv8T69F17w">
+    <eAnnotations xmi:id="_nsxJxDU2EeG7Mv8T69F17w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+</uml:Model>

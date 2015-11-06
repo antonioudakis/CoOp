@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <list-property name="configVars">
+        <structure>
+            <property name="name">__isdisplay___CURRENT_COOP_770_0</property>
+            <property name="value">65587</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__SOURCE_841_1</property>
+            <property name="value">65579</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__ACCOUNT_REPRESENTATIVE_843_2</property>
+            <property name="value">Καθηγητή ΕΜΠ Αβαριτσιώτη Ιωάννη, Αντιπρύτανη ΕΜΠ2</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__PROGRAM_TITLE_844_3</property>
+            <property name="value">Αναπαραγωγή Τρωκτικών ΕΜΠ</property>
+        </structure>
+        <structure>
+            <property name="name">_CURRENT_COOP_770_4</property>
+            <property name="value">65587</property>
+        </structure>
+        <structure>
+            <property name="name">_CURRENT_COOP_770_type_</property>
+            <property name="value">integer</property>
+        </structure>
+        <structure>
+            <property name="name">SOURCE_841_5</property>
+            <property name="value">65579</property>
+        </structure>
+        <structure>
+            <property name="name">SOURCE_841_type_</property>
+            <property name="value">integer</property>
+        </structure>
+        <structure>
+            <property name="name">PROGRAM_TITLE_844_6</property>
+            <property name="value">Αναπαραγωγή Τρωκτικών ΕΜΠ</property>
+        </structure>
+        <structure>
+            <property name="name">PROGRAM_TITLE_844_type_</property>
+            <property name="value">string</property>
+        </structure>
+        <structure>
+            <property name="name">ACCOUNT_REPRESENTATIVE_843_7</property>
+            <property name="value">Καθηγητή ΕΜΠ Αβαριτσιώτη Ιωάννη, Αντιπρύτανη ΕΜΠ2</property>
+        </structure>
+        <structure>
+            <property name="name">ACCOUNT_REPRESENTATIVE_843_type_</property>
+            <property name="value">string</property>
+        </structure>
+    </list-property>
+</report>

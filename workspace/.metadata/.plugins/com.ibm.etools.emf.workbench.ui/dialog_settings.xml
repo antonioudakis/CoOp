@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="com.ibm.etools.web.ui.sections.ServletMainSectionCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.WebSecurityRoleMasterDetailSectionCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.WebSecurityRoleDetailSectionCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.ServletRunAsSectionCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.ServletInitParamSectionCommon"/>
+	<item value="false" key="com.ibm.etools.j2ee.manifest.ui.SectionDependenciesCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.UserDataConstraintSectionCommon"/>
+	<item value="false" key="com.ibm.etools.j2ee.manifest.ui.ImplementationVersionPageCommon"/>
+	<item value="false" key="com.ibm.etools.common.ui.sections.NonOverviewPageIconsSectionCommon"/>
+	<item value="false" key="com.ibm.etools.j2ee.manifest.ui.SectionMainClassCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.FilterDetailSectionCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.WebSecurityConstraintMainSectionCommon"/>
+	<item value="false" key="com.ibm.etools.common.ui.sections.SectionIconsCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.AuthConstraintSectionCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.WebGeneralInfoSectionCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.WebSecurityRoleMainSectionCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.FilterServletMappingSectionCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.WebResourceCollectionSectionCommon"/>
+	<item value="false" key="com.ibm.etools.application.presentation.ApplicationGeneralInfoSectionCommon"/>
+	<item value="false" key="com.ibm.etools.common.ui.sections.SectionUsageTableCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.JspDetailSectionCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.ServletDetailSectionCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.FilterMappingSectionCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.ServletLoadOnStartupSectionCommon"/>
+	<item value="false" key="com.ibm.etools.emf.workbench.ui.custom.widgets.SectionDynamicTableCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.FilterMainSectionCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.ServletSecRoleRefSectionCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.ServletMappingSectionCommon"/>
+	<item value="false" key="com.ibm.etools.j2ee.manifest.ui.SectionUsageCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.ServletJspStackSectionCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.FilterInitParamSectionCommon"/>
+	<item value="false" key="com.ibm.etools.web.ui.sections.WebSecurityConstraintMasterDetailSectionCommon"/>
+</section>

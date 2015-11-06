@@ -1,0 +1,4 @@
+#Tue Jun 21 16:45:57 EEST 2011
+eclipse.preferences.version=1
+com.ibm.xtools.patterns.repository.provider=true
+REPOSITORY_INSTANCES_KEY=<?xml version\="1.0" encoding\="UTF-8"?><repository-instances version\="1"><repository-instance id\="com.ibm.xtools.patterns.repository.provider" name\="Patterns Repository" type\="com.ibm.xtools.ras.repository.client.plugin"/></repository-instances>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="CtxSearchPage">
+		<item value="1" key="PROJECT_AREA_ID_CONFIG_SIZE"/>
+		<item value="_rUO-AHMKEeCvzZgKh31anQ" key="LAST_SELECTED_PROJECT_AREA_ID"/>
+		<item value="ALL_LOADED" key="SEARCH_SCOPE"/>
+		<section name="PROJECT_AREA_ID0">
+			<item value="Text" key="EXECUTOR"/>
+			<item value="_rUO-AHMKEeCvzZgKh31anQ" key="RELEVANT_PROJECT_AREA_CONNECTION"/>
+			<list key="GUI_SELECTED_COLLECTIONS_ID">
+			</list>
+			<list key="GUI_SELECTED_COLLECTIONS_NAME">
+			</list>
+			<list key="GUI_COLLECTIONS_ID">
+			</list>
+			<list key="GUI_COLLECTIONS_COMPONENT_NAME">
+			</list>
+			<list key="GUI_COLLECTIONS_STREAM_NAME">
+			</list>
+			<list key="GUI_COLLECTIONS_FULL_NAME">
+			</list>
+		</section>
+	</section>
+</section>

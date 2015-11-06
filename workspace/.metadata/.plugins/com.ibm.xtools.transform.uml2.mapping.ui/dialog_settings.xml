@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="525" key="EDIT WIDTH"/>
+	<item value="false" key="&amp;Update the mapping model structure by using the source element structure  UPDATE OPERATION INITIALLY SELECTED"/>
+	<item value="308" key="REPORT HEIGHT"/>
+	<item value="0" key="Removed Artifacts Name COLUMN_WIDTH"/>
+	<item value="150" key="Added Artifacts   Name COLUMN_WIDTH"/>
+	<item value="0" key="Removed Artifacts Package COLUMN_WIDTH"/>
+	<item value="150" key="Added Artifacts   Package COLUMN_WIDTH"/>
+	<item value="true" key="&amp;Add artifacts for new source elements  UPDATE OPERATION INITIALLY SELECTED"/>
+	<item value="525" key="REPORT WIDTH"/>
+	<item value="565" key="EDIT HEIGHT"/>
+	<item value="true" key="&amp;Remove empty packages and orphan artifacts  UPDATE OPERATION INITIALLY SELECTED"/>
+</section>

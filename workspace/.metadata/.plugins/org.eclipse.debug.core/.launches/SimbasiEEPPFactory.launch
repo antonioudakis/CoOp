@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><launchConfiguration type="com.ibm.xtt.xsl.core.launch.XSLLaunch">
+<stringAttribute key="com.ibm.debug.attr_project_name" value="Report example"/>
+<booleanAttribute key="com.ibm.xtt.xsl.core.attr_first_template_stop_option" value="true"/>
+<stringAttribute key="com.ibm.xtt.xsl.core.attr_input_xml" value="C:\Users\Master\IBM\rationalsdp\workspace\Report example\SimbasiEEPPFactory.rptdesign"/>
+<stringAttribute key="com.ibm.xtt.xsl.core.attr_output_file" value="C:/Users/Master/IBM/rationalsdp/workspace/Report example/_SimbasiEEPPFactory_transform.xml"/>
+<stringAttribute key="com.ibm.xtt.xsl.core.attr_source_xsl" value=""/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Report example/SimbasiEEPPFactory.rptdesign"/>
+<listEntry value="/Report example/_SimbasiEEPPFactory_transform.xml"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+<listEntry value="1"/>
+</listAttribute>
+</launchConfiguration>

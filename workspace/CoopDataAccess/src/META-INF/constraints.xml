@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<constraint-mappings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:schemaLocation="http://www.jboss.org/xml/ns/javax/validation/mapping/validation-mapping-1.0.xsd"
+                     xmlns="http://jboss.org/xml/ns/javax/validation/mapping">
+    <default-package>softeng.coop.dataaccess</default-package>
+    
+    <bean class="Telephone">
+    	<field name="type">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+    	</field>
+        <field name="number">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+        	<constraint annotation="softeng.validation.constraints.Telephone"/>
+        </field>
+    </bean>
+
+    <bean class="Person">
+        <field name="name">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+    		<constraint annotation="javax.validation.constraints.Size">
+    			<element name="min">1</element>
+    			<element name="max">255</element>
+    		</constraint>
+        </field>
+        <field name="surname">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+    		<constraint annotation="javax.validation.constraints.Size">
+    			<element name="min">1</element>
+    			<element name="max">255</element>
+    		</constraint>
+        </field>
+      	<field name="email">
+            <constraint annotation="softeng.validation.constraints.Email"/>
+        </field>
+        <field name="fatherName">
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">255</element>
+        	</constraint>
+        </field>
+        <field name="motherName">
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">255</element>
+        	</constraint>
+        </field>
+        <field name="notes">
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">255</element>
+        	</constraint>
+        </field>
+    </bean>
+    
+    <bean class="AuthenticatedUser">
+        <field name="department">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+        </field>
+    </bean>
+    
+    <bean class="FacultyUser">
+        <field name="faxNumber">
+        	<constraint annotation="softeng.validation.constraints.Telephone"/>
+        </field>
+    </bean>
+    
+    <bean class="Student">
+    	<field name="iban">		
+    		<constraint annotation="softeng.validation.constraints.Iban"/>
+       	</field>
+       	<field name = "taxId">
+       		<constraint annotation="softeng.validation.constraints.TaxCode"/>
+       	</field>
+        <field name="taxDivision">
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">255</element>
+        	</constraint>
+        </field>
+        <field name="serialNumber">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+    		<constraint annotation="javax.validation.constraints.Size">
+    			<element name="min">1</element>
+    			<element name="max">255</element>
+    		</constraint>
+        </field>
+        <field name="socialSecurityId">
+       		<constraint annotation="softeng.validation.constraints.Amka"/>
+        </field>
+        <field name="workExperience">
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">1023</element>
+        	</constraint>
+        </field>
+    </bean>
+    
+    <bean class="CompanyPerson">
+    	<field name="salutation">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    	</field>
+    </bean>
+ 
+	<bean class="Branch">
+		<field name="name">
+	  		<constraint annotation="javax.validation.constraints.NotNull" />
+		</field>
+		<field name="telephone">
+			<constraint annotation="javax.validation.constraints.Size">
+				<element name="max">255</element>
+			</constraint>
+		</field>
+		<field name="fax">
+			<constraint annotation="javax.validation.constraints.Size">
+				<element name="max">255</element>
+			</constraint>
+		</field>
+	</bean>
+    
+    <bean class="Address">
+    	<field name="type">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    	</field>
+    	<field name="street">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">255</element>
+        	</constraint>
+    	</field>
+    	<field name="number">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">255</element>
+        	</constraint>
+    	</field>
+    	<field name="poBox">
+            <constraint annotation="softeng.validation.constraints.PostalCode"/>
+    	</field>
+    	<field name="city">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">255</element>
+        	</constraint>
+    	</field>
+    	<field name="country">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">255</element>
+        	</constraint>
+    	</field>
+    </bean>
+    
+    <bean class="EmbeddableAddress">
+    	<field name="type">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    	</field>
+    	<field name="street">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">255</element>
+        	</constraint>
+    	</field>
+    	<field name="number">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">255</element>
+        	</constraint>
+    	</field>
+    	<field name="poBox">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+            <constraint annotation="softeng.validation.constraints.PostalCode"/>
+    	</field>
+    	<field name="city">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">255</element>
+        	</constraint>
+    	</field>
+    	<field name="country">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">255</element>
+        	</constraint>
+    	</field>
+    </bean>
+    
+    <bean class="CoOp">
+    	<field name="name">
+<!--     		<constraint annotation="javax.validation.constraints.NotNull" /> -->
+<!--     		<constraint annotation="softeng.coop.dataaccess.validation.MultilingualLength" /> -->
+    	</field>
+    	<field name="maxGroupSize">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    		<constraint annotation="javax.validation.constraints.DecimalMin">
+    			<element name="value">0</element>
+    		</constraint>
+    	</field>
+    	<field name="academicYear">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    		<constraint annotation="softeng.validation.constraints.Year" />
+    	</field>
+    	<field name="gradePolicy">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    	</field>
+    	<field name="jobDurationDays">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    		<constraint annotation="javax.validation.constraints.DecimalMin">
+    			<element name="value">0</element>
+    		</constraint>
+    	</field>
+    	<field name="semester">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    		<constraint annotation="javax.validation.constraints.DecimalMin">
+    			<element name="value">0</element>
+    		</constraint>
+    	</field>
+    	<field name="lesson">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+    	</field>
+    	<field name="institutionalDirector">
+    		<constraint annotation="javax.validation.constraints.NotNull"/>
+    	</field>
+    	<field name="scientificDirector">
+    		<constraint annotation="javax.validation.constraints.NotNull"/>
+    	</field>
+    	<field name="academicDirector">
+    		<constraint annotation="javax.validation.constraints.NotNull"/>
+    	</field>
+    	<field name="paymentOrderAmount">
+    		<constraint annotation="javax.validation.constraints.DecimalMin">
+    			<element name="value">0</element>
+    		</constraint>
+    	</field>
+    </bean>
+    
+    <bean class="Requirement">
+    	<field name="name">		
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+       	</field>
+       	<field name="type">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+       	</field>
+    </bean>
+    
+    <bean class="JobPart">
+    	<field name="siteType">
+    		<constraint annotation="javax.validation.constraints.NotNull"/>
+    	</field>
+    	<field name="paidDays">
+    		<constraint annotation="javax.validation.constraints.NotNull"/>
+    		<constraint annotation="javax.validation.constraints.DecimalMin">
+    			<element name="value">0</element>
+    		</constraint>
+    	</field>
+    	<field name="job">
+    		<constraint annotation="javax.validation.constraints.NotNull"/>
+    	</field>
+        <field name="startDate">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+        </field>
+        <field name="endDate">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+        </field>
+    </bean>
+    
+    <bean class="JobPartSpecialPayable">
+    	<field name="financialSource">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    	</field>
+    	<field name="paidDays">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    		<constraint annotation="javax.validation.constraints.DecimalMin">
+    			<element name="value">0</element>
+    		</constraint>
+    	</field>
+    </bean>
+
+    <bean class="Company">
+    	<field name="name">		
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+       	</field>
+       	<field name="taxCode">
+            <constraint annotation="softeng.validation.constraints.TaxCode"/>
+       	</field>
+        <field name="taxDivision">
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">255</element>
+        	</constraint>
+        </field>
+    	<field name="activitySector">		
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+       	</field>
+       	<field name="email">
+            <constraint annotation="softeng.validation.constraints.Email"/>
+       	</field>
+    </bean>
+     
+    <bean class="JobPosting">
+    	<field name="supervisingProfessor">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    	</field>
+    	<field name="company">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    	</field>
+    </bean>
+    
+    <bean class="JobPostingPart">
+    	<field name="siteType">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    	</field>
+    	<field name="paidDays">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    		<constraint annotation="javax.validation.constraints.DecimalMin">
+    			<element name="value">0</element>
+    		</constraint>
+    	</field>
+    	<field name="startDay">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    		<constraint annotation="javax.validation.constraints.DecimalMin">
+    			<element name="value">0</element>
+    		</constraint>
+    	</field>
+    	<field name="durationDays">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    		<constraint annotation="javax.validation.constraints.DecimalMin">
+    			<element name="value">1</element>
+    		</constraint>
+    	</field>
+    </bean>
+    
+    <bean class="JobPostingPartSpecialPayable">
+    	<field name="financialSource">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    	</field>
+    	<field name="paidDays">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    		<constraint annotation="javax.validation.constraints.DecimalMin">
+    			<element name="value">0</element>
+    		</constraint>
+    	</field>
+    </bean>
+
+	<bean class="Report">
+    	<field name="title">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">255</element>
+        	</constraint>
+    	</field>
+    	<field name="comments">
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">2048</element>
+        	</constraint>
+    	</field>
+		<field name="grade">
+        	<constraint annotation="javax.validation.constraints.Digits">
+    			<element name="integer">2</element>
+    			<element name="fraction">2</element>
+        	</constraint>
+        	<constraint annotation="javax.validation.constraints.DecimalMax">
+    			<element name="value">10.0</element>
+        	</constraint>
+        	<constraint annotation="javax.validation.constraints.DecimalMin">
+    			<element name="value">0.0</element>
+        	</constraint>
+		</field>
+	</bean>
+	
+	<bean class="Attachment">
+    	<field name="name">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">255</element>
+        	</constraint>
+    	</field>
+	</bean>
+ 
+	<bean class="Registration">
+		<field name="grade">
+        	<constraint annotation="javax.validation.constraints.Digits">
+    			<element name="integer">2</element>
+    			<element name="fraction">2</element>
+        	</constraint>
+        	<constraint annotation="javax.validation.constraints.DecimalMax">
+    			<element name="value">10.0</element>
+        	</constraint>
+        	<constraint annotation="javax.validation.constraints.DecimalMin">
+    			<element name="value">0.0</element>
+        	</constraint>
+		</field>
+    	<field name="priority">
+        	<constraint annotation="javax.validation.constraints.DecimalMin">
+    			<element name="value">0.0</element>
+        	</constraint>
+    	</field>
+	</bean>
+
+	<bean class="Group">
+    	<field name="comments">
+        	<constraint annotation="javax.validation.constraints.Size">
+    			<element name="max">4095</element>
+        	</constraint>
+    	</field>
+		<field name="grade">
+        	<constraint annotation="javax.validation.constraints.Digits">
+    			<element name="integer">2</element>
+    			<element name="fraction">2</element>
+        	</constraint>
+        	<constraint annotation="javax.validation.constraints.DecimalMax">
+    			<element name="value">10.0</element>
+        	</constraint>
+        	<constraint annotation="javax.validation.constraints.DecimalMin">
+    			<element name="value">0.0</element>
+        	</constraint>
+		</field>
+	</bean>
+	
+    <bean class="FinancialSource">
+        <field name="name">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+    		<constraint annotation="javax.validation.constraints.Size">
+    			<element name="min">1</element>
+    			<element name="max">255</element>
+    		</constraint>
+        </field>
+        <field name="description">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+    		<constraint annotation="javax.validation.constraints.Size">
+    			<element name="min">1</element>
+    			<element name="max">255</element>
+    		</constraint>
+        </field>
+        <field name="code">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+    		<constraint annotation="javax.validation.constraints.Size">
+    			<element name="min">1</element>
+    			<element name="max">255</element>
+    		</constraint>
+        </field>
+	</bean>
+	
+	<bean class="Payment">
+        <field name="comment">
+    		<constraint annotation="javax.validation.constraints.Size">
+    			<element name="min">1</element>
+    			<element name="max">255</element>
+    		</constraint>
+        </field>
+		<field name="amount">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+        	<constraint annotation="javax.validation.constraints.Digits">
+    			<element name="integer">6</element>
+    			<element name="fraction">2</element>
+        	</constraint>
+        	<constraint annotation="javax.validation.constraints.DecimalMin">
+    			<element name="value">0.0</element>
+        	</constraint>
+		</field>
+		<field name="type">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+		</field>
+		<field name="state">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+		</field>
+		<field name="source">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+		</field>
+		<field name="jobPart">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+		</field>
+	</bean>
+	
+	<bean class="InsuranceContract">
+        <field name="name">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+    		<constraint annotation="javax.validation.constraints.Size">
+    			<element name="min">0</element>
+    			<element name="max">255</element>
+    		</constraint>
+        </field>
+	</bean>
+	
+	<bean class="Job">
+        <field name="supervisingProfessor">
+            <constraint annotation="javax.validation.constraints.NotNull"/>
+        </field>
+	</bean>
+	
+	<bean class="Lesson">
+<!-- 		<field name="name"> -->
+<!-- 			<constraint annotation="javax.validation.Valid" /> -->
+<!-- 		</field> -->
+	</bean>
+	
+	<bean class="Multilingual">
+<!-- 		<field name="literals"> -->
+<!-- 			<constraint annotation="javax.validation.Valid" /> -->
+<!-- 		</field> -->
+	</bean>
+	
+	<bean class="Literal">
+		<field name="text">
+    		<constraint annotation="javax.validation.constraints.Size">
+    			<element name="min">0</element>
+    			<element name="max">511</element>
+    		</constraint>
+		</field>
+	</bean>
+</constraint-mappings>

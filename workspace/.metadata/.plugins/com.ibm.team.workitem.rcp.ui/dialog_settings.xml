@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.ibm.team.jface.workitempicker.WorkItemSelectionDialog">
+		<item value="574" key="width"/>
+		<item value="468" key="height"/>
+		<item value="708" key="x"/>
+		<item value="392" key="y"/>
+		<item value="false" key="stateFilter"/>
+		<item value="true" key="ownerFilter"/>
+	</section>
+</section>

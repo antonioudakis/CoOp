@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><launchConfiguration type="org.eclipse.jdt.junit.launchconfig">
+<booleanAttribute key="com.ibm.debug.breakpoints.java.appendFile" value="false"/>
+<stringAttribute key="com.ibm.debug.breakpoints.java.traceFilename" value="${workspace_loc}\${launch_config_name}_${launch_timestamp}.log"/>
+<booleanAttribute key="com.ibm.debug.breakpoints.java.traceToConsole" value="true"/>
+<booleanAttribute key="com.ibm.debug.breakpoints.java.traceToFile" value="false"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/CoopTests"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.junit.CONTAINER" value="=CoopTests"/>
+<booleanAttribute key="org.eclipse.jdt.junit.KEEPRUNNING_ATTR" value="false"/>
+<stringAttribute key="org.eclipse.jdt.junit.TESTNAME" value=""/>
+<stringAttribute key="org.eclipse.jdt.junit.TEST_KIND" value="org.eclipse.jdt.junit.loader.junit4"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value=""/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="CoopTests"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-javaagent:&quot;C:\Java libs\spring-framework-3.0.5.RELEASE\dist\org.springframework.instrument-3.0.5.RELEASE.jar&quot;"/>
+</launchConfiguration>

@@ -1,0 +1,1 @@
+call sqlgen sql\Postgres\create.sql "C:\Users\Master\IBM\rationalsdp\workspace\CoopDataAccess\bin" PostgreSQLDialect "C:\Users\Master\IBM\rationalsdp\workspace\CoopBusinessImpl\bin"

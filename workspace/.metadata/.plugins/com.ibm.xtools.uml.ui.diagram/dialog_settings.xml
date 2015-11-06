@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="CopyToImageDialog">
+		<item value="false" key="CopyToImageDialog.exportToHTML"/>
+		<item value="svg" key="CopyToImageDialog.imageFormat"/>
+		<item value="C:\Users\Master\Documents\Πρακτική Άσκηση\Design\Domain model" key="CopyToImageDialog.folder"/>
+		<item value="false" key="CopyToImageDialog.overwriteExisting"/>
+	</section>
+</section>

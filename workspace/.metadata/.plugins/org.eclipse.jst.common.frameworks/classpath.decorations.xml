@@ -1,0 +1,7 @@
+<classpath>
+  <container id="CoopUI!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="C:/Users/Master/IBM/rationalsdp/workspace/CoopUI/WebContent/WEB-INF/lib/vaadin-6.8.8.jar">
+      <attribute name="javadoc_location">http://vaadin.com/download/release/6.8/6.8.8/docs/api/</attribute>
+    </entry>
+  </container>
+</classpath>

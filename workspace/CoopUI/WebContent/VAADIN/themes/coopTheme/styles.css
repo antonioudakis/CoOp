@@ -1,0 +1,123 @@
+@import "../reindeer/styles.css";
+
+input.v-textfield-readonly
+{
+	background-color: #E8E8E8;
+}
+
+input.v-textfield:focus
+{
+	background-color: #FFFCE4;
+}
+
+input.v-textfield-readonly:focus
+{
+	background-color: #E8E8E8;
+}
+
+/*
+.v-textfield-error
+{
+	background-color: #FFE0E0;
+}
+*/
+
+.v-table-header
+{
+	text-transform: none;
+}
+
+.v-richtextarea-readonly
+{
+	background-color: #E8E8E8;
+}
+
+.v-richtextarea:focus
+{
+	background-color: #FFFCE4;
+}
+
+.v-richtextarea-readonly:focus
+{
+	background-color: #E8E8E8;
+}
+
+textarea.v-textarea-readonly
+{
+	background-color: #E8E8E8;
+}
+
+textarea.v-textarea:focus
+{
+	background-color: #FFFCE4;
+}
+
+textarea.v-textarea-readonly:focus
+{
+	background-color: #E8E8E8;
+}
+
+input.v-filterselect-input:focus
+{
+	background-color: #FFFCE4;
+}
+
+/*
+.v-filterselect-error .v-filterselect-input
+{
+	background-color: #FFE0E0;
+}
+*/
+
+input.v-filterselect-input-readonly
+{
+	background-color: #E8E8E8;
+}
+
+.v-readonly.v-filterselect, .v-readonly.v-flterselect .v-filterselect-input
+{
+	background-color: #E8E8E8;
+}
+
+div.v-app.v-theme-coopTheme.v-app-CoopApplication
+{
+	background-color: #EAEBEC;
+	background-image: url('/VAADIN/themes/images/medium-gradient.png');
+	background-repeat: repeat-x;
+}
+
+.v-selected .v-link a:link span
+{
+	color: #F0F8FF;
+}
+
+.v-table-focus .v-selected .v-link a:link span
+{
+	color: #F0F8FF;
+}
+
+.logotype
+{
+	font-weight: bolder;
+	font-family: "Palatino Linotype";
+	font-size: x-large;
+	padding-right: 1em;
+}
+
+.v-verticallayout-black
+{
+	background-image: url('/VAADIN/themes/images/glossy-black-3.png');
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-color: #808080;
+}
+
+.black input.v-textfield-readonly
+{
+	background-color: #383838;
+	background-image: url('/VAADIN/themes/images/intense-gradient.png');
+	background-repeat: repeat-x;
+	border-style: inset;
+	border-width: 0.10em;
+	border-color: #606060;
+}

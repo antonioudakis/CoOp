@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="coop">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+ 		<mapping-file>META-INF/orm.xml</mapping-file>
+<!-- 		<exclude-unlisted-classes>true</exclude-unlisted-classes> -->
+
+		<shared-cache-mode>NONE</shared-cache-mode>
+		
+		<properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
+			<property name="hibernate.connection.url" value="jdbc:postgresql://localhost/CoopTestHB" />
+			<property name="hibernate.connection.username" value="postgres" />
+			<property name="hibernate.connection.password" value="euterpi007" />
+			<property name="hibernate.connection.driver_class" value="org.postgresql.Driver" />
+
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.format_sql" value="true" />
+			<property name="hibernate.hbm2ddl.auto" value="create" />
+			<property name="hibernate.globally_quoted_identifiers"
+				value="true" />
+				
+<!-- 			<property name="hibernate.archive.autodetection" value="class"/>  -->
+		</properties>
+
+
+	</persistence-unit>
+
+	<persistence-unit name="coop_eclipselink">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<mapping-file>META-INF/orm.xml</mapping-file>
+		<exclude-unlisted-classes>true</exclude-unlisted-classes>
+		<shared-cache-mode>NONE</shared-cache-mode>
+		<properties>
+			<!-- DDL generation -->
+			<property name="eclipselink.ddl-generation" value="drop-and-create-tables" />
+			<property name="eclipselink.ddl-generation.output-mode"
+				value="database" />
+			<property name="eclipselink.application-location" value="C:\Users\Master\Documents" />
+			<property name="eclipselink.create-ddl-jdbc-file-name"
+				value="createDDL.jdbc" />
+			<property name="eclipselink.drop-ddl-jdbc-file-name" value="dropDDL.jdbc" />
+
+			<!-- Connection specification -->
+			<property name="eclipselink.target-database" value="PostgreSQL" />
+			<property name="eclipselink.jdbc.driver" value="org.postgresql.Driver" />
+			<property name="eclipselink.jdbc.url" value="jdbc:postgresql://localhost/CoopTestEL" />
+			<property name="eclipselink.jdbc.user" value="postgres" />
+			<property name="eclipselink.jdbc.password" value="euterpi007" />
+
+		</properties>
+	</persistence-unit>
+</persistence>

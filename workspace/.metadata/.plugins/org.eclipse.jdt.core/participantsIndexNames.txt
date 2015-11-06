@@ -1,0 +1,5 @@
+INDEX VERSION 1.126
+C:\Users\Master\IBM\rationalsdp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3305020703.index
+\CoopUI
+C:\Users\Master\IBM\rationalsdp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\930178174.index
+\CoopOData

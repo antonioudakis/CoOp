@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="coop">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<mapping-file>META-INF/orm.xml</mapping-file>
+		<exclude-unlisted-classes>true</exclude-unlisted-classes>
+		<shared-cache-mode>NONE</shared-cache-mode>
+		<validation-mode>AUTO</validation-mode>
+
+		<properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
+<!-- 			<property name="hibernate.connection.url" value="jdbc:postgresql://localhost/CoopPlayground2" /> -->
+<!-- 			<property name="hibernate.connection.url" value="jdbc:postgresql://172.16.130.18/chemeng" /> -->
+<!-- 			<property name="hibernate.connection.url" value="jdbc:postgresql://172.16.130.18/metal" /> -->
+<!-- 			<property name="hibernate.connection.url" value="jdbc:postgresql://localhost/chemeng" /> -->
+<!--  			<property name="hibernate.connection.url" value="jdbc:postgresql://172.16.130.18/arch" /> -->
+			<property name="hibernate.connection.url" value="jdbc:postgresql://localhost/metal" />
+			<property name="hibernate.connection.username" value="postgres" />
+			<property name="hibernate.connection.password" value="euterpi007" />
+			<property name="hibernate.connection.driver_class" value="org.postgresql.Driver" />
+
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.format_sql" value="true" />
+			<property name="hibernate.globally_quoted_identifiers" value="true" />
+			
+			<!-- Connection pooling setup with C3PO -->
+<!-- 			<property name="connection.provider_class" value="org.hibernate.connection.C3P0ConnectionProvider"/> -->
+			<property name="hibernate.c3p0.min_size" value="5"/>
+			<property name="hibernate.c3p0.max_size" value="20"/>
+			<property name="hibernate.c3p0.timeout" value="300"/>
+			<property name="hibernate.c3p0.max_statements" value="50"/>
+			<property name="hibernate.c3p0.idle_test_period" value="300"/>
+		</properties>
+	</persistence-unit>
+<!-- 	<persistence-unit name="coop"> -->
+<!-- 		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider> -->
+<!-- 		<mapping-file>META-INF/orm.xml</mapping-file> -->
+<!-- 		<exclude-unlisted-classes>true</exclude-unlisted-classes> -->
+<!-- 		<shared-cache-mode>NONE</shared-cache-mode> -->
+<!-- 		<properties> -->
+<!-- 			<property name="eclipselink.target-database" value="PostgreSQL"/> -->
+<!-- 			<property name="eclipselink.jdbc.driver" value="org.postgresql.Driver"/> -->
+<!-- 			<property name="eclipselink.jdbc.url" value="jdbc:postgresql://localhost/CoopELSchemaDump"/> -->
+<!-- 			<property name="eclipselink.jdbc.user" value="postgres" /> -->
+<!-- 			<property name="eclipselink.jdbc.password" value="euterpi007" /> -->
+<!-- 		</properties> -->
+<!-- 	</persistence-unit> -->
+	<persistence-unit name="coop-dn"> 
+		<provider>org.datanucleus.api.jpa.PersistenceProviderImpl</provider> 
+		<mapping-file>META-INF/orm.xml</mapping-file>
+<!-- 		<exclude-unlisted-classes>true</exclude-unlisted-classes> -->
+		<shared-cache-mode>NONE</shared-cache-mode>
+		<validation-mode>AUTO</validation-mode>
+		<properties> 
+			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost/CoopDataNucleusPlayground"/>
+			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+			<property name="javax.persistence.jdbc.user" value="postgres"/> 
+			<property name="javax.persistence.jdbc.password" value="euterpi007"/> 
+			
+			<property name="datanucleus.storeManagerType" value="rdbms" />
+			<property name="datanucleus.jpa.addClassTransformer" value="true" />
+		</properties> 
+	</persistence-unit> 
+</persistence>

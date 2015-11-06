@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <list-property name="configVars">
+        <structure>
+            <property name="name">__isdisplay___CURRENT_COOP_352_0</property>
+            <property name="value">65587</property>
+        </structure>
+        <structure>
+            <property name="name">__isnull_556_1</property>
+            <property name="value">ROOT_CATEGORY_556</property>
+        </structure>
+        <structure>
+            <property name="name">ROOT_CATEGORY_556_type_</property>
+            <property name="value">integer</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay___CURRENT_DEPARTMENT_591_2</property>
+            <property name="value">5</property>
+        </structure>
+        <structure>
+            <property name="name">_CURRENT_COOP_352_3</property>
+            <property name="value">65587</property>
+        </structure>
+        <structure>
+            <property name="name">_CURRENT_COOP_352_type_</property>
+            <property name="value">integer</property>
+        </structure>
+        <structure>
+            <property name="name">_CURRENT_DEPARTMENT_591_4</property>
+            <property name="value">5</property>
+        </structure>
+        <structure>
+            <property name="name">_CURRENT_DEPARTMENT_591_type_</property>
+            <property name="value">integer</property>
+        </structure>
+        <structure>
+            <property name="name">LIST_ALL_COMPANIES_549_5</property>
+            <property name="value">false</property>
+        </structure>
+        <structure>
+            <property name="name">LIST_ALL_COMPANIES_549_type_</property>
+            <property name="value">boolean</property>
+        </structure>
+    </list-property>
+</report>

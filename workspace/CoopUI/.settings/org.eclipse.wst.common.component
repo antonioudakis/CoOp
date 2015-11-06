@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="CoopUI">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/patchsource"/>
+        <dependent-module archiveName="CoopBusinessImpl.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CoopBusinessImpl/CoopBusinessImpl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ReportFactoryBase.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ReportFactoryBase/ReportFactoryBase">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CoopStudentsStrategies.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CoopStudentsStrategies/CoopStudentsStrategies">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="softeng.ui.vaadin.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/softeng.ui.vaadin/softeng.ui.vaadin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="softeng.caching.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/softeng.caching/softeng.caching">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="EspaReportFactories.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/EspaReportFactories/EspaReportFactories">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ExtraReportFactories.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ExtraReportFactories/ExtraReportFactories">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CoopDataAccess.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CoopDataAccess/CoopDataAccess">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CoopDataValidation.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CoopDataValidation/CoopDataValidation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CoopMailClient.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CoopMailClient/CoopMailClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="softeng.validation.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/softeng.validation/softeng.validation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CoopBusinessExceptions.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CoopBusinessExceptions/CoopBusinessExceptions">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SsoAuthenticationRegistration.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/SsoAuthenticationRegistration/SsoAuthenticationRegistration">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CoopBusiness.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CoopBusiness/CoopBusiness">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CoopFactory.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CoopFactory/CoopFactory">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/CoopUI/build/classes"/>
+        <property name="context-root" value="/"/>
+    </wb-module>
+</project-modules>

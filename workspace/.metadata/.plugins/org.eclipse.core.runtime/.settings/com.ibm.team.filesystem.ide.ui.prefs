@@ -1,0 +1,14 @@
+#Sun May 10 00:11:10 EEST 2015
+previous_ignore_patterns=\#*\n*$\n*.BAK\n*.Z\n*.a\n*.bak\n*.dll\n*.dylib\n*.elc\n*.exe\n*.idx\n*.ln\n*.log\n*.mbx\n*.merge-left*\n*.merge-right*\n*.mine\n*.o\n*.obj\n*.olb\n*.old\n*.orig\n*.prej\n*.rej\n*.so\n*.working\n*~\n,*\n.\#*\n.DS_Store\n.del-*\n.deployables\n.git\n.make.state\n.nse_depinfo\n.svn\nCVS.adm\nRCS\nRCSLOG\nSCCS\n_$*\n_svn\nclasses\nsvn-commit*.tmp\n
+com.ibm.team.filesystem.ui.changes.RenameChangeSetUtil/MruComments/value9=Intermediate version.
+com.ibm.team.filesystem.ui.changes.RenameChangeSetUtil/MruComments/value8=Intermediate (2) phase. Missing borders and column reordering.
+com.ibm.team.filesystem.ui.changes.RenameChangeSetUtil/MruComments/value7=Removed date input.
+com.ibm.team.filesystem.ui.changes.RenameChangeSetUtil/MruComments/value6=1st phase of multi-department support\: Allow multi-department search in Users Management, if the operating user is administrator.
+com.ibm.team.filesystem.ui.changes.RenameChangeSetUtil/MruComments/value5=Phase C\: Fix minor issues with University/Department/Division combobox switching.
+com.ibm.team.filesystem.ui.changes.RenameChangeSetUtil/MruComments/value4=Phase D\: Updated warrant reports to discriminate between the coop's department and the institutional director's department.
+com.ibm.team.filesystem.ui.changes.RenameChangeSetUtil/MruComments/value3=Phase E\: Refresh the University/Department/Divisions combo-boxes when the user switches language.
+com.ibm.team.filesystem.ui.changes.RenameChangeSetUtil/MruComments/value2=Changed ESPA banner.
+com.ibm.team.filesystem.ui.changes.RenameChangeSetUtil/MruComments/value1=Added header to synopsis report
+eclipse.preferences.version=1
+com.ibm.team.filesystem.ui.changes.RenameChangeSetUtil/MruComments/value0=Added a whoami.jsp page to the CoopOData endpoint to show the IP of the client.
+com.ibm.team.internal.filesystem.ui.wizards.TeamPlaceSelectionPage/repository/lastRepository=https\://vm00.softeng.ntua.gr\:9443/ccm/

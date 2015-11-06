@@ -1,0 +1,3 @@
+#Tue Jun 21 16:45:57 EEST 2011
+eclipse.preferences.version=1
+com.ibm.xtools.patterns.repository.provider=com.ibm.xtools.patterns.repository.provider.internal.PatternPluginAssetProvider

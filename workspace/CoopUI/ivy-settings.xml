@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivysettings> 
+    <settings defaultResolver="chain"/> 
+    <resolvers> 
+        <chain name="chain"> 
+			<url name="com.springsource.repository.bundles.release">
+				<ivy pattern="http://repository.springsource.com/ivy/bundles/release/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]" />
+				<artifact pattern="http://repository.springsource.com/ivy/bundles/release/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]" />
+			</url>
+			<url name="com.springsource.repository.bundles.external">
+				<ivy pattern="http://repository.springsource.com/ivy/bundles/external/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]" />
+				<artifact pattern="http://repository.springsource.com/ivy/bundles/external/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]" />
+			</url>
+			<url name="datanucleus-nightly" m2compatible="true">
+				<artifact pattern="http://www.datanucleus.org/downloads/maven2-nightly/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]" />
+			</url>
+			
+            <ibiblio name="central" m2compatible="true"/> 
+            <ibiblio name="vaadin-add-ons" m2compatible="true" 
+            	root="http://maven.vaadin.com/vaadin-addons"/> 
+            <ibiblio name="elcipselink" m2compatible="true"
+            	root="http://download.eclipse.org/rt/eclipselink/maven.repo/" />
+            <ibiblio name="eclipseBirt" m2compatible="true"
+            	root="http://maven.eclipse.org/nexus/content/repositories/testing/" />
+        </chain> 
+    </resolvers> 
+</ivysettings> 

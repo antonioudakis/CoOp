@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ConfigureProjectWizard">
+		<item value="com.ibm.team.filesystem.ui.SharingWizard" key="selectedWizardId"/>
+	</section>
+	<section name="ImportPSFDialog">
+		<item value="D:\scrat\projectSet.psf" key="previous"/>
+		<list key="filenames">
+			<item value="D:\scrat\projectSet.psf"/>
+		</list>
+	</section>
+</section>

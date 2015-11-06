@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CoopBusiness"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CoopBusinessExceptions"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CoopBusinessImpl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CoopDataAccess"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CoopFactory"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/softeng.caching"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MockAuthenticationProvider"/>
+	<classpathentry kind="con" path="org.apache.ivyde.eclipse.cpcontainer.IVYDE_CONTAINER/?project=CoopManagersTest&amp;ivyXmlPath=ivy.xml&amp;confs=*"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MockReportFactory"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

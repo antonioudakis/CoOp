@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <list-property name="configVars">
+        <structure>
+            <property name="name">__isdisplay___CURRENT_COOP_770_0</property>
+            <property name="value">65587</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__SOURCE_844_1</property>
+            <property name="value">65580</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__ACCOUNT_REPRESENTATIVE_845_2</property>
+            <property name="value">τον Υπερεξοχώτατον Εμμανουήλ Λιόσσην</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__PROGRAM_TITLE_846_3</property>
+            <property name="value">Trelele</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__SCIENTIFIC_DIRECTOR_847_4</property>
+            <property name="value">Ιωάννα Βαρβιτσιώτου</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__SCIENTIFIC_DIRECTOR_GENDER_848_5</property>
+            <property name="value">1</property>
+        </structure>
+        <structure>
+            <property name="name">SCIENTIFIC_DIRECTOR_847_6</property>
+            <property name="value">Ιωάννα Βαρβιτσιώτου</property>
+        </structure>
+        <structure>
+            <property name="name">SCIENTIFIC_DIRECTOR_847_type_</property>
+            <property name="value">string</property>
+        </structure>
+        <structure>
+            <property name="name">_CURRENT_COOP_770_7</property>
+            <property name="value">65587</property>
+        </structure>
+        <structure>
+            <property name="name">_CURRENT_COOP_770_type_</property>
+            <property name="value">integer</property>
+        </structure>
+        <structure>
+            <property name="name">SOURCE_844_8</property>
+            <property name="value">65580</property>
+        </structure>
+        <structure>
+            <property name="name">SOURCE_844_type_</property>
+            <property name="value">integer</property>
+        </structure>
+        <structure>
+            <property name="name">PROGRAM_TITLE_846_9</property>
+            <property name="value">Trelele</property>
+        </structure>
+        <structure>
+            <property name="name">PROGRAM_TITLE_846_type_</property>
+            <property name="value">string</property>
+        </structure>
+        <structure>
+            <property name="name">SCIENTIFIC_DIRECTOR_GENDER_848_10</property>
+            <property name="value">1</property>
+        </structure>
+        <structure>
+            <property name="name">SCIENTIFIC_DIRECTOR_GENDER_848_type_</property>
+            <property name="value">integer</property>
+        </structure>
+        <structure>
+            <property name="name">ACCOUNT_REPRESENTATIVE_845_11</property>
+            <property name="value">τον Υπερεξοχώτατον Εμμανουήλ Λιόσσην</property>
+        </structure>
+        <structure>
+            <property name="name">ACCOUNT_REPRESENTATIVE_845_type_</property>
+            <property name="value">string</property>
+        </structure>
+    </list-property>
+</report>

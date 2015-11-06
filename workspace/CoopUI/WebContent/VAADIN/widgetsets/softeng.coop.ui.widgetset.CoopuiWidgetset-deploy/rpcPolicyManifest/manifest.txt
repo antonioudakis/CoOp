@@ -1,0 +1,2 @@
+# Module softeng.coop.ui.widgetset.CoopuiWidgetset
+# RPC service class, partial path of RPC policy file

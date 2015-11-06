@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <list-property name="configVars">
+        <structure>
+            <property name="name">__isdisplay___CURRENT_COOP_352_0</property>
+            <property name="value">65587</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__WARRANT_NUMBER_365_1</property>
+            <property name="value">xx/xxxx</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__SOURCE_844_2</property>
+            <property name="value">65579</property>
+        </structure>
+        <structure>
+            <property name="name">_CURRENT_COOP_352_3</property>
+            <property name="value">65587</property>
+        </structure>
+        <structure>
+            <property name="name">_CURRENT_COOP_352_type_</property>
+            <property name="value">integer</property>
+        </structure>
+        <structure>
+            <property name="name">SOURCE_844_4</property>
+            <property name="value">65579</property>
+        </structure>
+        <structure>
+            <property name="name">SOURCE_844_type_</property>
+            <property name="value">integer</property>
+        </structure>
+        <structure>
+            <property name="name">WARRANT_NUMBER_365_5</property>
+            <property name="value">xx/xxxx</property>
+        </structure>
+        <structure>
+            <property name="name">WARRANT_NUMBER_365_type_</property>
+            <property name="value">string</property>
+        </structure>
+    </list-property>
+</report>

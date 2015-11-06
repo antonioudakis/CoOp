@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings version="2.0" xmlns="http://java.sun.com/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_2_0.xsd">
+	<persistence-unit-metadata>
+		<persistence-unit-defaults>
+ 			<delimited-identifiers />
+			<cascade-persist/>
+			<entity-listeners>
+				<entity-listener 
+					class="softeng.coop.business.contextjpa.EntityAccessControlListener" />
+			</entity-listeners>
+		</persistence-unit-defaults>
+	</persistence-unit-metadata>
+	<package>softeng.coop.dataaccess</package>
+
+	<entity class="ActivitySector"></entity>
+	<entity class="Address"></entity>
+	<entity class="Attachment"></entity>
+	<entity class="softeng.coop.dataaccess.AuthenticatedUser"></entity>
+	<entity class="Branch">
+		<attributes>
+			<id name="id"><generated-value strategy="SEQUENCE" /></id>
+			<one-to-one name="name" fetch="LAZY" optional="false" orphan-removal="true">
+				<cascade><cascade-all /></cascade>
+			</one-to-one>
+			<many-to-many name="persons">
+				<order-by>active DESC, surname ASC</order-by>
+				<cascade><cascade-persist /></cascade>
+			</many-to-many>
+		</attributes>
+	</entity>
+	<entity class="Category">
+		<attributes>
+			<one-to-one name="name" fetch="LAZY" optional="false" orphan-removal="true">
+				<cascade><cascade-all /></cascade>
+			</one-to-one>
+		</attributes>
+	</entity>
+	<entity class="Company">
+		<attributes>
+			<one-to-many name="persons" fetch="LAZY" orphan-removal="true" 
+				mapped-by="company">
+				<order-by>active DESC, surname ASC</order-by>
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+			<one-to-many name="jobPostings" fetch="LAZY" orphan-removal="true" mapped-by="company">
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+			<one-to-many name="branches" mapped-by="company"
+				fetch="LAZY" orphan-removal="true">
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+			<one-to-one name="name" fetch="LAZY" optional="false" orphan-removal="true">
+				<cascade><cascade-all /></cascade>
+			</one-to-one>
+		</attributes>
+	</entity>
+	<entity class="CompanyPerson"></entity>
+	<entity class="CoOp">
+		<attributes>
+			<one-to-many name="requirements" fetch="LAZY" orphan-removal="true"
+				mapped-by="coOp">
+				<cascade><cascade-all/></cascade>
+			</one-to-many>
+			<one-to-many name="reports" fetch="LAZY" orphan-removal="true"
+				mapped-by="coOp">
+				<order-by>dateSubmitted</order-by>
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+			<one-to-many name="insuranceContracts" fetch="LAZY" orphan-removal="true"
+				mapped-by="coop">
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+			<one-to-one name="name" fetch="LAZY" optional="false" orphan-removal="true">
+				<cascade><cascade-all /></cascade>
+			</one-to-one>
+			<many-to-many name="companies" fetch="LAZY">
+				<cascade><cascade-persist /></cascade>
+			</many-to-many>
+		</attributes>
+	</entity>
+	<entity class="Department">
+		<attributes>
+			<one-to-one name="name" fetch="LAZY" optional="false" orphan-removal="true">
+				<cascade><cascade-all /></cascade>
+			</one-to-one>
+		</attributes>
+	</entity>
+	<entity class="Division"></entity>
+	<entity class="EMail"></entity>
+	<entity class="EntityAccess"></entity>
+	<entity class="FacultyUser"></entity>
+	<entity class="FinancialSource"></entity>
+	<entity class="Group">
+<!-- [lazify]		<attributes> --> 
+<!-- 			<one-to-one name="job" fetch="LAZY" optional="true" -->
+<!-- 				mapped-by="group"> -->
+<!-- 			</one-to-one> -->
+<!-- 		</attributes> -->
+		<attributes>
+			<one-to-many name="reports" fetch="LAZY" orphan-removal="true"
+				mapped-by="group">
+				<order-by>dateSubmitted</order-by>
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+		</attributes>
+	</entity>
+	<entity class="InsuranceContract">
+		<attributes>
+			<one-to-many name="attachments" fetch="LAZY" mapped-by="insuranceContract" orphan-removal="true">
+				<order-by>name</order-by>
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+		</attributes>
+	</entity>
+	<entity class="Invitation">
+		<attributes>
+			<one-to-one name="text" fetch="EAGER" optional="false" orphan-removal="true">
+				<cascade><cascade-all /></cascade>
+			</one-to-one>
+		</attributes>
+	</entity>
+	<entity class="Job">
+		<attributes>
+			<one-to-many name="jobParts" fetch="LAZY" orphan-removal="true" mapped-by="job">
+				<order-by>startDate</order-by>
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+<!-- [lazify]			<one-to-one name="job" fetch="LAZY" optional="false"> -->
+<!-- 			</one-to-one> -->
+		</attributes>
+	</entity>
+	<entity class="JobPartSpecialPayable"></entity>
+	<entity class="JobPart">
+		<attributes>
+			<one-to-many name="specialPayables" fetch="LAZY" orphan-removal="true" mapped-by="jobPart">
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+			<one-to-many name="reports" fetch="LAZY" orphan-removal="true"
+				mapped-by="coOp">
+				<order-by>dateSubmitted</order-by>
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+			<one-to-one name="description" fetch="LAZY" optional="false" orphan-removal="true">
+				<cascade><cascade-all /></cascade>
+			</one-to-one>
+		</attributes>
+	</entity>
+	<entity class="JobPosting">
+		<attributes>
+			<one-to-many name="jobPostingParts" fetch="LAZY" orphan-removal="true" mapped-by="jobPosting">
+				<order-by>startDay</order-by>
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+			<one-to-one name="name" fetch="LAZY" optional="false" orphan-removal="true">
+				<cascade><cascade-all /></cascade>
+			</one-to-one>
+			<one-to-one name="description" fetch="LAZY" optional="false" orphan-removal="true">
+				<cascade><cascade-all /></cascade>
+			</one-to-one>
+		</attributes>
+	</entity>
+	<entity class="JobPostingPartSpecialPayable"></entity>
+	<entity class="JobPostingPart">
+		<attributes>
+			<one-to-many name="specialPayables" fetch="LAZY" orphan-removal="true" mapped-by="jobPostingPart">
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+			<one-to-one name="description" fetch="LAZY" optional="false" orphan-removal="true">
+				<cascade><cascade-all /></cascade>
+			</one-to-one>
+		</attributes>
+	</entity>
+	<entity class="Language"></entity>
+	<entity class="Lesson">
+		<attributes>
+			<one-to-one name="name" fetch="LAZY" optional="false" orphan-removal="true">
+				<cascade><cascade-all /></cascade>
+			</one-to-one>
+		</attributes>
+	</entity>
+	<entity class="Literal">
+		<attributes>
+			<many-to-one name="multilingual" fetch="LAZY" />
+		</attributes>
+	</entity>
+	<entity class="Location"></entity>
+	<entity class="Multilingual">
+		<attributes>
+			<one-to-many name="literals" fetch="LAZY" mapped-by="multilingual">
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+		</attributes>
+	</entity>
+	<entity class="Nationality">
+		<attributes>
+			<one-to-one name="name" fetch="LAZY" optional="false" orphan-removal="true">
+				<cascade><cascade-all /></cascade>
+			</one-to-one>
+		</attributes>
+	</entity>
+	<entity class="Payment"></entity>
+	<entity class="Permission"></entity>
+	<entity class="Person">
+		<attributes>
+			<one-to-many name="addresses" mapped-by="person" orphan-removal="true">
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+			<one-to-many name="telephones" mapped-by="person" orphan-removal="true">
+				<order-by>type</order-by>
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+		</attributes>
+	</entity>
+	<entity class="Professor"></entity>
+	<entity class="Registration">
+		<attributes>
+			<one-to-many name="payments" fetch="LAZY" orphan-removal="true"
+				mapped-by="registration">
+				<order-by>paymentDate</order-by>
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+			<one-to-many name="reports" fetch="LAZY" orphan-removal="true"
+				mapped-by="registration">
+				<order-by>dateSubmitted</order-by>
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+			<one-to-many name="sentInvitations" fetch="LAZY" orphan-removal="true"
+				mapped-by="sender">
+				<order-by>date</order-by>
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+			<many-to-many name="receivedInvitations" fetch="LAZY" mapped-by="recepients">
+				<order-by>date</order-by>
+				<cascade><cascade-all /></cascade>
+			</many-to-many>
+		</attributes>
+	</entity>
+	<entity class="Report">
+		<attributes>
+			<one-to-many name="attachments" fetch="LAZY" mapped-by="report" orphan-removal="true">
+				<order-by>name</order-by>
+				<cascade><cascade-all /></cascade>
+			</one-to-many>
+		</attributes>
+	</entity>
+	<entity class="ReportType">
+		<attributes>
+			<one-to-one name="name" fetch="LAZY" optional="false" orphan-removal="true">
+				<cascade><cascade-all /></cascade>
+			</one-to-one>
+			<one-to-one name="comments" fetch="EAGER" optional="false">
+				<cascade><cascade-all /></cascade>
+			</one-to-one>
+		</attributes>
+	</entity>
+	<entity class="Requirement">
+		<attributes>
+			<one-to-one name="name" fetch="LAZY" optional="false" orphan-removal="true">
+				<cascade><cascade-all /></cascade>
+			</one-to-one>
+		</attributes>
+	</entity>
+	<entity class="Role"></entity>
+	<entity class="Student"></entity>
+	<entity class="Telephone"></entity>
+	<entity class="University">
+		<attributes>
+			<one-to-one name="name" fetch="LAZY" optional="false" orphan-removal="true">
+				<cascade><cascade-all /></cascade>
+			</one-to-one>
+		</attributes>
+	</entity>
+	<embeddable class="GeoLocation"></embeddable>
+	<embeddable class="EmbeddableAddress">
+		<attributes>
+			<many-to-one fetch="LAZY" name="location" optional="true">
+			</many-to-one>
+		</attributes>
+	</embeddable>
+	<embeddable class="EmbeddableEMail"></embeddable>
+	<embeddable class="EmbeddableTelephone"></embeddable>
+	<embeddable class="Tracking">
+		<attributes>
+			<many-to-one name="createdBy" fetch="LAZY" optional="true">
+			</many-to-one>
+			<many-to-one name="modifiedBy" fetch="LAZY" optional="true">
+			</many-to-one>
+		</attributes>
+	</embeddable>
+</entity-mappings>

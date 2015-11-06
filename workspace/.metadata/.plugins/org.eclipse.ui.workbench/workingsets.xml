@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1307613496964_1" label="RequirementsAndDesign" name="RequirementsAndDesign"/>
+<workingSet editPageId="com.ibm.ccl.sca.SCAWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936084082_2" label="SCA Projects" name="SCA Projects"/>
+<workingSet editPageId="com.ibm.etools.aries.bundleWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936084212_3" label="OSGi Bundle Projects" name="OSGi Bundle Projects"/>
+<workingSet editPageId="com.ibm.etools.aries.fragmentBundleWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936084292_4" label="OSGi Fragment Bundle Projects" name="OSGi Fragment Bundle Projects"/>
+<workingSet editPageId="com.ibm.etools.aries.applicationWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936084352_5" label="OSGi Application Projects" name="OSGi Application Projects"/>
+<workingSet editPageId="com.ibm.etools.aries.compositeBundleWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936084422_6" label="OSGi Composite Bundle Projects" name="OSGi Composite Bundle Projects"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.EARWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936084482_7" label="EAR Projects" name="EAR Projects"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.AppClientWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936084692_8" label="Application Client Projects" name="Application Client Projects"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.EjbWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936084892_9" label="EJB Projects" name="EJB Projects"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.ConnectorWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936085072_10" label="Connector Projects" name="Connector Projects"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.WebWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936085252_11" label="Dynamic Web Projects" name="Dynamic Web Projects">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopUI" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopOData" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.JPAWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936085462_12" label="JPA Projects" name="JPA Projects"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.UtilWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936085642_13" label="Utility Projects" name="Utility Projects">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopDataAccess" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ExtraReportFactories" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopBusinessImpl" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopFactory" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/softeng.validation" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CO-OP-UseCases" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopBusinessExceptions" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ReportFactoryBase" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EspaReportFactories" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SsoAuthenticationRegistration" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/softeng.caching" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopBusiness" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/softeng.ui.vaadin" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopStudentsStrategies" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopMailClient" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.StaticWebProjects" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936085822_14" label="Static Web Projects" name="Static Web Projects"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.WebFragmentWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936086032_15" label="Web Fragment Projects" name="Web Fragment Projects"/>
+<workingSet editPageId="com.ibm.etools.project.OthersWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936086212_16" label="Uncategorized Projects" name="Uncategorized Projects">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Report example" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.wcg.BatchWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936086342_17" label="Modern Batch Projects" name="Modern Batch Projects"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1312450002898_19" label="Implementation" name="Implementation">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopDataAccess" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ExtraReportFactories" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopBusinessImpl" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopFactory" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopOData" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/softeng.validation" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopDataValidation" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopBusinessExceptions" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopUI" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EspaReportFactories" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ReportFactoryBase" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Servers" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/softeng.caching" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SsoAuthenticationRegistration" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopBusiness" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopStudentsStrategies" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/softeng.ui.vaadin" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Libraries" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopMailClient" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1335789037700_21" label="Java line count" name="Java line count"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1445947668453_25" label="Tests" name="Tests">
+<item elementID="=MockReportFactory" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=CoopManagersTest" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=MockAuthenticationProvider" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=CoopRegistrationTests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1303897802139_0" label="Window Working Set" name="Aggregate for window 1303897802139"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936086662_18" label="Multiple Working Sets" name="Aggregate:SCA Projects:OSGi Bundle Projects:OSGi Fragment Bundle Projects:OSGi Application Projects:OSGi Composite Bundle Projects:EAR Projects:Application Client Projects:EJB Projects:Connector Projects:Dynamic Web Projects:JPA Projects:Utility Projects:Static Web Projects:Web Fragment Projects:Uncategorized Projects:Modern Batch Projects:">
+<workingSet IMemento.internal.id="SCA Projects"/>
+<workingSet IMemento.internal.id="OSGi Bundle Projects"/>
+<workingSet IMemento.internal.id="OSGi Fragment Bundle Projects"/>
+<workingSet IMemento.internal.id="OSGi Application Projects"/>
+<workingSet IMemento.internal.id="OSGi Composite Bundle Projects"/>
+<workingSet IMemento.internal.id="EAR Projects"/>
+<workingSet IMemento.internal.id="Application Client Projects"/>
+<workingSet IMemento.internal.id="EJB Projects"/>
+<workingSet IMemento.internal.id="Connector Projects"/>
+<workingSet IMemento.internal.id="Dynamic Web Projects"/>
+<workingSet IMemento.internal.id="JPA Projects"/>
+<workingSet IMemento.internal.id="Utility Projects"/>
+<workingSet IMemento.internal.id="Static Web Projects"/>
+<workingSet IMemento.internal.id="Web Fragment Projects"/>
+<workingSet IMemento.internal.id="Uncategorized Projects"/>
+<workingSet IMemento.internal.id="Modern Batch Projects"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1313058906587_20" label="Multiple Working Sets" name="Aggregate:SCA Projects:OSGi Bundle Projects:OSGi Fragment Bundle Projects:OSGi Application Projects:OSGi Composite Bundle Projects:EAR Projects:Application Client Projects:EJB Projects:Connector Projects:Dynamic Web Projects:JPA Projects:Utility Projects:Static Web Projects:Web Fragment Projects:Uncategorized Projects:Modern Batch Projects:Implementation:RequirementsAndDesign:">
+<workingSet IMemento.internal.id="SCA Projects"/>
+<workingSet IMemento.internal.id="OSGi Bundle Projects"/>
+<workingSet IMemento.internal.id="OSGi Fragment Bundle Projects"/>
+<workingSet IMemento.internal.id="OSGi Application Projects"/>
+<workingSet IMemento.internal.id="OSGi Composite Bundle Projects"/>
+<workingSet IMemento.internal.id="EAR Projects"/>
+<workingSet IMemento.internal.id="Application Client Projects"/>
+<workingSet IMemento.internal.id="EJB Projects"/>
+<workingSet IMemento.internal.id="Connector Projects"/>
+<workingSet IMemento.internal.id="Dynamic Web Projects"/>
+<workingSet IMemento.internal.id="JPA Projects"/>
+<workingSet IMemento.internal.id="Utility Projects"/>
+<workingSet IMemento.internal.id="Static Web Projects"/>
+<workingSet IMemento.internal.id="Web Fragment Projects"/>
+<workingSet IMemento.internal.id="Uncategorized Projects"/>
+<workingSet IMemento.internal.id="Modern Batch Projects"/>
+<workingSet IMemento.internal.id="Implementation"/>
+<workingSet IMemento.internal.id="RequirementsAndDesign"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1445625274535_22" label="Multiple Working Sets" name="Aggregate:Application Client Projects:Connector Projects:Dynamic Web Projects:EAR Projects:EJB Projects:Implementation:JPA Projects:Modern Batch Projects:OSGi Application Projects:OSGi Bundle Projects:OSGi Composite Bundle Projects:OSGi Fragment Bundle Projects:RequirementsAndDesign:SCA Projects:Static Web Projects:Uncategorized Projects:Utility Projects:Web Fragment Projects:">
+<workingSet IMemento.internal.id="Application Client Projects"/>
+<workingSet IMemento.internal.id="Connector Projects"/>
+<workingSet IMemento.internal.id="Dynamic Web Projects"/>
+<workingSet IMemento.internal.id="EAR Projects"/>
+<workingSet IMemento.internal.id="EJB Projects"/>
+<workingSet IMemento.internal.id="Implementation"/>
+<workingSet IMemento.internal.id="JPA Projects"/>
+<workingSet IMemento.internal.id="Modern Batch Projects"/>
+<workingSet IMemento.internal.id="OSGi Application Projects"/>
+<workingSet IMemento.internal.id="OSGi Bundle Projects"/>
+<workingSet IMemento.internal.id="OSGi Composite Bundle Projects"/>
+<workingSet IMemento.internal.id="OSGi Fragment Bundle Projects"/>
+<workingSet IMemento.internal.id="RequirementsAndDesign"/>
+<workingSet IMemento.internal.id="SCA Projects"/>
+<workingSet IMemento.internal.id="Static Web Projects"/>
+<workingSet IMemento.internal.id="Uncategorized Projects"/>
+<workingSet IMemento.internal.id="Utility Projects"/>
+<workingSet IMemento.internal.id="Web Fragment Projects"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1445625310695_23" label="Multiple Working Sets" name="Aggregate:Application Client Projects:Connector Projects:Dynamic Web Projects:EAR Projects:EJB Projects:Implementation:Java line count:JPA Projects:Modern Batch Projects:OSGi Application Projects:OSGi Bundle Projects:OSGi Composite Bundle Projects:OSGi Fragment Bundle Projects:RequirementsAndDesign:SCA Projects:Static Web Projects:Uncategorized Projects:Utility Projects:Web Fragment Projects:">
+<workingSet IMemento.internal.id="Application Client Projects"/>
+<workingSet IMemento.internal.id="Connector Projects"/>
+<workingSet IMemento.internal.id="Dynamic Web Projects"/>
+<workingSet IMemento.internal.id="EAR Projects"/>
+<workingSet IMemento.internal.id="EJB Projects"/>
+<workingSet IMemento.internal.id="Implementation"/>
+<workingSet IMemento.internal.id="Java line count"/>
+<workingSet IMemento.internal.id="JPA Projects"/>
+<workingSet IMemento.internal.id="Modern Batch Projects"/>
+<workingSet IMemento.internal.id="OSGi Application Projects"/>
+<workingSet IMemento.internal.id="OSGi Bundle Projects"/>
+<workingSet IMemento.internal.id="OSGi Composite Bundle Projects"/>
+<workingSet IMemento.internal.id="OSGi Fragment Bundle Projects"/>
+<workingSet IMemento.internal.id="RequirementsAndDesign"/>
+<workingSet IMemento.internal.id="SCA Projects"/>
+<workingSet IMemento.internal.id="Static Web Projects"/>
+<workingSet IMemento.internal.id="Uncategorized Projects"/>
+<workingSet IMemento.internal.id="Utility Projects"/>
+<workingSet IMemento.internal.id="Web Fragment Projects"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1445948576790_26" label="Multiple Working Sets" name="Aggregate:Application Client Projects:Connector Projects:Dynamic Web Projects:EAR Projects:EJB Projects:Implementation:Java line count:JPA Projects:Modern Batch Projects:OSGi Application Projects:OSGi Bundle Projects:OSGi Composite Bundle Projects:OSGi Fragment Bundle Projects:RequirementsAndDesign:SCA Projects:Static Web Projects:Tests:Uncategorized Projects:Utility Projects:Web Fragment Projects:">
+<workingSet IMemento.internal.id="Application Client Projects"/>
+<workingSet IMemento.internal.id="Connector Projects"/>
+<workingSet IMemento.internal.id="Dynamic Web Projects"/>
+<workingSet IMemento.internal.id="EAR Projects"/>
+<workingSet IMemento.internal.id="EJB Projects"/>
+<workingSet IMemento.internal.id="Implementation"/>
+<workingSet IMemento.internal.id="Java line count"/>
+<workingSet IMemento.internal.id="JPA Projects"/>
+<workingSet IMemento.internal.id="Modern Batch Projects"/>
+<workingSet IMemento.internal.id="OSGi Application Projects"/>
+<workingSet IMemento.internal.id="OSGi Bundle Projects"/>
+<workingSet IMemento.internal.id="OSGi Composite Bundle Projects"/>
+<workingSet IMemento.internal.id="OSGi Fragment Bundle Projects"/>
+<workingSet IMemento.internal.id="RequirementsAndDesign"/>
+<workingSet IMemento.internal.id="SCA Projects"/>
+<workingSet IMemento.internal.id="Static Web Projects"/>
+<workingSet IMemento.internal.id="Tests"/>
+<workingSet IMemento.internal.id="Uncategorized Projects"/>
+<workingSet IMemento.internal.id="Utility Projects"/>
+<workingSet IMemento.internal.id="Web Fragment Projects"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1445948745195_27" label="Multiple Working Sets" name="Aggregate:Application Client Projects:Connector Projects:Dynamic Web Projects:EAR Projects:EJB Projects:Implementation:JPA Projects:Modern Batch Projects:OSGi Application Projects:OSGi Bundle Projects:OSGi Composite Bundle Projects:OSGi Fragment Bundle Projects:SCA Projects:Static Web Projects:Uncategorized Projects:Utility Projects:Web Fragment Projects:">
+<workingSet IMemento.internal.id="Application Client Projects"/>
+<workingSet IMemento.internal.id="Connector Projects"/>
+<workingSet IMemento.internal.id="Dynamic Web Projects"/>
+<workingSet IMemento.internal.id="EAR Projects"/>
+<workingSet IMemento.internal.id="EJB Projects"/>
+<workingSet IMemento.internal.id="Implementation"/>
+<workingSet IMemento.internal.id="JPA Projects"/>
+<workingSet IMemento.internal.id="Modern Batch Projects"/>
+<workingSet IMemento.internal.id="OSGi Application Projects"/>
+<workingSet IMemento.internal.id="OSGi Bundle Projects"/>
+<workingSet IMemento.internal.id="OSGi Composite Bundle Projects"/>
+<workingSet IMemento.internal.id="OSGi Fragment Bundle Projects"/>
+<workingSet IMemento.internal.id="SCA Projects"/>
+<workingSet IMemento.internal.id="Static Web Projects"/>
+<workingSet IMemento.internal.id="Uncategorized Projects"/>
+<workingSet IMemento.internal.id="Utility Projects"/>
+<workingSet IMemento.internal.id="Web Fragment Projects"/>
+</workingSet>
+<mruList name="Implementation"/>
+</workingSetManager>

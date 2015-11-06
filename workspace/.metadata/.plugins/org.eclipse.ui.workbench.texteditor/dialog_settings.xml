@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="281" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="throwIfWeaving" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="true" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="throwIfWeaving"/>
+			<item value="createQuery"/>
+			<item value="PersisterSpringImpl"/>
+			<item value="session.getCurrentUser()"/>
+			<item value="spring"/>
+			<item value="// Liossis: Preliminary embeddedable support: Add context parameter."/>
+			<item value="Liossis"/>
+			<item value="embed"/>
+		</list>
+		<list key="replacehistory">
+			<item value="session.getAuthenticatedUser()"/>
+			<item value=""/>
+			<item value="&quot;id&quot;"/>
+			<item value="&quot;comments&quot;"/>
+			<item value="studentJoin"/>
+			<item value="DIVISION_CAPTION"/>
+			<item value="&quot;PERSON_DATE_OF_BIRTH_CAPTION&quot;"/>
+			<item value="&quot;PERSON_SURNAME_CAPTION&quot;"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="257" key="DIALOG_WIDTH"/>
+		<item value="380" key="DIALOG_HEIGHT"/>
+		<item value="403" key="DIALOG_Y_ORIGIN"/>
+		<item value="1191" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>

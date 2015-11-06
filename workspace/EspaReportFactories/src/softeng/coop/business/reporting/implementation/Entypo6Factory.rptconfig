@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <list-property name="configVars">
+        <structure>
+            <property name="name">__isdisplay___CURRENT_COOP_793_0</property>
+            <property name="value">65597</property>
+        </structure>
+        <structure>
+            <property name="name">__isnull_834_1</property>
+            <property name="value">ATTACHED_DOCUMENTS_834</property>
+        </structure>
+        <structure>
+            <property name="name">ATTACHED_DOCUMENTS_834_type_</property>
+            <property name="value">string</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__PROGRAM_CODE_835_2</property>
+            <property name="value">68/10</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__SOURCE_1112_3</property>
+            <property name="value">65579</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__RESEARCH_PROGRAM_TITLE_1113_4</property>
+            <property name="value">Tralala Tralala Tralala Tralala Tralala Tralala Tralala Tralala Tralala Tralala Tralala </property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__PAYMENT_TYPE_1114_5</property>
+            <property name="value">3</property>
+        </structure>
+        <structure>
+            <property name="name">_CURRENT_COOP_793_6</property>
+            <property name="value">65597</property>
+        </structure>
+        <structure>
+            <property name="name">_CURRENT_COOP_793_type_</property>
+            <property name="value">integer</property>
+        </structure>
+        <structure>
+            <property name="name">PAYMENT_TYPE_1114_7</property>
+            <property name="value">3</property>
+        </structure>
+        <structure>
+            <property name="name">PAYMENT_TYPE_1114_type_</property>
+            <property name="value">integer</property>
+        </structure>
+        <structure>
+            <property name="name">PROGRAM_CODE_835_8</property>
+            <property name="value">68/10</property>
+        </structure>
+        <structure>
+            <property name="name">PROGRAM_CODE_835_type_</property>
+            <property name="value">string</property>
+        </structure>
+        <structure>
+            <property name="name">RESEARCH_PROGRAM_TITLE_1113_9</property>
+            <property name="value">Tralala Tralala Tralala Tralala Tralala Tralala Tralala Tralala Tralala Tralala Tralala </property>
+        </structure>
+        <structure>
+            <property name="name">RESEARCH_PROGRAM_TITLE_1113_type_</property>
+            <property name="value">string</property>
+        </structure>
+        <structure>
+            <property name="name">SOURCE_1112_10</property>
+            <property name="value">65579</property>
+        </structure>
+        <structure>
+            <property name="name">SOURCE_1112_type_</property>
+            <property name="value">integer</property>
+        </structure>
+    </list-property>
+</report>

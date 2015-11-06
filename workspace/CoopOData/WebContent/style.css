@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+body
+{
+	background-color: #EAEBEC;
+	background-image: url('images/gray-bg.png');
+	background-repeat: repeat-x;
+	font-family: Tahoma, sans-serif;
+}

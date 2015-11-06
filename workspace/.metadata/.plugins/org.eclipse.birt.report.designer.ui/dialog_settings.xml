@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="Shell {Edit Text Item}/Shell {Modeling - Report example/DiyEntosElladosFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/CompaniesCorrespondenceFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Select Data Binding}/Shell {Report Design - Report example/IbanListFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="971" key="DIALOG_WIDTH"/>
+		<item value="422" key="DIALOG_HEIGHT"/>
+		<item value="307" key="DIALOG_Y_ORIGIN"/>
+		<item value="483" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Modeling - Report example/DiyEktosElladosFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Modeling - Report example/Entypo6Factory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - InfoTotal}/Shell {Report Design - Report example/DiyEntosElladosFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1936" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1176" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Source - CoopPlayGround}/Shell {Report Design - Report example/Entypo8Factory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/SimbasiEEPPFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1130" key="DIALOG_WIDTH"/>
+		<item value="923" key="DIALOG_HEIGHT"/>
+		<item value="245" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - Registered Students Data Set}/Shell {Report Design - Report example/IKATemplateFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1936" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1176" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Source - Data Source}/Shell {Report Design - Report example/CoopCompaniesFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/Entypo8Factory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Source - CoopPlayGround}/Shell {Report Design - Report example/Entypo6Factory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/SimbasiELEFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1283" key="DIALOG_WIDTH"/>
+		<item value="1056" key="DIALOG_HEIGHT"/>
+		<item value="91" key="DIALOG_Y_ORIGIN"/>
+		<item value="144" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Modeling - Report example/SimbasiEEPPFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1285" key="DIALOG_WIDTH"/>
+		<item value="789" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="389" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/Entypo6Factory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="553" key="DIALOG_Y_ORIGIN"/>
+		<item value="602" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Classic Modeling - Report example/SimbasiELEFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1379" key="DIALOG_WIDTH"/>
+		<item value="945" key="DIALOG_HEIGHT"/>
+		<item value="113" key="DIALOG_Y_ORIGIN"/>
+		<item value="397" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Source - Coop Data Source}/Shell {Report Design - ExtraReports/IKATemplate.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - Assigned Registrations}/Shell {Report Design - Report example/SynopsisFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1920" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1160" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/CoopCompaniesFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Java EE - ExtraReportFactories/src/softeng/coop/business/reporting/implementation/CompaniesCorrespondenceFactory.1.7.rptdesign - Eclipse}">
+		<item value="662" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="637" key="DIALOG_X_ORIGIN"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Modeling - Report example/Entypo8Factory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Classic Modeling - Report example/Entypo6Factory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Select Data Binding}/Shell {Report Design - Report example/CoopCompaniesFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="971" key="DIALOG_WIDTH"/>
+		<item value="422" key="DIALOG_HEIGHT"/>
+		<item value="307" key="DIALOG_Y_ORIGIN"/>
+		<item value="483" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - InfoTotal}/Shell {Report Design - Report example/DiyOdoiporikaFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1920" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1160" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Source - CoopPlayGround}/Shell {Report Design - Report example/Entypo6FactorySimplified.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/KatastasiApozimioseonFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Source - CoopPlayGround}/Shell {Report Design - Report example/SimbasiEEPPFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="232" key="DIALOG_Y_ORIGIN"/>
+		<item value="493" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Source - Sample}/Shell {Report Design - Report example/Customers.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - StudentPayments}/Shell {Report Design - Report example/DiyEktosElladosFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1920" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1160" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - FinancialResources}/Shell {Report Design - Report example/Entypo6Factory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1920" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1160" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Classic Modeling - Report example/KatastasiApozimioseonFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Select Data Binding}/Shell {Report Design - Report example/KatastasiApozimioseonFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="971" key="DIALOG_WIDTH"/>
+		<item value="422" key="DIALOG_HEIGHT"/>
+		<item value="307" key="DIALOG_Y_ORIGIN"/>
+		<item value="483" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - FinancialResources}/Shell {Report Design - Report example/Entypo6FactorySimplified.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1497" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="921" key="DIALOG_HEIGHT"/>
+		<item value="125" key="DIALOG_Y_ORIGIN"/>
+		<item value="143" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - Registrations Data Set}/Shell {Report Design - Report example/SynopsisFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1920" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1160" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - Registrations Data Set}/Shell {Modeling - Report example/SynopsisFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1586" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="784" key="DIALOG_HEIGHT"/>
+		<item value="146" key="DIALOG_Y_ORIGIN"/>
+		<item value="235" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - Active Registrations}/Shell {Report Design - Report example/ListaFoititonELEFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1920" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1160" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Data Binding}/Shell {Report Design - Report example/CoopCompaniesFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1168" key="DIALOG_WIDTH"/>
+		<item value="699" key="DIALOG_HEIGHT"/>
+		<item value="122" key="DIALOG_Y_ORIGIN"/>
+		<item value="384" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - Grades Data Set}/Shell {Report Design - Report example/GradesListFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1920" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1160" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Java EE - ExtraReportFactories/src/softeng/coop/business/reporting/implementation/CompaniesCorrespondenceFactory.rptdesign - Eclipse}">
+		<item value="662" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="637" key="DIALOG_X_ORIGIN"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - ExtraReports/IKATemplate.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="877" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="530" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Classic Modeling - Report example/ListaFoititonELEFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Source - CoopPlayGround}/Shell {Report Design - Report example/ListaFoititonELEFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - StudentPayments}/Shell {Report Design - Report example/DiyEntosElladosFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1355" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="848" key="DIALOG_HEIGHT"/>
+		<item value="77" key="DIALOG_Y_ORIGIN"/>
+		<item value="283" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Select Data Binding}/Shell {Report Design - Report example/DiyEktosElladosFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="971" key="DIALOG_WIDTH"/>
+		<item value="422" key="DIALOG_HEIGHT"/>
+		<item value="307" key="DIALOG_Y_ORIGIN"/>
+		<item value="483" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - Customers}/Shell {Report Design - Report example/Customers.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1137" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="708" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="231" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - CoopInfoDataSet}/Shell {Report Design - Report example/CoopCompaniesFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - FinancialResources}/Shell {Report Design - Report example/ListaFoititonELEFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - FinancialResources}/Shell {Report Design - Report example/BebaiosiIKAFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1920" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1160" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - Assigned Registrations}/Shell {Report Design - Report example/BebaiosiIKAFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1920" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1160" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Classic Modeling - Report example/SimbasiEEPPFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1300" key="DIALOG_WIDTH"/>
+		<item value="883" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/DiyEktosElladosFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Source - CoopPlayGround}/Shell {Report Design - Report example/SimbasiELEFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - CoopCompaniesDataSet}/Shell {Report Design - Report example/CompaniesFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1920" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1160" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Source - CoopPlayGround}/Shell {Report Design - Report example/DiyEntosElladosFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - ExtraReportFactories/src/softeng/coop/business/reporting/implementation/IKATemplateFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="877" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="530" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - CoopCompaniesDataSet}/Shell {Report Design - Report example/CoopCompaniesFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1920" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1160" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Data Binding}/Shell {Report Design - Report example/SimbasiEEPPFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1168" key="DIALOG_WIDTH"/>
+		<item value="718" key="DIALOG_HEIGHT"/>
+		<item value="110" key="DIALOG_Y_ORIGIN"/>
+		<item value="384" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Modeling - Report example/SimbasiELEFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1256" key="DIALOG_WIDTH"/>
+		<item value="877" key="DIALOG_HEIGHT"/>
+		<item value="180" key="DIALOG_Y_ORIGIN"/>
+		<item value="410" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/BebaiosiIKAFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="285" key="DIALOG_Y_ORIGIN"/>
+		<item value="538" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Select Data Binding}/Shell {Classic Modeling - ExtraReportFactories/src/softeng/coop/business/reporting/implementation/IKATemplateFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="971" key="DIALOG_WIDTH"/>
+		<item value="422" key="DIALOG_HEIGHT"/>
+		<item value="307" key="DIALOG_Y_ORIGIN"/>
+		<item value="483" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Binding}/Shell {Expression Builder (JavaScript)}/Shell {Edit Text Item}/Shell {Report Design - Report example/SimbasiEEPPFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="966" key="DIALOG_WIDTH"/>
+		<item value="336" key="DIALOG_HEIGHT"/>
+		<item value="89" key="DIALOG_Y_ORIGIN"/>
+		<item value="-102" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/DiyOdoiporikaFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1388" key="DIALOG_WIDTH"/>
+		<item value="759" key="DIALOG_HEIGHT"/>
+		<item value="267" key="DIALOG_Y_ORIGIN"/>
+		<item value="193" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - Grades Data Set}/Shell {Modeling - Report example/GradesListFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1936" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1176" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Classic Modeling - Report example/CompaniesCorrespondenceFactory.1.7.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Binding}/Shell {Expression Builder (JavaScript)}/Shell {New Data Binding}/Shell {Report Design - Report example/SynopsisFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="966" key="DIALOG_WIDTH"/>
+		<item value="336" key="DIALOG_HEIGHT"/>
+		<item value="438" key="DIALOG_Y_ORIGIN"/>
+		<item value="-9" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/Customers.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="877" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="530" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/DiyEntosElladosFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1276" key="DIALOG_WIDTH"/>
+		<item value="917" key="DIALOG_HEIGHT"/>
+		<item value="97" key="DIALOG_Y_ORIGIN"/>
+		<item value="332" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Select Data Binding}/Shell {Report Design - Report example/SynopsisFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="971" key="DIALOG_WIDTH"/>
+		<item value="422" key="DIALOG_HEIGHT"/>
+		<item value="307" key="DIALOG_Y_ORIGIN"/>
+		<item value="483" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - Assigned Registrations}/Shell {Report Design - Report example/IbanListFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1920" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1160" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - CoopCompaniesDataSet}/Shell {Report Design - Report example/CompaniesCorrespondenceFactory.1.7.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1920" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1160" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Classic Modeling - Report example/BebaiosiIKAFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/KatastasiOdoiporikonFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Classic Modeling - Report example/SynopsisFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - FinancialResources}/Shell {Report Design - Report example/KatastasiApozimioseonFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1636" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="806" key="DIALOG_HEIGHT"/>
+		<item value="108" key="DIALOG_Y_ORIGIN"/>
+		<item value="135" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - Aggregations}/Shell {Report Design - Report example/DiyEntosElladosFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1409" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="188" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Classic Modeling - ExtraReportFactories/src/softeng/coop/business/reporting/implementation/IKATemplateFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="877" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="530" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - FinancialResources}/Shell {Report Design - Report example/SimbasiEEPPFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1847" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="931" key="DIALOG_HEIGHT"/>
+		<item value="127" key="DIALOG_Y_ORIGIN"/>
+		<item value="46" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - DepartmentDataSet}/Shell {Report Design - Report example/CoopCompaniesFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1920" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1160" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Select Data Binding}/Shell {Edit Image Item}/Shell {Report Design - Report example/Entypo6Factory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="971" key="DIALOG_WIDTH"/>
+		<item value="422" key="DIALOG_HEIGHT"/>
+		<item value="283" key="DIALOG_Y_ORIGIN"/>
+		<item value="-383" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/CompaniesCorrespondenceFactory.1.7.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1280" key="DIALOG_WIDTH"/>
+		<item value="806" key="DIALOG_HEIGHT"/>
+		<item value="107" key="DIALOG_Y_ORIGIN"/>
+		<item value="233" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/ListaFoititonELEFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Source - CoopPlayGround}/Shell {Report Design - Report example/KatastasiApozimioseonFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - Registered Students Data Set}/Shell {Report Design - ExtraReports/IKATemplate.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1511" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="691" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="325" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Source - CoopPlayGround}/Shell {Report Design - Report example/BebaiosiIKAFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/Entypo6FactorySimplified.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - Coop Info}/Shell {Report Design - Report example/ListaFoititonELEFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - FinancialResources}/Shell {Report Design - Report example/DiyEntosElladosFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/SynopsisFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Source - CoopPlayGround}/Shell {Report Design - Report example/IbanListFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Source - CoopPlayGround}/Shell {Modeling - Report example/SynopsisFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - Registered Students Data Set}/Shell {Report Design - ExtraReportFactories/src/softeng/coop/business/reporting/implementation/IKATemplateFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - Assigned Registrations}/Shell {Modeling - Report example/IbanListFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1936" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1176" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Source - CoopPlayGround}/Shell {Report Design - Report example/SynopsisFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Source - Data Source}/Shell {Modeling - Report example/GradesListFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - FinancialResources}/Shell {Report Design - Report example/SimbasiELEFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1920" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1160" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Binding}/Shell {Expression Builder (JavaScript)}/Shell {Edit Text Item}/Shell {Report Design - Report example/CompaniesCorrespondenceFactory.1.7.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="966" key="DIALOG_WIDTH"/>
+		<item value="336" key="DIALOG_HEIGHT"/>
+		<item value="89" key="DIALOG_Y_ORIGIN"/>
+		<item value="-102" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - FinancialResources}/Shell {Report Design - Report example/KatastasiOdoiporikonFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1583" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="708" key="DIALOG_HEIGHT"/>
+		<item value="48" key="DIALOG_Y_ORIGIN"/>
+		<item value="31" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - FinancialResources}/Shell {Report Design - Report example/Entypo8Factory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1440" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="860" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Classic Modeling - Report example/KatastasiOdoiporikonFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Text Item}/Shell {Report Design - Report example/GradesListFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="751" key="DIALOG_WIDTH"/>
+		<item value="511" key="DIALOG_HEIGHT"/>
+		<item value="248" key="DIALOG_Y_ORIGIN"/>
+		<item value="593" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - InfoTotal}/Shell {Report Design - Report example/DiyEktosElladosFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1920" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1160" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - StudentPayments}/Shell {Report Design - Report example/DiyOdoiporikaFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1936" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="1176" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="Shell {Edit Data Set - Coop Info Data Set}/Shell {Report Design - Report example/SynopsisFactory.rptdesign - Rational® Software Architect}">
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+		<item value="568" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>

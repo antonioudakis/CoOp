@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><launchConfiguration type="com.ibm.etools.ajax.server.launchConfigurationType">
+<listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry externalArchive=&quot;C:/Program Files (x86)/IBM/SDP/configuration/org.eclipse.osgi/bundles/605/1/.cp/jax-rs/commons-codec.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry externalArchive=&quot;C:/Program Files (x86)/IBM/SDP/configuration/org.eclipse.osgi/bundles/605/1/.cp/jax-rs/commons-lang.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry externalArchive=&quot;C:/Program Files (x86)/IBM/SDP/configuration/org.eclipse.osgi/bundles/605/1/.cp/jax-rs/httpclient.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry externalArchive=&quot;C:/Program Files (x86)/IBM/SDP/configuration/org.eclipse.osgi/bundles/605/1/.cp/jax-rs/httpcore.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry externalArchive=&quot;C:/Program Files (x86)/IBM/SDP/configuration/org.eclipse.osgi/bundles/605/1/.cp/jax-rs/ibm-wink-jaxrs.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry externalArchive=&quot;C:/Program Files (x86)/IBM/SDP/configuration/org.eclipse.osgi/bundles/605/1/.cp/jax-rs/jcl-over-slf4j.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry externalArchive=&quot;C:/Program Files (x86)/IBM/SDP/configuration/org.eclipse.osgi/bundles/605/1/.cp/jax-rs/JSON4J.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry externalArchive=&quot;C:/Program Files (x86)/IBM/SDP/configuration/org.eclipse.osgi/bundles/605/1/.cp/jax-rs/jsr311-api.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry externalArchive=&quot;C:/Program Files (x86)/IBM/SDP/configuration/org.eclipse.osgi/bundles/605/1/.cp/jax-rs/slf4j-api.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry externalArchive=&quot;C:/Program Files (x86)/IBM/SDP/configuration/org.eclipse.osgi/bundles/605/1/.cp/jax-rs/slf4j-jdk14.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
+<stringAttribute key="server-id" value="AJAX Test Server"/>
+</launchConfiguration>

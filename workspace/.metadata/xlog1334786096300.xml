@@ -1,0 +1,122 @@
+<session>
+   <date>
+      Thu Apr 19 00:54:56 EEST 2012
+   </date>
+   <entry>
+      <date>
+         Thu Apr 19 00:54:56 EEST 2012
+      </date>
+      <status>
+         <plugin>
+            com.ibm.xtools.comparemerge.emf
+         </plugin>
+         <severity>
+            4
+         </severity>
+         <code>
+            0
+         </code>
+         <message>
+            An EMF error occurred while merging resources: java.util.NoSuchElementException
+See error log for details
+         </message>
+         <exception>
+            <message>
+               null
+            </message>
+            <stack>
+               java.util.NoSuchElementException
+	at java.util.AbstractList$SimpleListIterator.next(Unknown Source)
+	at java.util.Collections$UnmodifiableCollection$1.next(Unknown Source)
+	at com.ibm.xtools.comparemerge.diagram.notation.strategy.MultiDragCompositeStrategy.generateComposites(Unknown Source)
+	at com.ibm.xtools.modeler.compare.internal.notation.strategy.MultiDragCompositeStrategy.generateComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.AbstractHierarchicalCompositeStrategy.generateComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.HierarchicalCompositeStrategyBuilderImpl.postCreateHierarchicalComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.HierarchicalCompositeStrategyBuilderImpl.createHierarchicalComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.HierarchicalCompositeStrategyBuilderImpl.postCreateHierarchicalComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.HierarchicalCompositeStrategyBuilderImpl.createHierarchicalComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.HierarchicalCompositeStrategyBuilderImpl$1.createComposite(Unknown Source)
+	at com.ibm.xtools.comparemerge.diagram.notation.strategy.DiagramCompositeStrategy.generateComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.AbstractHierarchicalCompositeStrategy.generateComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.HierarchicalCompositeStrategyBuilderImpl.preCreateHierarchicalComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.HierarchicalCompositeStrategyBuilderImpl.createHierarchicalComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.HierarchicalCompositeStrategyBuilderImpl$1.createComposite(Unknown Source)
+	at com.ibm.xtools.uml.compare.internal.strategy.PackageCompositeStrategy.generateComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.AbstractHierarchicalCompositeStrategy.generateComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.HierarchicalCompositeStrategyBuilderImpl.preCreateHierarchicalComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.HierarchicalCompositeStrategyBuilderImpl.createHierarchicalComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.HierarchicalCompositeStrategyBuilderImpl$1.createComposite(Unknown Source)
+	at com.ibm.xtools.modeler.compare.internal.notation.strategy.ModelViewCompositeStrategy.generateComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.AbstractHierarchicalCompositeStrategy.generateComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.HierarchicalCompositeStrategyBuilderImpl.preCreateHierarchicalComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.HierarchicalCompositeStrategyBuilderImpl.createHierarchicalComposites(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.HierarchicalCompositeStrategyBuilderImpl.generateComposite(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.hierarchicalcompositestrategy.HierarchicalCompositeStrategyBuilderImpl.run(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.delta.deltagenerator.DeltaGenerator.compare(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.controller.EmfMergeManager.generateDeltas(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.controller.EmfMergeManager.runDeltaGenerators(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.controller.EmfMergeManager.runSession(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.controller.EmfMergeManager.run(Unknown Source)
+	at com.ibm.xtools.comparemerge.msl.controller.MSLMergeManager.access$0(Unknown Source)
+	at com.ibm.xtools.comparemerge.msl.controller.MSLMergeManager$1.run(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.notifications.MSLEventBroker.runWithOptions(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLEditingDomain.runWithOptions(Unknown Source)
+	at com.ibm.xtools.comparemerge.msl.controller.MSLMergeManager.runMRunnable(Unknown Source)
+	at com.ibm.xtools.comparemerge.msl.controller.MSLMergeManager.run(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext.run(Unknown Source)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(Unknown Source)
+	at com.ibm.xtools.comparemerge.ui.controller.AbstractStructureController.openCompareMergeSession(Unknown Source)
+	at com.ibm.xtools.comparemerge.ui.viewers.AbstractStructureMergeViewer.setInput(Unknown Source)
+	at com.ibm.xtools.comparemerge.emf.viewers.EmfContentMergeViewer.initializeMergeViewer(Unknown Source)
+	at com.ibm.xtools.comparemerge.ui.viewers.AbstractContentMergeViewer.setInput(Unknown Source)
+	at org.eclipse.compare.CompareViewerSwitchingPane.setInput(Unknown Source)
+	at org.eclipse.compare.internal.CompareContentViewerSwitchingPane.setInput(Unknown Source)
+	at org.eclipse.compare.CompareEditorInput.internalSetContentPaneInput(Unknown Source)
+	at org.eclipse.compare.CompareEditorInput.access$8(Unknown Source)
+	at org.eclipse.compare.CompareEditorInput$11.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.compare.CompareEditorInput.feed1(Unknown Source)
+	at org.eclipse.compare.CompareEditorInput.feedInput(Unknown Source)
+	at org.eclipse.compare.CompareEditorInput.createContents(Unknown Source)
+	at com.ibm.team.filesystem.ide.ui.internal.compare.DelegatingSaveableCompareEditorInput.superCreateComposite(Unknown Source)
+	at com.ibm.team.filesystem.rcp.ui.internal.compare.AbstractCompareEditorInput.superCreateComposite(Unknown Source)
+	at com.ibm.team.filesystem.rcp.ui.internal.compare.AbstractCompareEditorInput.createContents2(Unknown Source)
+	at com.ibm.team.filesystem.rcp.ui.internal.compare.AbstractCompareEditorInput.createContents(Unknown Source)
+	at com.ibm.team.filesystem.ide.ui.internal.compare.DelegatingSaveableCompareEditorInput.createContents(Unknown Source)
+	at org.eclipse.compare.internal.CompareEditor.createCompareControl(Unknown Source)
+	at org.eclipse.compare.internal.CompareEditor.access$6(Unknown Source)
+	at org.eclipse.compare.internal.CompareEditor$3.run(Unknown Source)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(Unknown Source)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+            </stack>
+         </exception>
+      </status>
+   </entry>
+</session>
