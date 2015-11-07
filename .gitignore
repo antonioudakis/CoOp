@@ -28,6 +28,7 @@ nonChainingJarsCache
 variablesAndContainers.dat
 .markers
 org.eclipse.epp.logging.aeri.ui/
+org.eclipse.epp.logging.aeri.ui.prefs
 remote-index/
 **/nexus/
 *.snap
@@ -38,6 +39,7 @@ state.dat
 **/classes/
 local.properties
 */.gitignore
+/workspace/**/.gitignore
 #.settings/
 #.loadpath
 build/
