@@ -29,7 +29,7 @@
 		<dependency org="org.springframework" name="spring-core" rev="3.0.5.RELEASE"/>
 		<dependency org="org.springframework" name="spring-beans" rev="3.0.5.RELEASE"/>
 		<dependency org="org.springframework" name="spring-context" rev="3.0.5.RELEASE"/>
-		<dependency org="org.springframework" name="spring-tx" rev="3.0.5.RELEASE"/>
+		<dependency org="org.springframework" name="spring-tx" rev="3.0.5.RELEASE"/>  
 		
 	</dependencies>	
 </ivy-module>
