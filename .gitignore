@@ -49,7 +49,7 @@ browserWindow.js
 baseBrowserLibrary.js
 install.xml
 org.eclipse.egit.core.prefs
-
+org.eclipse.jdt.launching.prefs
 # Eclipse Core
 # .project # I need projects
 
