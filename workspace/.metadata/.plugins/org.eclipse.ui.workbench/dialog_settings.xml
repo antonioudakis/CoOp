@@ -19,18 +19,22 @@
 		<item value="737" key="dialogHeight"/>
 		<item value="1260" key="dialogWidth"/>
 		<list key="textEntries">
+			<item value="1"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.birt.report.designer.ui.preferences.PreviewPreferencePage"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.ui.preferences"/>
 		</list>
 		<list key="textArray">
+			<item value="preview"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
-		<item value="org.apache.ivyde.eclipse.ui.wizards.IvyNewWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item value="com.essiembre.eclipse.rbe.ui.wizards.ResourceBundleWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.apache.ivyde.eclipse.ui.new"/>
+			<item value="com.essiembre.eclipse.i18n.resourcebundle"/>
 		</list>
 	</section>
 	<section name="InstallationDialogSettings">

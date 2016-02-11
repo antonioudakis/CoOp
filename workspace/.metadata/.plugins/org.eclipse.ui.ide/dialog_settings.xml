@@ -21,7 +21,7 @@
 		</list>
 	</section>
 	<section name="ResourceNavigator">
-		<item value="" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="Aggregate:SCA Projects:OSGi Bundle Projects:OSGi Fragment Bundle Projects:OSGi Application Projects:OSGi Composite Bundle Projects:EAR Projects:Application Client Projects:EJB Projects:Connector Projects:Dynamic Web Projects:JPA Projects:Utility Projects:Static Web Projects:Web Fragment Projects:Uncategorized Projects:Modern Batch Projects:" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
 		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
 	</section>
 	<section name="NewWizardAction">
