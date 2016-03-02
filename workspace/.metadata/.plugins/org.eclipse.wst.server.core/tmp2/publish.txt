@@ -1,5 +1,5 @@
 #Tomcat publish data
-#Thu Feb 11 10:23:51 EET 2016
+#Mon Feb 22 12:51:48 EET 2016
 org.eclipse.jst.j2ee.server\:CoopBusiness=WEB-INF/lib/CoopBusiness.jar
 org.eclipse.jst.j2ee.server\:softeng.validation=WEB-INF/lib/softeng.validation.jar
 org.eclipse.jst.j2ee.server\:CoopMailClient=WEB-INF/lib/CoopMailClient.jar

@@ -971,14 +971,14 @@ WHERE co."id" = ?]]></xml-property>
             <column id="433">
                 <property name="width">6pc</property>
             </column>
-            <column id="434">
-                <property name="width">5pc</property>
-            </column>
-            <column id="435">
-                <property name="width">5pc</property>
-            </column>
             <column id="436">
                 <property name="width">17pc</property>
+            </column>
+            <column id="602">
+                <property name="width">5pc</property>
+            </column>
+            <column id="591">
+                <property name="width">5pc</property>
             </column>
             <column id="437">
                 <property name="width">4pc</property>
@@ -1000,9 +1000,9 @@ WHERE co."id" = ?]]></xml-property>
                     <cell id="565"/>
                     <cell id="566"/>
                     <cell id="567"/>
-                    <cell id="568"/>
-                    <cell id="569"/>
                     <cell id="570"/>
+                    <cell id="592"/>
+                    <cell id="581"/>
                     <cell id="571"/>
                 </row>
                 <row id="477">
@@ -1057,9 +1057,9 @@ WHERE co."id" = ?]]></xml-property>
                     <cell id="485"/>
                     <cell id="486"/>
                     <cell id="487"/>
-                    <cell id="488"/>
-                    <cell id="489"/>
                     <cell id="490"/>
+                    <cell id="593"/>
+                    <cell id="582"/>
                     <cell id="491"/>
                 </row>
                 <row id="462">
@@ -1099,9 +1099,9 @@ WHERE co."id" = ?]]></xml-property>
                     <cell id="470"/>
                     <cell id="471"/>
                     <cell id="472"/>
-                    <cell id="473"/>
-                    <cell id="474"/>
                     <cell id="475"/>
+                    <cell id="594"/>
+                    <cell id="583"/>
                     <cell id="476"/>
                 </row>
                 <row id="512">
@@ -1120,9 +1120,9 @@ WHERE co."id" = ?]]></xml-property>
                     <cell id="520"/>
                     <cell id="521"/>
                     <cell id="522"/>
-                    <cell id="523"/>
-                    <cell id="524"/>
                     <cell id="525"/>
+                    <cell id="595"/>
+                    <cell id="584"/>
                     <cell id="526"/>
                 </row>
                 <row id="497">
@@ -1180,9 +1180,9 @@ WHERE co."id" = ?]]></xml-property>
                     <cell id="550"/>
                     <cell id="551"/>
                     <cell id="552"/>
-                    <cell id="553"/>
-                    <cell id="554"/>
                     <cell id="555"/>
+                    <cell id="597"/>
+                    <cell id="586"/>
                     <cell id="556"/>
                 </row>
                 <row id="527">
@@ -1197,9 +1197,9 @@ WHERE co."id" = ?]]></xml-property>
                     <cell id="535"/>
                     <cell id="536"/>
                     <cell id="537"/>
-                    <cell id="538"/>
-                    <cell id="539"/>
                     <cell id="540"/>
+                    <cell id="598"/>
+                    <cell id="587"/>
                     <cell id="541"/>
                 </row>
                 <row id="363">
@@ -1243,19 +1243,19 @@ WHERE co."id" = ?]]></xml-property>
                             <text-property name="text">Τηλέφωνα</text-property>
                         </label>
                     </cell>
-                    <cell id="380">
-                        <label id="381">
-                            <text-property name="text">Έναρξη</text-property>
-                        </label>
-                    </cell>
-                    <cell id="382">
-                        <label id="383">
-                            <text-property name="text">Λήξη</text-property>
-                        </label>
-                    </cell>
                     <cell id="384">
                         <label id="385">
                             <text-property name="text">Φορέας Υποδοχής</text-property>
+                        </label>
+                    </cell>
+                    <cell id="599">
+                        <label id="603">
+                            <text-property name="text">Έναρξη</text-property>
+                        </label>
+                    </cell>
+                    <cell id="588">
+                        <label id="604">
+                            <text-property name="text">Λήξη</text-property>
                         </label>
                     </cell>
                     <cell id="386">
@@ -1317,8 +1317,13 @@ WHERE co."id" = ?]]></xml-property>
                             <property name="resultSetColumn">mobileNumber</property>
                         </data>
                     </cell>
-                    <cell id="405">
-                        <data id="406">
+                    <cell id="409">
+                        <data id="410">
+                            <property name="resultSetColumn">company</property>
+                        </data>
+                    </cell>
+                    <cell id="600">
+                        <data id="605">
                             <structure name="dateTimeFormat">
                                 <property name="category">Custom</property>
                                 <property name="pattern">d/M/YYYY</property>
@@ -1327,19 +1332,14 @@ WHERE co."id" = ?]]></xml-property>
                             <property name="resultSetColumn">startDate</property>
                         </data>
                     </cell>
-                    <cell id="407">
-                        <data id="408">
+                    <cell id="589">
+                        <data id="606">
                             <structure name="dateTimeFormat">
                                 <property name="category">Custom</property>
                                 <property name="pattern">d/M/YYYY</property>
                                 <property name="locale">el</property>
                             </structure>
                             <property name="resultSetColumn">endDate</property>
-                        </data>
-                    </cell>
-                    <cell id="409">
-                        <data id="410">
-                            <property name="resultSetColumn">company</property>
                         </data>
                     </cell>
                     <cell id="411">
@@ -1367,9 +1367,9 @@ WHERE co."id" = ?]]></xml-property>
                     <cell id="451"/>
                     <cell id="420"/>
                     <cell id="421"/>
-                    <cell id="422"/>
-                    <cell id="423"/>
                     <cell id="424"/>
+                    <cell id="601"/>
+                    <cell id="590"/>
                     <cell id="425"/>
                 </row>
             </footer>

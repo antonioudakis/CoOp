@@ -26,7 +26,11 @@ nonChainingJarsCache
 variablesAndContainers.dat
 .markers
 org.eclipse.epp.logging.aeri.ui/
+<<<<<<< HEAD
 org.eclipse.epp.logging.aeri.ui.prefs
+=======
+**/org.eclipse.epp.logging.aeri.ui.prefs
+>>>>>>> 75a220bd1453848bdfb9ffe94eb8e6b10797f353
 remote-index/
 **/nexus/
 *.snap
@@ -38,7 +42,11 @@ state.dat
 local.properties
 */.gitignore
 /workspace/**/.gitignore
+<<<<<<< HEAD
 cpstates/
+=======
+**/cpstates/
+>>>>>>> 75a220bd1453848bdfb9ffe94eb8e6b10797f353
 #.settings/
 #.loadpath
 build/
@@ -52,6 +60,10 @@ browserWindow.js
 baseBrowserLibrary.js
 install.xml
 org.eclipse.egit.core.prefs
+<<<<<<< HEAD
+=======
+org.eclipse.egit.ui.prefs
+>>>>>>> 75a220bd1453848bdfb9ffe94eb8e6b10797f353
 org.eclipse.jdt.launching.prefs
 # Eclipse Core
 # .project # I need projects
