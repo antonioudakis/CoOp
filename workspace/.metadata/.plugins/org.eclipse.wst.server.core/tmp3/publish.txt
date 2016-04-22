@@ -1,5 +1,5 @@
 #Tomcat publish data
-#Tue Oct 27 14:48:21 EET 2015
+#Fri Apr 22 14:23:07 EEST 2016
 org.eclipse.jst.j2ee.server\:CoopDataValidation=WEB-INF/lib/CoopDataValidation.jar
-org.eclipse.jst.j2ee.server\:CoopDataAccess=WEB-INF/lib/CoopDataAccess.jar
 org.eclipse.jst.j2ee.server\:softeng.validation=WEB-INF/lib/softeng.validation.jar
+org.eclipse.jst.j2ee.server\:CoopDataAccess=WEB-INF/lib/CoopDataAccess.jar

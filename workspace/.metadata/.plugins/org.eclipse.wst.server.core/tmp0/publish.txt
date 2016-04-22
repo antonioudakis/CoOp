@@ -1,0 +1,17 @@
+#Tomcat publish data
+#Fri Apr 22 15:14:02 EEST 2016
+org.eclipse.jst.j2ee.server\:CoopBusiness=WEB-INF/lib/CoopBusiness.jar
+org.eclipse.jst.j2ee.server\:softeng.validation=WEB-INF/lib/softeng.validation.jar
+org.eclipse.jst.j2ee.server\:CoopMailClient=WEB-INF/lib/CoopMailClient.jar
+org.eclipse.jst.j2ee.server\:ExtraReportFactories=WEB-INF/lib/ExtraReportFactories.jar
+org.eclipse.jst.j2ee.server\:ReportFactoryBase=WEB-INF/lib/ReportFactoryBase.jar
+org.eclipse.jst.j2ee.server\:CoopStudentsStrategies=WEB-INF/lib/CoopStudentsStrategies.jar
+org.eclipse.jst.j2ee.server\:SsoAuthenticationRegistration=WEB-INF/lib/SsoAuthenticationRegistration.jar
+org.eclipse.jst.j2ee.server\:CoopDataAccess=WEB-INF/lib/CoopDataAccess.jar
+org.eclipse.jst.j2ee.server\:CoopBusinessImpl=WEB-INF/lib/CoopBusinessImpl.jar
+org.eclipse.jst.j2ee.server\:softeng.caching=WEB-INF/lib/softeng.caching.jar
+org.eclipse.jst.j2ee.server\:softeng.ui.vaadin=WEB-INF/lib/softeng.ui.vaadin.jar
+org.eclipse.jst.j2ee.server\:CoopDataValidation=WEB-INF/lib/CoopDataValidation.jar
+org.eclipse.jst.j2ee.server\:EspaReportFactories=WEB-INF/lib/EspaReportFactories.jar
+org.eclipse.jst.j2ee.server\:CoopFactory=WEB-INF/lib/CoopFactory.jar
+org.eclipse.jst.j2ee.server\:CoopBusinessExceptions=WEB-INF/lib/CoopBusinessExceptions.jar
