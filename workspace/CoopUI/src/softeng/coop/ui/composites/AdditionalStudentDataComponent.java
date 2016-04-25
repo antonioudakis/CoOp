@@ -271,6 +271,9 @@ public class AdditionalStudentDataComponent
 					amaField.setNullRepresentation("");
 					amaField.setNullSettingAllowed(true);
 					
+					if (isUserStudent())
+						amaField.addValidator(notNullValidator);
+					
 					return amaField;
 				}
 				else if (propertyId.equals("iban"))
