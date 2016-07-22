@@ -334,7 +334,7 @@ public class UserManagementCardPresenter extends Presenter<BeanItem<Department>,
 
 		getView().getCoOpsRegistrationTable().addItem(registration);
 		
-		if (session.isLoaded(coop, "group") && registration.getGroup() != null)
+		if (session.isLoaded(coop, "groups") && registration.getGroup() != null)
 		{
 			coop.getGroups().add(registration.getGroup());
 		}
