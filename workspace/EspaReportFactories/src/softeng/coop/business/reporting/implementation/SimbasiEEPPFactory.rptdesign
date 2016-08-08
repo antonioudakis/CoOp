@@ -1531,7 +1531,7 @@ ORDER BY surname, name, jpa."startDate", braco.id]]></xml-property>
 <p>(α) ο Ειδικός Λογαριασμός Κονδυλίων Έρευνας του Εθνικού Μετσόβιου Πολυτεχνείου (ΕΛΚΕ ΕΜΠ), που εδρεύει στην Αθήνα, στην οδό Πατησίων 42, Τ.Κ: 106 82, (ΑΦΜ: 099793475, Δ.Ο.Υ.: Δ΄ Αθηνών) και διέπεται από τις διατάξεις της ΚΥΑ 679/22-8-1996 των Υπουργείων Οικονομικών και Εθνικής Παιδείας και Θρησκευμάτων (ΦΕΚ Β΄826/10-9-1996), η οποία κυρώθηκε με το άρθρο 36 του Ν. 3794/2009 (ΦΕΚ Α 156/2-9-2009) και τροποποιήθηκε με το άρθρο 36 του Ν. 3848/2010 (ΦΕΚ Α 71/19-5-2010), νομίμως εκπροσωπούμενος από <B><VALUE-OF>params["ACCOUNT_REPRESENTATIVE"].value</VALUE-OF></B>.
 </p>
 <p>
-(β) <VALUE-OF>row["scientific_director_gender"]==0 ? "O ":"H ";</VALUE-OF>&amp;nbsp;<VALUE-OF>row["scientific_director_rank"]</VALUE-OF> &amp;nbsp;κ.&amp;nbsp; <B><VALUE-OF>row["scientific_director"]</VALUE-OF>, <VALUE-OF>row["scientific_director_gender"]==0 ? "Επιστημονικός Υπεύθυνος" : "Επιστημονική Υπεύθυνη";</VALUE-OF> του Προγράμματος ΕΣΠΑ (με τίτλο <B>«<VALUE-OF>params["PROGRAM_TITLE"]</VALUE-OF>»</B> με κωδικό <B><VALUE-OF>row["financial_source_code"]</VALUE-OF></B>), ο οποίος εφεξής θα αποκαλείται «<VALUE-OF>row["scientific_director_gender"]==0 ? "ο Επιστημονικός Υπεύθυνος" : "η Επιστημονική Υπεύθυνη";</VALUE-OF>» που υλοποιείται στο πλαίσιο του Επιχειρησιακού Προγράμματος «Ανάπτυξη Ανθρώπινου Δυναμικού, Εκπαίδευση και Δια Βίου Μάθηση» 2014-2020 και συγχρηματοδοτείται από την Ευρωπαϊκή Ένωση (Ευρωπαϊκό Κοινωνικό Ταμείο) και από Εθνικούς Πόρους που εγκρίθηκε από την ΕΔΕΙΛ στις <B>15-01-2016</B>, και
+(β) <VALUE-OF>row["scientific_director_gender"]==0 ? "O ":"H ";</VALUE-OF>&amp;nbsp;<VALUE-OF>row["scientific_director_rank"]</VALUE-OF> &amp;nbsp;κ.&amp;nbsp; <B><VALUE-OF>row["scientific_director"]</VALUE-OF>, <VALUE-OF>row["scientific_director_gender"]==0 ? "Επιστημονικός Υπεύθυνος" : "Επιστημονική Υπεύθυνη";</VALUE-OF> του Προγράμματος ΕΣΠΑ (με τίτλο <B>«<VALUE-OF>params["PROGRAM_TITLE"]</VALUE-OF>»</B> με κωδικό <B><VALUE-OF>row["financial_source_code"]</VALUE-OF></B>), ο οποίος εφεξής θα αποκαλείται «<VALUE-OF>row["scientific_director_gender"]==0 ? "ο Επιστημονικός Υπεύθυνος" : "η Επιστημονική Υπεύθυνη";</VALUE-OF>» που υλοποιείται στο πλαίσιο του Επιχειρησιακού Προγράμματος «Ανάπτυξη Ανθρώπινου Δυναμικού, Εκπαίδευση και Δια Βίου Μάθηση» 2014-2020 και συγχρηματοδοτείται από την Ευρωπαϊκή Ένωση (Ευρωπαϊκό Κοινωνικό Ταμείο) και από Εθνικούς Πόρους που εγκρίθηκε από την ΕΔΕΙΛ στις <B>27-05-2016</B>, και
 </p>
 <p>
 (γ) <VALUE-OF>row["gender"]==0 ? "O ":"H ";</VALUE-OF>&amp;nbsp;<B><VALUE-OF>row["surname"]</VALUE-OF> &amp;nbsp;<VALUE-OF>row["name"]</VALUE-OF></B> του <B><VALUE-OF>row["father_name"]</VALUE-OF></B>, κάτοικος <B><VALUE-OF>row["city"]</VALUE-OF>, <VALUE-OF>row["street"]</VALUE-OF>&amp;nbsp;<VALUE-OF>row["number"]</VALUE-OF>, Τ. Κ. <VALUE-OF>row["postal_code"];</VALUE-OF></B>, κάτοχος του υπ’ αριθ. <B><VALUE-OF>row["id_number"]</VALUE-OF></B> <VALUE-OF>row["id_type"] == 0 ? "ΔΑΤ" : (row["id_type"] == 1 ? "Διαβατηρίου" : (row["id_type"] == 2 ? "Στρατιωτικής Ταυτότητος" : "προσκομισθέντος εγγράφου ταυτοποιήσεως"))</VALUE-OF> που εκδόθηκε στις <B><VALUE-OF>Formatter.format(row["id_issue_date"],"dd/MM/yyyy")</VALUE-OF></B>, με ΑΦΜ <B><VALUE-OF>row["tax_id"]</VALUE-OF></B> <VALUE-OF>row["gender"]==0 ? "υπαγόμενος ":"υπαγομένη ";</VALUE-OF> στη Δ.Ο.Υ. <B><VALUE-OF>row["tax_department"]</VALUE-OF></B>, που στο εξής για συντομία θα καλείται <I>“<VALUE-OF>row["gender"]==0 ? "ο Φοιτητής ":"η Φοιτήτρια ";</VALUE-OF>”</I>,
@@ -1563,7 +1563,7 @@ ORDER BY surname, name, jpa."startDate", braco.id]]></xml-property>
 
 <h4><b>Άρθρο 1:</b></h4>
 
-<p>Ο ΕΛΚΕ/ΕΜΠ θα καταβάλει <VALUE-OF>row["gender"]==0 ? "στον Φοιτητή":"στην Φοιτήτρια";</VALUE-OF> ως αποζημίωση για την πρακτική του άσκηση στο Φορέα Υποδοχής, καθ’ όλη τη διάρκεια ισχύος του προαναφερόμενου Πρωτοκόλλου Συνεργασίας &amp; Ιδ. Συμφωνητικού, το συνολικό ποσό ύψους <B><VALUE-OF format="#,##0.00{RoundingMode=HALF_UP}">row["amount"]</VALUE-OF> €</B>, σύμφωνα με την Πρόσκληση του Προγράμματος ΕΣΠΑ υπ’ αριθ. 333/15-01-2016. Η αποζημίωση καταβάλλεται δεδουλευμένη και υπό τον όρο της πιστώσεως του Λογαριασμού μετά από πιστοποίηση και εντολή <VALUE-OF>row["scientific_director_gender"]==0 ? "του Επιστημονικού Υπευθύνου" : "της Επιστημονικής Υπεύθυνης";</VALUE-OF>. Επίσης ο ΕΛΚΕ/ΕΜΠ υποχρεούται να ασφαλίζει υποχρεωτικά <VALUE-OF>row["gender"]==0 ? "τον Φοιτητή":"την Φοιτήτρια";</VALUE-OF> καθ’ όλη τη διάρκεια της συμφωνούμενης δια του παρόντος πρακτικής άσκησής του στο ΙΚΑ μόνον κατά του κινδύνου ατυχήματος, σύμφωνα με τους όρους της κείμενης νομοθεσίας. Η ως άνω καταβολή αποζημίωσης αλλά και ασφάλισης του Φοιτητή έναντι ατυχήματος δεν καθιστά τον ΕΛΚΕ/ΕΜΠ «Εργοδότη» <VALUE-OF>row["gender"]==0 ? "του Φοιτητή":"της Φοιτήτριας";</VALUE-OF>, ο οποίος συνδέεται με το ΕΜΠ και τη Σχολή του μόνο υπό την ιδιότητά <VALUE-OF>row["gender"]==0 ? "του ως Φοιτητή":"της ως Φοιτήτριας";</VALUE-OF>. Η καταβολή της αποζημίωσης τελεί υπό την αίρεση της υποβολής Βεβαίωσης του Φορέα Υποδοχής περί ολοκλήρωσης της πρακτικής άσκησης.</p>
+<p>Ο ΕΛΚΕ/ΕΜΠ θα καταβάλει <VALUE-OF>row["gender"]==0 ? "στον Φοιτητή":"στην Φοιτήτρια";</VALUE-OF> ως αποζημίωση για την πρακτική του άσκηση στο Φορέα Υποδοχής, καθ’ όλη τη διάρκεια ισχύος του προαναφερόμενου Πρωτοκόλλου Συνεργασίας &amp; Ιδ. Συμφωνητικού, το συνολικό ποσό ύψους <B><VALUE-OF format="#,##0.00{RoundingMode=HALF_UP}">row["amount"]</VALUE-OF> €</B>, σύμφωνα με την Πρόσκληση του Προγράμματος ΕΣΠΑ υπ’ αριθμ. ΟΠΣ 1250. Η αποζημίωση καταβάλλεται δεδουλευμένη και υπό τον όρο της πιστώσεως του Λογαριασμού μετά από πιστοποίηση και εντολή <VALUE-OF>row["scientific_director_gender"]==0 ? "του Επιστημονικού Υπευθύνου" : "της Επιστημονικής Υπεύθυνης";</VALUE-OF>. Επίσης ο ΕΛΚΕ/ΕΜΠ υποχρεούται να ασφαλίζει υποχρεωτικά <VALUE-OF>row["gender"]==0 ? "τον Φοιτητή":"την Φοιτήτρια";</VALUE-OF> καθ’ όλη τη διάρκεια της συμφωνούμενης δια του παρόντος πρακτικής άσκησής του στο ΙΚΑ μόνον κατά του κινδύνου ατυχήματος, σύμφωνα με τους όρους της κείμενης νομοθεσίας. Η ως άνω καταβολή αποζημίωσης αλλά και ασφάλισης του Φοιτητή έναντι ατυχήματος δεν καθιστά τον ΕΛΚΕ/ΕΜΠ «Εργοδότη» <VALUE-OF>row["gender"]==0 ? "του Φοιτητή":"της Φοιτήτριας";</VALUE-OF>, ο οποίος συνδέεται με το ΕΜΠ και τη Σχολή του μόνο υπό την ιδιότητά <VALUE-OF>row["gender"]==0 ? "του ως Φοιτητή":"της ως Φοιτήτριας";</VALUE-OF>. Η καταβολή της αποζημίωσης τελεί υπό την αίρεση της υποβολής Βεβαίωσης του Φορέα Υποδοχής περί ολοκλήρωσης της πρακτικής άσκησης.</p>
 ]]></text-property>
                             </text>
                             <text id="928">
@@ -1591,6 +1591,19 @@ ORDER BY surname, name, jpa."startDate", braco.id]]></xml-property>
                                 <property name="contentType">html</property>
                                 <text-property name="content"><![CDATA[<h4>Άρθρο 3:<h4>
 
+<p>Οι δαπάνες για τυχόν μετακινήσεις στο πλαίσιο της σύμβασης θα καταβάλλονται από τον ΕΛΚΕ σε βάρος του προϋπολογισμού του ερευνητικού έργου σύμφωνα με τον κανονισμό του ΕΛΚΕ μετά από εντολή του επιστημονικού υπεύθυνου.</p>
+]]></text-property>
+                            </text>
+                            <text id="933">
+                                <property name="fontFamily">"Calibri"</property>
+                                <property name="fontSize">10.5pt</property>
+                                <property name="marginRight">0pt</property>
+                                <property name="paddingRight">10pt</property>
+                                <property name="textAlign">justify</property>
+                                <property name="pageBreakInside">avoid</property>
+                                <property name="contentType">html</property>
+                                <text-property name="content"><![CDATA[<h4>Άρθρο 4:<h4>
+
 <p>Κατά τα λοιπά ισχύουν οι όροι του συνημμένου Πρωτοκόλλου Συνεργασίας &amp; Ιδιωτικού Συμφωνητικού.</p>
 ]]></text-property>
                             </text>
@@ -1602,7 +1615,7 @@ ORDER BY surname, name, jpa."startDate", braco.id]]></xml-property>
                                 <property name="textAlign">justify</property>
                                 <property name="pageBreakInside">avoid</property>
                                 <property name="contentType">html</property>
-                                <text-property name="content"><![CDATA[<h4>Άρθρο 4:</h4>
+                                <text-property name="content"><![CDATA[<h4>Άρθρο 5:</h4>
 
 <p>Σε περίπτωση που η εκτέλεση της Πρακτικής Άσκησης που έχει ανατεθεί <VALUE-OF>row["gender"]==0 ? "στον Φοιτητή":"στην Φοιτήτρια";</VALUE-OF> καθίσταται αδύνατη λόγω ανωτέρας βίας, <VALUE-OF>row["gender"]==0 ? "ο Φοιτητής":"η Φοιτήτρια";</VALUE-OF> δεν έχει δικαίωμα σε καμία αποζημίωση.</p>
 ]]></text-property>
@@ -1615,7 +1628,7 @@ ORDER BY surname, name, jpa."startDate", braco.id]]></xml-property>
                                 <property name="textAlign">justify</property>
                                 <property name="pageBreakInside">avoid</property>
                                 <property name="contentType">html</property>
-                                <text-property name="content"><![CDATA[<h4>Άρθρο 5:</h4>
+                                <text-property name="content"><![CDATA[<h4>Άρθρο 6:</h4>
 
 <p>Ο ΕΛΚΕ δύναται, μετά από πρόταση <VALUE-OF>row["scientific_director_gender"]==0 ? "του Επιστημονικού Υπευθύνου" : "της Επιστημονικής Υπεύθυνης";</VALUE-OF> να καταγγείλει και να λύσει μονομερώς το παρόν Ιδιωτικό Συμφωνητικό, εάν υφίσταται σοβαρός λόγος, μετά από σχετική έγγραφη ανακοίνωση προς <VALUE-OF>row["gender"]==0 ? "τον Φοιτητή":"την Φοιτήτρια";</VALUE-OF>. Σοβαρό λόγο καταγγελίας του Ιδιωτικού Συμφωνητικού αποτελεί ενδεικτικά η διακοπή χρηματοδότησης του Έργου.</p>
 
