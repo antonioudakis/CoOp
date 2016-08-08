@@ -386,8 +386,8 @@
             </list-property>
             <xml-property name="queryText"><![CDATA[SELECT per."id" AS "studentId", per."surname", per."name", per."fatherName", stu."taxId", 
 had."street", had."number" AS "streetNumber", had."city", had."poBox" AS "postalCode",
-(SELECT tel."number" FROM "Telephone" tel WHERE tel."type" IN (0, 1, 3) ORDER BY tel."type" LIMIT 1) AS "telephoneNumber",
-(SELECT mob."number" FROM "Telephone" mob WHERE mob."type" IN (2) ORDER BY mob."type" LIMIT 1) AS "mobileNumber",
+(SELECT tel."number" FROM "Telephone" tel WHERE tel."type" IN (0, 1, 3) AND tel."person_id" = stu."id" ORDER BY tel."type" LIMIT 1) AS "telephoneNumber",
+(SELECT mob."number" FROM "Telephone" mob WHERE mob."type" IN (2) AND mob."person_id" = stu."id" ORDER BY mob."type" LIMIT 1) AS "mobileNumber",
 job."startDate", job."endDate",
 (SELECT complit."text" FROM "Literal" complit WHERE complit."multilingual_id" = com."name_id" ORDER BY complit."isDefault" DESC) AS "company",
 (SELECT SUM(pay."amount") FROM "Payment" pay WHERE pay."jobpart_id" IN (SELECT jpa."id" FROM "JobPart" jpa WHERE jpa."job_id" = job."id") 
