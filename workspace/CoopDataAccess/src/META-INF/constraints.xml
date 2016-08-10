@@ -297,6 +297,12 @@
     	<field name="company">
     		<constraint annotation="javax.validation.constraints.NotNull" />
     	</field>
+    	<field name="seatsNumber">
+    		<constraint annotation="javax.validation.constraints.NotNull" />
+    		<constraint annotation="javax.validation.constraints.DecimalMin">
+    			<element name="value">1</element>
+    		</constraint>
+    	</field>
     </bean>
     
     <bean class="JobPostingPart">
