@@ -270,9 +270,10 @@ public class AdditionalStudentDataComponent
 					amaField.setWidth("100%");
 					amaField.setNullRepresentation("");
 					amaField.setNullSettingAllowed(true);
-					
-					if (isUserStudent())
-						amaField.addValidator(notNullValidator);
+
+					/* The AMA field is no longer required. */
+//					if (isUserStudent())
+//						amaField.addValidator(notNullValidator);
 					
 					return amaField;
 				}
