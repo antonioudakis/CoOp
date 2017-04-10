@@ -3,6 +3,7 @@
     <property name="createdBy">Eclipse BIRT Designer Version 4.5.0.v201506092134 Build &lt;@BUILD@></property>
     <property name="units">in</property>
     <property name="iconFile">/templates/blank_report.gif</property>
+    <property name="layoutPreference">fixed layout</property>
     <property name="bidiLayoutOrientation">ltr</property>
     <property name="imageDPI">96</property>
     <parameters>
@@ -10,10 +11,10 @@
             <text-property name="promptText">CoOp ID</text-property>
             <property name="valueType">static</property>
             <property name="isRequired">true</property>
-            <property name="dataType">string</property>
+            <property name="dataType">integer</property>
             <property name="distinct">true</property>
             <simple-property-list name="defaultValue">
-                <value type="constant">65597</value>
+                <value type="constant">65591</value>
             </simple-property-list>
             <list-property name="selectionList"/>
             <property name="paramType">simple</property>
@@ -1181,6 +1182,7 @@ ORDER BY surname, name, jpa."startDate", braco.id]]></xml-property>
     <body>
         <table id="833">
             <property name="pageBreakAfter">always</property>
+            <property name="canShrink">true</property>
             <property name="dataSet">FinancialResources</property>
             <list-property name="boundDataColumns">
                 <structure>
@@ -1430,7 +1432,10 @@ ORDER BY surname, name, jpa."startDate", braco.id]]></xml-property>
                     <property name="dataType">string</property>
                 </structure>
             </list-property>
-            <column id="840"/>
+            <column id="840">
+                <property name="width">20%</property>
+            </column>
+            <column id="956"/>
             <group id="889">
                 <property name="groupName">registrationGroup</property>
                 <expression name="keyExpr" type="javascript">row["registraton_id"]</expression>
@@ -1451,89 +1456,98 @@ ORDER BY surname, name, jpa."startDate", braco.id]]></xml-property>
                     </structure>
                 </list-property>
                 <header>
+                    <row id="951">
+                        <property name="pageBreakAfter">auto</property>
+                        <property name="pageBreakBefore">always</property>
+                        <cell id="952">
+                            <property name="paddingTop">0pt</property>
+                            <property name="paddingLeft">0pt</property>
+                            <property name="paddingBottom">0pt</property>
+                            <property name="paddingRight">0pt</property>
+                            <image id="902">
+                                <property name="height">0.7in</property>
+                                <property name="width">0.7in</property>
+                                <property name="source">embed</property>
+                                <property name="imageName">ntua.png</property>
+                            </image>
+                        </cell>
+                        <cell id="953">
+                            <property name="paddingTop">0pt</property>
+                            <property name="paddingLeft">0pt</property>
+                            <property name="paddingBottom">0pt</property>
+                            <property name="paddingRight">0pt</property>
+                            <text id="937">
+                                <property name="fontFamily">"Times New Roman"</property>
+                                <property name="fontSize">12pt</property>
+                                <property name="fontWeight">bold</property>
+                                <property name="paddingBottom">1em</property>
+                                <property name="textAlign">left</property>
+                                <property name="contentType">html</property>
+                                <text-property name="content"><![CDATA[ΕΘΝΙΚΟ ΜΕΤΣΟΒΙΟ ΠΟΛΥΤΕΧΝΕΙΟ <BR />
+<VALUE-OF>row["department_name"]</VALUE-OF> <BR />
+<VALUE-OF>params["DIVISION"].value</VALUE-OF> <BR />]]></text-property>
+                            </text>
+                            <text id="947">
+                                <property name="paddingBottom">1em</property>
+                                <property name="textAlign">left</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[Ηρώων Πολυτεχνείου 9, 15773 Αθήνα]]></text-property>
+                            </text>
+                            <text id="946">
+                                <property name="textAlign">left</property>
+                                <property name="contentType">html</property>
+                                <text-property name="content"><![CDATA[<VALUE-OF>row["scientific_director"]</VALUE-OF> <BR />
+<VALUE-OF>row["scientific_director_rank"]</VALUE-OF> <BR />
+τηλ. <VALUE-OF>row["scientific_director_telephone"]</VALUE-OF> fax: <VALUE-OF>row["scientific_director_fax"]</VALUE-OF> <BR />
+e-mail: <VALUE-OF>row["scientific_director_email"]</VALUE-OF>]]></text-property>
+                            </text>
+                        </cell>
+                    </row>
                     <row id="890">
                         <property name="pageBreakAfter">auto</property>
                         <property name="pageBreakBefore">always</property>
                         <cell id="891">
-                            <grid id="895">
-                                <property name="pageBreakBefore">auto</property>
-                                <column id="896">
-                                    <property name="width">30%</property>
-                                </column>
-                                <column id="936">
-                                    <property name="width">70%</property>
-                                </column>
-                                <row id="900">
-                                    <cell id="901">
-                                        <property name="paddingTop">6pt</property>
-                                        <property name="paddingBottom">6pt</property>
-                                        <property name="textAlign">center</property>
-                                        <image id="902">
-                                            <property name="height">0.7in</property>
-                                            <property name="width">0.7in</property>
-                                            <property name="source">embed</property>
-                                            <property name="imageName">ntua.png</property>
-                                        </image>
-                                    </cell>
-                                    <cell id="935">
-                                        <property name="paddingTop">6pt</property>
-                                        <property name="paddingBottom">6pt</property>
-                                        <property name="textAlign">center</property>
-                                        <text id="937">
-                                            <property name="fontFamily">"Times New Roman"</property>
-                                            <property name="fontSize">12pt</property>
-                                            <property name="fontWeight">bold</property>
-                                            <property name="paddingBottom">1em</property>
-                                            <property name="textAlign">left</property>
-                                            <property name="contentType">html</property>
-                                            <text-property name="content"><![CDATA[ΕΘΝΙΚΟ ΜΕΤΣΟΒΙΟ ΠΟΛΥΤΕΧΝΕΙΟ <BR />
-<VALUE-OF>row["department_name"]</VALUE-OF> <BR />
-<VALUE-OF>params["DIVISION"].value</VALUE-OF> <BR />]]></text-property>
-                                        </text>
-                                        <text id="947">
-                                            <property name="paddingBottom">1em</property>
-                                            <property name="textAlign">left</property>
-                                            <property name="contentType">auto</property>
-                                            <text-property name="content"><![CDATA[Ηρώων Πολυτεχνείου 9, 15773 Αθήνα]]></text-property>
-                                        </text>
-                                        <text id="946">
-                                            <property name="textAlign">left</property>
-                                            <property name="contentType">html</property>
-                                            <text-property name="content"><![CDATA[<VALUE-OF>row["scientific_director"]</VALUE-OF> <BR />
-<VALUE-OF>row["scientific_director_rank"]</VALUE-OF> <BR />
-τηλ. <VALUE-OF>row["scientific_director_telephone"]</VALUE-OF> fax: <VALUE-OF>row["scientific_director_fax"]</VALUE-OF> <BR />
-e-mail: <VALUE-OF>row["scientific_director_email"]</VALUE-OF>]]></text-property>
-                                        </text>
-                                    </cell>
-                                </row>
-                            </grid>
+                            <property name="colSpan">2</property>
+                            <property name="rowSpan">1</property>
+                            <property name="paddingTop">0pt</property>
+                            <property name="paddingLeft">0pt</property>
+                            <property name="paddingBottom">0pt</property>
+                            <property name="paddingRight">0pt</property>
                             <text id="903">
                                 <property name="fontFamily">"Cambria"</property>
                                 <property name="fontSize">13.5pt</property>
                                 <property name="fontWeight">bold</property>
                                 <property name="textUnderline">underline</property>
                                 <property name="paddingTop">3em</property>
+                                <property name="paddingLeft">0pt</property>
                                 <property name="paddingBottom">1em</property>
+                                <property name="paddingRight">8pt</property>
                                 <property name="textAlign">center</property>
                                 <property name="contentType">html</property>
                                 <text-property name="content"><![CDATA[ΒΕΒΑΙΩΣΗ]]></text-property>
                             </text>
                             <text id="943">
                                 <property name="paddingTop">1pt</property>
+                                <property name="paddingLeft">0pt</property>
                                 <property name="paddingBottom">3em</property>
+                                <property name="paddingRight">8pt</property>
                                 <property name="textAlign">justify</property>
                                 <property name="contentType">html</property>
                                 <text-property name="content"><![CDATA[Βεβαιώνεται ότι <VALUE-OF>row["gender"] == 0 ? "ο φοιτητής" : "η φοιτήτρια"</VALUE-OF> στην <VALUE-OF>row["department_name"]</VALUE-OF> ΕΜΠ <B><VALUE-OF>row["surname"] + " " + row["name"]</VALUE-OF></B> πραγματοποίησε επιτυχώς την Πρακτική <VALUE-OF>row["gender"] == 0 ? " του " : " της "</VALUE-OF> Άσκηση <VALUE-OF>row["branch_companies_count"] > 1 ? "στους Φορείς Υποδοχής " : "στο Φορέα Υποδοχής " </VALUE-OF> <B> <VALUE-OF>" " + row["branch_company_names"]</VALUE-OF></B> κατά το χρονικό διάστημα 
 <B><VALUE-OF format="dd/MM/yyyy">row["start_date"]</VALUE-OF> - <VALUE-OF format="dd/MM/yyyy">row["end_date"]</VALUE-OF></B>.]]></text-property>
                             </text>
                             <text id="944">
+                                <property name="paddingLeft">0pt</property>
                                 <property name="paddingBottom">3em</property>
+                                <property name="paddingRight">8pt</property>
                                 <property name="contentType">html</property>
                                 <text-property name="content"><![CDATA[<VALUE-OF>row["scientific_director_gender"]==0 ? "O Επιστημονικός Υπεύθυνος":"H Επιστημονική Υπεύθυνη";</VALUE-OF> <BR />
 της Πρακτικής Άσκησης της Σχολής]]></text-property>
                             </text>
                             <text id="945">
+                                <property name="paddingLeft">0pt</property>
                                 <property name="paddingBottom">3em</property>
+                                <property name="paddingRight">8pt</property>
                                 <property name="contentType">html</property>
                                 <text-property name="content"><![CDATA[<VALUE-OF>row["scientific_director"]</VALUE-OF> <BR />
 <VALUE-OF>row["scientific_director_rank"]</VALUE-OF> ΕΜΠ]]></text-property>
@@ -1545,24 +1559,20 @@ e-mail: <VALUE-OF>row["scientific_director_email"]</VALUE-OF>]]></text-property>
                     <row id="923">
                         <property name="pageBreakAfter">always</property>
                         <property name="pageBreakBefore">auto</property>
-                        <cell id="924"/>
+                        <cell id="924">
+                            <property name="paddingTop">0pt</property>
+                            <property name="paddingLeft">0pt</property>
+                            <property name="paddingBottom">0pt</property>
+                            <property name="paddingRight">0pt</property>
+                        </cell>
+                        <cell id="955">
+                            <property name="paddingTop">0pt</property>
+                            <property name="paddingLeft">0pt</property>
+                            <property name="paddingBottom">0pt</property>
+                            <property name="paddingRight">0pt</property>
+                        </cell>
                     </row>
                 </footer>
-            </group>
-            <group id="850">
-                <property name="groupName">branchCompanyGroup</property>
-                <expression name="keyExpr" type="javascript">row["branch_company_id"]</expression>
-                <structure name="toc">
-                    <expression name="expressionValue" type="javascript">row["branch_company_id"]</expression>
-                </structure>
-                <property name="hideDetail">false</property>
-                <list-property name="sort">
-                    <structure>
-                        <expression name="key" type="javascript">row["branch_company_name"]</expression>
-                        <property name="direction">asc</property>
-                        <property name="strength">-1</property>
-                    </structure>
-                </list-property>
             </group>
         </table>
     </body>
