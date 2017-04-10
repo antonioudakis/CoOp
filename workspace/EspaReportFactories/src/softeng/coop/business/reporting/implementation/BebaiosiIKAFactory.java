@@ -14,7 +14,7 @@ public class BebaiosiIKAFactory extends ReportFactoryBase
 		
 		list.add(new ParameterType("CHAIRMAN", DataType.String));
 		list.add(new ParameterType("CHAIRMAN_TITLE", DataType.String));
-		//list.add(new ParameterType("DOCUMENT_DATE", DataType.Date));
+		list.add(new ParameterType("DOCUMENT_DATE", DataType.Date, false));
 		
 		return list;
 	}
