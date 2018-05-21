@@ -39,8 +39,8 @@
 </workingSet>
 <workingSet editPageId="com.ibm.etools.wcg.BatchWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311936086342_17" label="Modern Batch Projects" name="Modern Batch Projects"/>
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1312450002898_19" label="Implementation" name="Implementation">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopDataAccess" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ExtraReportFactories" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopDataAccess" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopBusinessImpl" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopFactory" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopOData" type="4"/>
@@ -48,16 +48,16 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopDataValidation" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopBusinessExceptions" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopUI" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EspaReportFactories" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ReportFactoryBase" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EspaReportFactories" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Servers" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/softeng.caching" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SsoAuthenticationRegistration" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/softeng.caching" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopBusiness" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopStudentsStrategies" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/softeng.ui.vaadin" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Libraries" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CoopMailClient" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Libraries" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1335789037700_21" label="Java line count" name="Java line count"/>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1445947668453_25" label="Tests" name="Tests">

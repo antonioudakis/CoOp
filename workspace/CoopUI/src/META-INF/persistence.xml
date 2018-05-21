@@ -16,7 +16,7 @@
 <!-- 			<property name="hibernate.connection.url" value="jdbc:postgresql://172.16.130.18/metal" /> -->
 <!-- 			<property name="hibernate.connection.url" value="jdbc:postgresql://localhost/chemeng" /> -->
 <!--  			<property name="hibernate.connection.url" value="jdbc:postgresql://172.16.130.18/arch" /> -->
-			<property name="hibernate.connection.url" value="jdbc:postgresql://localhost/metal" />
+			<property name="hibernate.connection.url" value="jdbc:postgresql://localhost/ece" />
 			<property name="hibernate.connection.username" value="postgres" />
 			<property name="hibernate.connection.password" value="euterpi007" />
 			<property name="hibernate.connection.driver_class" value="org.postgresql.Driver" />
