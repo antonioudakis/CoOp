@@ -224,4 +224,23 @@
 <entry path="C:\Program Files (x86)\IBM\SDP\jdk\jre\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+<libraryInfo home="C:\glassfish4\jdk7" version="1.7.0_21">
+<bootpath>
+<entry path="C:\glassfish4\jdk7\jre\lib\resources.jar"/>
+<entry path="C:\glassfish4\jdk7\jre\lib\rt.jar"/>
+<entry path="C:\glassfish4\jdk7\jre\lib\sunrsasign.jar"/>
+<entry path="C:\glassfish4\jdk7\jre\lib\jsse.jar"/>
+<entry path="C:\glassfish4\jdk7\jre\lib\jce.jar"/>
+<entry path="C:\glassfish4\jdk7\jre\lib\charsets.jar"/>
+<entry path="C:\glassfish4\jdk7\jre\lib\jfr.jar"/>
+<entry path="C:\glassfish4\jdk7\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\glassfish4\jdk7\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\glassfish4\jdk7\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
 </libraryInfos>
